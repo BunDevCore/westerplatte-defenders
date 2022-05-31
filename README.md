@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Westerplatte defenters
+This is a website project for "Śladami Obrońców Westerplatte" competition organized by Zespół Szkół Łączności w Gdańsku im. "Obrońców Poczty Polskiej"
 
-## Getting Started
+## Requirements
+- node >= v17.5.0 - [download here](https://nodejs.org/en/)
 
-First, run the development server:
+## Basic Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Download project and unpack it or clone it using `git clone` with [git](https://git-scm.com/)
+2. Install all dependencies using `npm i`
+3. Run `npm run build` to build the website (you need to do it every time you change something on website)
+4. Run `npm run start` to start the website on port 3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Troubleshooting
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- <b>Port 3000 is already in use.</b> <br>
+You need to change `7` and `8` line of code, replace `3000` with different number (both of the lines need to have the same number)

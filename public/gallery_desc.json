@@ -1,0 +1,17 @@
+[
+  {
+    "nameID": "old-photo",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/black_and_white_photo.jpg"
+  },
+  {
+    "nameID": "hospital-outside",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/szpital_zewnatrz.jpg"
+  },
+  {
+    "nameID": "statue",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/pomnik.jpg"
+  }
+]

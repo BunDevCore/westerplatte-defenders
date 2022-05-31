@@ -1,16 +1,24 @@
 html,
 body {
+  --navbar-height: 5rem;
+
   padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@media (max-width: 500px) {
+  html, body {
+    --navbar-height: 4rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
