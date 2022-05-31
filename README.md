@@ -14,4 +14,4 @@ This is a website project for "Śladami Obrońców Westerplatte" competition org
 ## Troubleshooting
 
 - <b>Port 3000 is already in use.</b> <br>
-You need to change `7` and `8` line of code, replace `3000` with different number (both of the lines need to have the same number)
+You need to change `7` and `8` line of code in package.json, replace `3000` with different number (both of the lines need to have the same number)
