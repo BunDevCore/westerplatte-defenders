@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
   min-height: 100%;
   background-image: linear-gradient(to top, darkgray, white);
+  padding-bottom: var(--footer-height);
 `;
 
 export const ImageBox = styled.div`

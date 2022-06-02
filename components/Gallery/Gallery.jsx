@@ -1,10 +1,11 @@
 import Image from "next/image";
-import {Box, Container, ContainerText, ImageBox} from "./gallery.style";
+import {Box, Container, ContainerText, ImageBox, Main} from "./gallery.style";
 import gallery from "/public/gallery_desc.json";
 import useTranslation from "next-translate/useTranslation";
+import {Footer} from "../global.style";
 
 const Gallery = () => {
-    const {t, _} = useTranslation("gallery");
+    const {t} = useTranslation("gallery");
 
     const images = [];
     for (const pictureData of gallery) {
@@ -14,11 +15,14 @@ const Gallery = () => {
     }
 
     return (
-        <main>
-            <Box>
-                {images}
-            </Box>
-        </main>
+        <>
+            <Main>
+                <Box>
+                    {images}
+                </Box>
+            </Main>
+            <Footer>Project &quot;Śladami Obrońców Westerplatte&quot;</Footer>
+        </>
     );
 }
 

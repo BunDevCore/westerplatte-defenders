@@ -49,13 +49,13 @@ export const NavigationItem = styled.a`
   color: ${props => props.theme.navbar_text};
   filter: ${props => props.theme.type === "light" ? "brightness(100%)" : "brightness(90%)"};
 
-  :is(:hover, :focus-visible) {
-    filter: ${props => props.theme.type === "light" ? "brightness(0%)" : "brightness(100%)"};
-  }
-
   :focus-visible {
     outline: royalblue solid 2px;
     outline-offset: -2px;
+  }
+
+  :is(:hover, :focus-visible) {
+    filter: ${props => props.theme.type === "light" ? "brightness(90%)" : "brightness(100%)"};
   }
 `;
 

@@ -1,6 +1,7 @@
 html,
 body {
     --navbar-height: 5rem;
+    --footer-height: 3rem;
 
     height: 100%;
     width: 100%;
@@ -11,7 +12,8 @@ body {
 }
 
 body > div#__next {
-    height: 100%;
+    position: relative;
+    min-height: 100vh;
     width: fit-content;
     min-width: 100%;
 }

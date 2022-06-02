@@ -1,14 +1,16 @@
 import Image from "next/image";
-import {QuoteBox, MainImageBox, QuoteName,ButtonsBox, ButtonLink} from "./index.style";
+import {QuoteBox, MainImageBox, QuoteName, ButtonsBox, ButtonLink} from "./index.style";
 import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
+import {Footer} from "../global.style";
+import {Main} from "../Gallery/gallery.style";
 
 const IndexC = () => {
     const {t} = useTranslation("common");
 
     return (
         <>
-            <main>
+            <Main>
                 <MainImageBox>
                     <Image src="/images/gallery/black_and_white_photo.jpg" alt="black and white photo" layout="fill"/>
                 </MainImageBox>
@@ -18,28 +20,28 @@ const IndexC = () => {
                 </QuoteBox>
                 <ButtonsBox>
                     <Link href={"/learn"}>
-                            <ButtonLink>
+                            <ButtonLink tabIndex={0}>
                                 {t("learn")}
                             </ButtonLink>
                     </Link>
                     <Link href={"/gallery"} passHref>
-                        <ButtonLink>
+                        <ButtonLink tabIndex={0}>
                             {t("gallery")}
                         </ButtonLink>
                     </Link>
                     <Link href={"/quiz"} passHref>
-                        <ButtonLink>
+                        <ButtonLink tabIndex={0}>
                             {t("quiz")}
                         </ButtonLink>
                     </Link>
                     <Link href={"/about"} passHref>
-                        <ButtonLink>
+                        <ButtonLink tabIndex={0}>
                             {t("aboutUs")}
                         </ButtonLink>
                     </Link>
                 </ButtonsBox>
-            </main>
-            <footer>test footer</footer>
+            </Main>
+            <Footer>Project &quot;Śladami Obrońców Westerplatte&quot;</Footer>
         </>
     );
 }

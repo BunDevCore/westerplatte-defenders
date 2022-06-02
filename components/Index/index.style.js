@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Main = styled.main`
+  padding-bottom: var(--footer-height);
+`;
+
 export const MainImageBox = styled.div`
   position: relative;
   height: clamp(10rem, 60vw, 30rem);
@@ -35,17 +39,24 @@ export const QuoteName = styled.p`
 export const ButtonLink = styled.button`
   border: none;
   cursor: pointer;
-  
+  padding: 2rem clamp(2rem, 6vw, 10rem);
+  font-size: clamp(1rem, 1vw, 20rem);
+
   :focus-visible {
-    outline: 2px royalblue;
+    outline: 2px solid royalblue;
   }
-  :hover {
-    outline: 2px royalblue;
+  
+  @media (max-width: 550px) {
+    font-size: 1rem;
+    padding: 2rem 1rem;
   }
 `;
 
 export const ButtonsBox = styled.div`
+  margin: 1rem;
+  gap: 1rem; 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 `;
