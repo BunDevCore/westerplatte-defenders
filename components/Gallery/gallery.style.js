@@ -1,10 +1,20 @@
 import styled from "styled-components";
 
+export const Main = styled.main`
+  min-height: 100%;
+  background-image: linear-gradient(to top, darkgray, white);
+`;
+
 export const ImageBox = styled.div`
   position: relative;
-  height: 30vw;
+  margin: 2rem;
+  height: 20rem;
 
-  @media (max-width: 700px) {
+  @media (max-width: 1200px) {
+    height: 20vw;
+  }
+
+  @media (max-width: 980px) {
     height: 50vw;
   }
 
@@ -14,23 +24,26 @@ export const ImageBox = styled.div`
 `;
 
 export const Box = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 1rem;
   width: 100%;
   margin: 0 auto;
   padding-top: var(--navbar-height);
 `;
 
 export const Container = styled.div`
+  margin: 2rem;
   padding-top: 2rem;
-  border-bottom: 4px solid #980000;
+  border: 4px solid #980000;
+  border-radius: 4rem;
+  background-color: white;
 
   :nth-child(2n) {
-    background-color: darkgrey;
   }
 
   :nth-child(2n+1) {
-    background-color: white;
   }
 `;
 
