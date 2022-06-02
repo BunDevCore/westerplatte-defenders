@@ -3,7 +3,7 @@ import Image from "next/image";
 import {
     NavigationBar,
     NavigationIcon, NavigationIconBox,
-    NavigationItem, NavigationLang,
+    NavigationItem, NavigationLang, NavigationLeftSide,
     NavigationRightSide, NavigationTheme,
 } from "./navbar.style";
 import test from "/public/images/sun.svg";
@@ -41,37 +41,19 @@ const Navbar = ({chT}) => {
 
     return (<>
         <NavigationBar>
-            <Link href="/" passHref>
-                <NavigationIcon>
-                    <Image src="/images/logo.png" alt="OW logo" layout="fill"/>
-                </NavigationIcon>
-            </Link>
-            <NavigationRightSide>
+            <NavigationLeftSide>
+                <Link href="/" passHref>
+                    <NavigationIcon>
+                        <Image src="/images/logo.png" alt="OW logo" layout="fill"/>
+                    </NavigationIcon>
+                </Link>
                 <Link href="/" passHref>
                     <NavigationItem>
                         {t("home")}
                     </NavigationItem>
                 </Link>
-                <Link href="/learn" passHref>
-                    <NavigationItem>
-                        {t("learn")}
-                    </NavigationItem>
-                </Link>
-                <Link href="/gallery" passHref>
-                    <NavigationItem>
-                        {t("gallery")}
-                    </NavigationItem>
-                </Link>
-                <Link href="/quiz" passHref>
-                    <NavigationItem>
-                        {t("quiz")}
-                    </NavigationItem>
-                </Link>
-                <Link href="/about" passHref>
-                    <NavigationItem>
-                        {t("aboutUs")}
-                    </NavigationItem>
-                </Link>
+            </NavigationLeftSide>
+            <NavigationRightSide>
                 <NavigationTheme>
                     <NavigationIconBox>
                         <Image src={test} alt={t("changeTheme")} layout="fill"/>

@@ -25,6 +25,13 @@ export const NavigationIcon = styled.div`
   }
 `;
 
+export const NavigationLeftSide = styled.div`
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+`;
+
 export const NavigationRightSide = styled.div`
   display: flex;
   align-items: center;
@@ -88,8 +95,8 @@ export const NavigationTheme = styled.div`
 `;
 
 export const NavigationLang = styled.button`
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   height: 100%;
   line-height: var(--navbar-height);
   cursor: pointer;
