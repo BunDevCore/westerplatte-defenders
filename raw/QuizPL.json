@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Kiedy rozpoczęła się II Wojna Światowa?",
+    "good": "1 września 1939 4:45",
+    "wrong": [
+      "1 września 1939 4:55",
+      "1 września 1938 3:45",
+      "1 września 1939 6:56"
+    ]
+  },
+  {
+    "question": "Jak nazywał sie statek, który zaatakował Westerplatte?",
+    "good": "Schleswig-Holstein",
+    "wrong": [
+      "Schleswig",
+      "Shleswik-Holstin",
+      "Schleswig-Hamburg"
+    ]
+  },
+  {
+    "question": "Kiedy, pierwotnie, miał zostać wykonany atak na Westerplatte?",
+    "good": "26 sierpnia",
+    "wrong": [
+      "1 września",
+      "30 sierpnia",
+      "24 sierpnia"
+    ]
+  },
+  {
+    "question": "Jaka część załogi stacjonowała na pozycjach w momencie wybuchu II Wojny Światowej?",
+    "good": "1/3",
+    "wrong": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ]
+  },
+  {
+    "question": "Jaka placówka została zaatakowana jako pierwsza?",
+    "good": "Prom",
+    "wrong": [
+      "Fort",
+      "Elektrownia",
+      "Tor"
+    ]
+  },
+  {
+    "question": "Ile dni trawała obrona Westerplatte?",
+    "good": "7 dni",
+    "wrong": [
+      "12 godzin",
+      "10 dni",
+      "2 dni"
+    ]
+  },
+  {
+    "question": "Jak nazywał sie statek, który zaatakował Westerplatte",
+    "good": "Schleswig-Holstein",
+    "wrong": [
+      "Schleswig",
+      "Shleswik-Holstin",
+      "Schleswig-Hamburg"
+    ]
+  }
+]
