@@ -54,12 +54,74 @@
     ]
   },
   {
-    "question": "Jak nazywał sie statek, który zaatakował Westerplatte",
-    "good": "Schleswig-Holstein",
+    "question": "Na co pozwolił niemiecki generał Friedrich Ebenhardt majorowi Sucharskiemu po kapitulacji?",
+    "good": "Zachować szablę oficerską",
     "wrong": [
-      "Schleswig",
-      "Shleswik-Holstin",
-      "Schleswig-Hamburg"
+      "Wykonać ostatnią przemowę przed swoim oddziałem",
+      "Wystrzelić ostatnią kulę ze swojej broni",
+      "Na nic mu nie pozwolił. Zabrał go do niewoli"
+    ]
+  },
+  {
+    "question": "Były dwa budynki koszar. Jak się nazywały?",
+    "good": "Stare i nowe",
+    "wrong": [
+      "Pierwsze i Drugie",
+      "Północne i Południowe",
+      "Piaskowe i Kamienne"
+    ]
+  },
+  {
+    "question": "Czym pierwotnie było Westerplatte?",
+    "good": "Wyspą",
+    "wrong": [
+      "Półwyspem",
+      "Morzem/Zatoką",
+    ]
+  },
+  {
+    "question": "Jak wysoki jest pomnik Obrońców Wybrzeża?",
+    "good": "25 metrów",
+    "wrong": [
+      "20 metrów",
+      "15 metrów",
+      "30 metrów"
+    ]
+  },
+  {
+    "question": "Z jakiej pozycji atakował niemiecki statek na początku II Wojny Światowej?",
+    "good": "Od południa. Z tzw. Zakrętu Pięciu Gwizdków na Martwej Wiśle",
+    "wrong": [
+      "Od Wschodu. Z zatoki",
+      "Od Zachodu. Z ujścia Martwej Wisły.",
+      "Od Północy. Z zatoki gdańskiej."
+    ]
+  },
+  {
+    "question": "W czasie obrony Westerplatte doszło do nalotu. Które budynki zostały uszkodzone?",
+    "good": "Koszary i Wartownia nr 5",
+    "wrong": [
+      "Elektrownia i Placówka Fort",
+      "Placówka Tor i Koszary",
+      "Wartonia nr 5 i Placówka Tor"
+    ]
+  },
+  {
+    "question": "Kto był dowódcą garnizonu na Westerplatte",
+    "good": "mjr Henryk Sucharski",
+    "wrong": [
+      "kpt Franciszek Dąbrowski",
+      "por Leon Pająk",
+      "st sierż Wojciech Najsarek"
+    ]
+  },
+  {
+    "question": "Jakie statki (oprócz Schleswig-Holstein) uczestniczyły w ataku na Westerplatte?",
+    "good": "Torpedowce",
+    "wrong": [
+      "Krążowniki",
+      "Niszczyciele",
+      "Żadne z podanych"
     ]
   }
 ]
