@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-  padding-bottom: var(--footer-height);
+  //padding-bottom: var(--footer-height);
+  padding-bottom: calc(2 * var(--footer-height));
 `;
 
 export const MainImageBox = styled.div`
@@ -34,16 +35,27 @@ export const QuoteName = styled.p`
   font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: normal;
   justify-self: end;
+  font-family: Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 `;
 
 export const ButtonLink = styled.button`
-  border: none;
+  border: 2px solid #730000;
+  color: #730000;
+  background-color: lightgray;
+  border-radius: 1rem;
   cursor: pointer;
   padding: 2rem clamp(2rem, 6vw, 10rem);
   font-size: clamp(1rem, 1vw, 20rem);
+  transition-duration: .3s;
 
   :focus-visible {
     outline: 2px solid royalblue;
+  }
+  
+  :is(:focus-visible, :hover) {
+    color: #fff;
+    background-color: #730000;
   }
   
   @media (max-width: 550px) {

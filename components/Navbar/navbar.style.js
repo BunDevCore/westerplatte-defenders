@@ -61,6 +61,11 @@ export const NavigationItem = styled.a`
 
 export const NavigationIconBox = styled.div`
   --img-margin: 1.5rem;
+  
+  @media (max-width: 500px) {
+    --img-margin: .5rem;
+  }
+  
   align-self: center;
   cursor: pointer;
   position: relative;

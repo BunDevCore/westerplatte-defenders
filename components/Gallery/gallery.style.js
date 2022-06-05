@@ -1,21 +1,11 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
-  min-height: 100%;
-  background-image: linear-gradient(to top, darkgray, white);
-  padding-bottom: var(--footer-height);
-`;
-
 export const ImageBox = styled.div`
   position: relative;
   margin: 2rem;
   height: 20rem;
 
-  @media (max-width: 1200px) {
-    height: 20vw;
-  }
-
-  @media (max-width: 980px) {
+  @media (max-width: 1000px) {
     height: 50vw;
   }
 
@@ -27,11 +17,20 @@ export const ImageBox = styled.div`
 export const Box = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   width: 100%;
   margin: 0 auto;
   padding-top: var(--navbar-height);
+  padding-bottom: calc(2 * var(--footer-height));
+
+  @media (max-width: 1500px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @media (max-width: 1000px) {
+    grid-template-columns: auto;
+  }
 `;
 
 export const Container = styled.div`
@@ -39,16 +38,21 @@ export const Container = styled.div`
   padding-top: 2rem;
   border: 4px solid #980000;
   border-radius: 4rem;
-  background-color: white;
 
   :nth-child(2n) {
+    background-color: #ffe0e0;
   }
 
   :nth-child(2n+1) {
+    background-color: #fff2f2;
+  }
+
+  @media (max-width: 600px) {
+    margin: 0;
   }
 `;
 
 export const ContainerText = styled.div`
-  margin: 1rem;
+  margin: 1.5rem;
   text-align: center;
 `;

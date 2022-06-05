@@ -1,17 +1,38 @@
 [
   {
     "nameID": "old-photo",
+    "year": "????",
     "author": "Wiktor Polanowski",
     "src": "/images/gallery/black_and_white_photo.jpg"
   },
   {
-    "nameID": "hospital-outside",
+    "nameID": "barracks-outside",
+    "year": "2022",
     "author": "Wiktor Polanowski",
-    "src": "/images/gallery/szpital_zewnatrz.jpg"
+    "src": "/images/gallery/koszary_zewnatrz.jpg"
   },
   {
     "nameID": "statue",
+    "year": "2015",
     "author": "Piotr Lempkowski",
     "src": "/images/gallery/pomnik.jpg"
+  },
+  {
+    "nameID": "cemetery",
+    "year": "2011",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/cmentarz.jpg"
+  },
+  {
+    "nameID": "schleswig-holstein",
+    "year": "2011",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/szlezwik_holsztyn.jpg"
+  },
+  {
+    "nameID": "guard-house",
+    "year": "2011",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/wartownia_nr_1_wejscie.jpg"
   }
 ]

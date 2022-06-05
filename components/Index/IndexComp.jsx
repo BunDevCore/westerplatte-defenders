@@ -1,9 +1,8 @@
 import Image from "next/image";
-import {QuoteBox, MainImageBox, QuoteName, ButtonsBox, ButtonLink} from "./index.style";
+import {QuoteBox, MainImageBox, QuoteName, ButtonsBox, ButtonLink, Main} from "./index.style";
 import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
 import {Footer} from "../global.style";
-import {Main} from "../Gallery/gallery.style";
 
 const IndexC = () => {
     const {t} = useTranslation("common");
@@ -41,7 +40,7 @@ const IndexC = () => {
                     </Link>
                 </ButtonsBox>
             </Main>
-            <Footer>Project &quot;Śladami Obrońców Westerplatte&quot;</Footer>
+            <Footer>{t("project")}</Footer>
         </>
     );
 }
