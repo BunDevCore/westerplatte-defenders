@@ -8,10 +8,9 @@ export const NavigationBar = styled.nav`
   display: flex;
   justify-content: space-between;
   z-index: 1000;
-  //padding: 1rem;
 `;
 
-export const NavigationIcon = styled.div`
+export const NavigationIcon = styled.a`
   --img-margin: 0.25rem;
   align-self: center;
   cursor: pointer;
@@ -97,9 +96,14 @@ export const NavigationTheme = styled.div`
     outline: royalblue solid 2px;
     outline-offset: -2px;
   }
+
+  @media (max-width: 500px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 `;
 
-export const NavigationLang = styled.button`
+export const NavigationLang = styled.button`  
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   height: 100%;
@@ -109,6 +113,11 @@ export const NavigationLang = styled.button`
   filter: ${props => props.theme.type === "light" ? "brightness(100%)" : "brightness(100%)"};
   border: none;
   background-color: transparent;
+  
+  @media (max-width: 500px) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
   
   :is(:hover, :focus-visible) {
     filter: ${props => props.theme.type === "light" ? "brightness(0%)" : "brightness(80%)"};
