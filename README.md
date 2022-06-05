@@ -11,7 +11,7 @@ This is a website project for "Śladami Obrońców Westerplatte" competition org
 3. Go inside project's folder using `cd <path to the folder>`
 4. Install all dependencies using `npm install`
 5. Run `npm run build` to build the website (you need to do it every time you change something on website)
-6. Run `npm run start` to start the website on port 3000 (or different depending on number after -p at 7th line)
+6. Run `npm run start` to start the website on port 3000 (or different depending on number after -p at 7th line in package.json)
 
 ## Troubleshooting
 
