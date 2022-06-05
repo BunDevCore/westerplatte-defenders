@@ -7,9 +7,11 @@ This is a website project for "Śladami Obrońców Westerplatte" competition org
 ## Basic Setup
 
 1. Download project and unpack it or clone it using `git clone` with [git](https://git-scm.com/)
-2. Install all dependencies using `npm i`
-3. Run `npm run build` to build the website (you need to do it every time you change something on website)
-4. Run `npm run start` to start the website on port 3000
+2. Open cmd/terminal
+3. Go inside project's folder using `cd <path to the folder>`
+4. Install all dependencies using `npm install`
+5. Run `npm run build` to build the website (you need to do it every time you change something on website)
+6. Run `npm run start` to start the website on port 3000
 
 ## Troubleshooting
 
