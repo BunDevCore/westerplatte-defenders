@@ -3,6 +3,7 @@ import {Box, Container, ContainerText, ImageBox} from "./gallery.style";
 import gallery from "/public/gallery_desc.json";
 import useTranslation from "next-translate/useTranslation";
 import {Footer} from "../global.style";
+import Link from "next/link";
 
 const Gallery = () => {
     const {t} = useTranslation("gallery");
@@ -26,12 +27,17 @@ const Gallery = () => {
 
 const ContainerBox = ({pictureData, t}) => {
     return (
-        <Container>
-            <ImageBox>
-                <Image src={pictureData.src} alt={t(pictureData.nameID)} layout="fill"/>
-            </ImageBox>
-            <ContainerText>&quot;{t(pictureData.nameID)}&quot; ({pictureData.year} {t("year")}) fot. {pictureData.author}</ContainerText>
-        </Container>
+        <Link href={pictureData.src}>
+            <Container>
+                <ImageBox>
+                    <Image src={pictureData.src} alt={t(pictureData.nameID)} layout="fill"
+                           blurDataURL={pictureData.src}
+                           placeholder="blur"/>
+                </ImageBox>
+                <ContainerText>&quot;{t(pictureData.nameID)}&quot; ({pictureData.year} {t("year")})
+                    fot. {pictureData.author}</ContainerText>
+            </Container>
+        </Link>
     )
 }
 

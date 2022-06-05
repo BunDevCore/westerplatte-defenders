@@ -38,6 +38,7 @@ export const Box = styled.div`
 `;
 
 export const Container = styled.div`
+  cursor: pointer;
   margin: 2rem;
   padding-top: 2rem;
   border: 4px solid #980000;

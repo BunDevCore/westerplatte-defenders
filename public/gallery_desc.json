@@ -1,21 +1,57 @@
 [
   {
+    "nameID": "nmw",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/napis_nigdy_wiecej_wojny.jpg"
+  },
+  {
+    "nameID": "westerplatte",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/napis_westerplatte.jpg"
+  },
+  {
     "nameID": "old-photo",
     "year": "1913",
     "author": "Wiktor Polanowski",
     "src": "/images/gallery/black_and_white_photo.jpg"
   },
   {
-    "nameID": "barracks-outside",
+    "nameID": "statue-1",
     "year": "2022",
-    "author": "Wiktor Polanowski",
-    "src": "/images/gallery/koszary_zewnatrz.jpg"
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/pomnik_1.jpg"
   },
   {
-    "nameID": "statue",
+    "nameID": "statue-2",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/pomnik_2.jpg"
+  },
+  {
+    "nameID": "statue-3",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/pomnik_3.jpg"
+  },
+  {
+    "nameID": "statue-4",
     "year": "2015",
     "author": "Piotr Lempkowski",
-    "src": "/images/gallery/pomnik.jpg"
+    "src": "/images/gallery/pomnik_4.jpg"
+  },
+  {
+    "nameID": "statue-from-water",
+    "year": "2012",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/pomnik_z_wody.jpg"
+  },
+  {
+    "nameID": "statue-from-lighthouse",
+    "year": "2013",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/pomnik_z_latarni.jpg"
   },
   {
     "nameID": "cemetery",
@@ -30,9 +66,231 @@
     "src": "/images/gallery/szlezwik_holsztyn.jpg"
   },
   {
-    "nameID": "guard-house",
+    "nameID": "bullet",
+    "year": "2011",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/pociski.jpg"
+  },
+  {
+    "nameID": "guard-house-1",
     "year": "2011",
     "author": "Piotr Lempkowski",
     "src": "/images/gallery/wartownia_nr_1_wejscie.jpg"
+  },
+  {
+    "nameID": "guard-house-1-building",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/wartownia_nr_1_budynek.jpg"
+  },
+  {
+    "nameID": "barracks-outside",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/koszary_zewnatrz.jpg"
+  },
+  {
+    "nameID": "barracks-outside-1",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_zewnatrz_1.jpg"
+  },
+  {
+    "nameID": "barracks-outside-2",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/koszary_zewnatrz_2.jpg"
+  },
+  {
+    "nameID": "barracks-model-1",
+    "year": "2011",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_model.jpg"
+  },
+  {
+    "nameID": "barracks-model-2",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/koszary_model_dla_niewidomych.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-8",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/koszary_ruiny_8.jpg"
+  },
+  {
+    "nameID": "barracks-sign",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/znak_koszary.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-1",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_ruiny_1.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-2",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_ruiny_2.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-3",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_ruiny_3.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-4",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_ruiny_4.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-5",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_ruiny_5.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-6",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_ruiny_6.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-7",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/koszary_ruiny_7.jpg"
+  },
+  {
+    "nameID": "barracks-ruins-8",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/koszary_ruiny_8.jpg"
+  },
+  {
+    "nameID": "board",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/tablica.jpg"
+  },
+  {
+    "nameID": "carved-board-1",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/wyrzezbiona_tablica_1.jpg"
+  },
+  {
+    "nameID": "carved-board-2",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/wyrzezbiona_tablica_2.jpg"
+  },
+  {
+    "nameID": "100-statues",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/sto_pomnikow_historii.jpg"
+  },
+  {
+    "nameID": "tank-place-1",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/miejsce_gdzie_stal_czolg_1.jpg"
+  },
+  {
+    "nameID": "tank-place-2",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/miejsce_gdzie_stal_czolg_2.jpg"
+  },
+  {
+    "nameID": "fort-1",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/placowka_fort_gora.jpg"
+  },
+  {
+    "nameID": "fort-2",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/placowka_fort.jpg"
+  },
+  {
+    "nameID": "secret",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/tajemnicze_przejscie.jpg"
+  },
+  {
+    "nameID": "wartownia-3-sign",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/napis_wartownia_nr_3.jpg"
+  },
+  {
+    "nameID": "wartownia-3-sign-fundaments",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/wartownia_nr_3_z_napisem.jpg"
+  },
+  {
+    "nameID": "wartownia-3",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/wartownia_nr_3.jpg"
+  },
+  {
+    "nameID": "wartownia-4",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/wartownia_nr_4.jpg"
+  },
+  {
+    "nameID": "board-from-church",
+    "year": "2011",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/tablica_z_kosciola_mariackiego.jpg"
+  },
+  {
+    "nameID": "energy",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/elektrownia.jpg"
+  },
+  {
+    "nameID": "observation-tower",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/wieza_obserwacyjna.jpg"
+  },
+  {
+    "nameID": "shelter",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/schron_pogotowia_25_BAS.jpg"
+  },
+  {
+    "nameID": "train-gate",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/brama_kolejowa.jpg"
+  },
+  {
+    "nameID": "train-station",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/stacja_kolejowa.jpg"
+  },
+  {
+    "nameID": "jp2-quote",
+    "year": "2022",
+    "author": "Piotr Lempkowski",
+    "src": "/images/gallery/jp2_cytat.jpg"
   }
 ]
