@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-  //padding-bottom: var(--footer-height);
-  padding-bottom: calc(2 * var(--footer-height));
+  @media (max-width: 500px) {
+    padding-bottom: calc(3 * var(--footer-height));
+  }
 `;
 
 export const MainImageBox = styled.div`

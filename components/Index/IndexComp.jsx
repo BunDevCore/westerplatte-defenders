@@ -11,10 +11,10 @@ const IndexC = () => {
         <>
             <Main>
                 <MainImageBox>
-                    <Image src="/images/gallery/black_and_white_photo.jpg" alt="black and white photo" layout="fill"/>
+                    <Image src="/images/gallery/black_and_white_photo.jpg" alt="black and white photo" layout="fill" priority/>
                 </MainImageBox>
                 <QuoteBox>
-                    <p>„ Moim jedynym przesłaniem jest, aby młodzi nigdy nie poznali wojny “</p>
+                    <p>{t("quote")}</p>
                     <QuoteName>- Irena Wronkowska</QuoteName>
                 </QuoteBox>
                 <ButtonsBox>
