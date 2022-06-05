@@ -10,7 +10,7 @@ const Gallery = () => {
     const images = [];
     for (const pictureData of gallery) {
         images.push(
-            <ContainerBox pictureData={pictureData} t={t}/>
+            <ContainerBox pictureData={pictureData} t={t} key={pictureData.nameID}/>
         )
     }
 

@@ -31,6 +31,10 @@ export const Box = styled.div`
   @media (max-width: 1000px) {
     grid-template-columns: auto;
   }
+
+  @media (max-width: 500px) {
+    padding-bottom: calc(3 * var(--footer-height));
+  }
 `;
 
 export const Container = styled.div`
