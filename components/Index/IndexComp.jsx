@@ -18,7 +18,7 @@ const IndexC = () => {
                     <QuoteName>- Irena Wronkowska</QuoteName>
                 </QuoteBox>
                 <ButtonsBox>
-                    <Link href={"/learn"}>
+                    <Link href={"/learn/war"}>
                             <ButtonLink tabIndex={0}>
                                 {t("learn")}
                             </ButtonLink>
