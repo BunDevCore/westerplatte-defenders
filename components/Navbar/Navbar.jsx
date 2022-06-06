@@ -56,7 +56,7 @@ const Navbar = ({chT}) => {
             <NavigationRightSide>
                 <NavigationTheme>
                     <NavigationIconBox>
-                        <Image src={test} alt={t("changeTheme")} layout="fill"/>
+                        {/*<Image src={test} alt={t("changeTheme")} layout="fill"/>*/}
                     </NavigationIconBox>
                 </NavigationTheme>
                 <NavigationLang onClick={() => {

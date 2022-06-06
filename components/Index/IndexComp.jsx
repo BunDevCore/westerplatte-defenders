@@ -11,7 +11,7 @@ const IndexC = () => {
         <>
             <Main>
                 <MainImageBox>
-                    <Image src="/images/gallery/black_and_white_photo.jpg" alt="black and white photo" layout="fill" priority/>
+                    <Image src="/images/gallery/napis_westerplatte.jpg" alt="westerplatte" layout="fill" priority/>
                 </MainImageBox>
                 <QuoteBox>
                     <p>{t("quote")}</p>

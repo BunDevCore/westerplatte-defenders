@@ -9,7 +9,6 @@ export const Main = styled.main`
 export const MainImageBox = styled.div`
   position: relative;
   height: clamp(10rem, 60vw, 30rem);
-  filter: opacity(80%);
 
   img {
     object-fit: cover;

@@ -4,7 +4,10 @@ module.exports = {
     "pages": {
         "*": ["common", "navbar"],
         "/gallery": ["gallery"],
-        "/about": ["about"]
+        "/about": ["about"],
+        "/learn": ["learn"],
+        "/learn/[learn_page]": ["learn"],
+        "/quiz": ["quiz"]
     },
 }
 
