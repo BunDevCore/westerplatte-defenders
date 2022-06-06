@@ -18,7 +18,7 @@ const Learn = () => {
         let key2 = 0;
         for (const name of content?.parts) {
             mainContent.push(
-                <TextMain key={`${key2}.${key0}ab`} id={name.replace(/\s/g,"")}>{name.toUpperCase()}</TextMain>
+                <TextMain key={`${key2}.${key}ab`} id={name.replace(/\s/g,"")}>{name.toUpperCase()}</TextMain>
             );
             sideBar.push(
                 <li>
