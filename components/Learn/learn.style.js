@@ -8,9 +8,10 @@ export const Main = styled.div`
   width: 100%;
   margin: 0 auto;
   padding: calc(var(--navbar-height) + 1rem) 1rem calc(3 * var(--footer-height));
+  grid-template: "list content sections";
   
-  
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
+    grid-template-columns: auto;
     grid-template: "list" "sections" "content";
   }
 `;
