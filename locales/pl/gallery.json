@@ -29,8 +29,8 @@
   "barracks-ruins-7": "Koszary wewnątrz 7",
   "barracks-ruins-8": "Koszary wewnątrz 8",
   "board": "Tablica z obwieszczeniem",
-  "carved-board-1": "Orzeł wyrzeźbiony w tablicy  (tu wpisać czym była lub gdzie była)",
-  "carved-board-2": "Orzeł wyrzeźbiony w tablicy  (tu wpisać czym była lub gdzie była)",
+  "carved-board-1": "Orzeł wyrzeźbiony na tablicy, która wisiała nad wejściem do koszar",
+  "carved-board-2": "Orzeł wyrzeźbiony na tablicy, która wisiała nad wejściem do koszar",
   "100-statues": "Pomnik z okazji 100 lat niepodległości",
   "tank-place-1": "Miejsce gdzie stał czołg I Brygady Pancernej",
   "tank-place-2": "Miejsce gdzie stał czołg I Brygady Pancernej 2",
@@ -47,5 +47,5 @@
   "shelter": "Schron pogotowia 25 BAS",
   "train-gate": "Brama kolejowa",
   "train-station": "Stacja kolejowa",
-  "jp2-quote": "Cytat Jana Pawła II"
+  "jp2-quote": "Cytat Jana Pawła II pod pomnikem Obrońców Wybrzeża"
 }
