@@ -41,7 +41,7 @@ const Learn = () => {
         <>
             <Main>
                 <LeftBox>
-                    <p>Tematy</p>
+                    <p>{t("topics")}</p>
                     <ul>
                         <li><Link href={"/learn/war"}>{t("war")}</Link></li>
                         <li><Link href={"/learn/buildings"}>{t("important-buildings")}</Link></li>
@@ -51,10 +51,10 @@ const Learn = () => {
                 <MainBox>
                     <PageName>{t(`content.${learn_page}.name`)}</PageName>
                     {mainContent}
-                    <Link href={`/learn/${learn_page}`} passHref><ButtonToTop>Powrót do góry</ButtonToTop></Link>
+                    <Link href={`/learn/${learn_page}`} passHref><ButtonToTop>{t("to-top")}</ButtonToTop></Link>
                 </MainBox>
                 <RightBox>
-                    <p>Sekcje</p>
+                    <p>{t("sections")}</p>
                     <ul>
                         {sideBar}
                     </ul>
