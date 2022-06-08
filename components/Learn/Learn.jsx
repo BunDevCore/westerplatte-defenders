@@ -18,11 +18,11 @@ const Learn = () => {
         let key2 = 0;
         for (const name of content?.parts) {
             mainContent.push(
-                <TextMain key={`${key2}.${key}ab`} id={name.replace(/\s/g,"")}>{name.toUpperCase()}</TextMain>
+                <TextMain key={`${key2}.${key}ab`} id={encodeURIComponent(name.replace(/\s/g,""))}>{name.toUpperCase()}</TextMain>
             );
             sideBar.push(
                 <li>
-                    <Link href={`/learn/${learn_page}#${name.replace(/\s/g,"")}`} passHref>
+                    <Link href={`/learn/${learn_page}#${encodeURIComponent(name.replace(/\s/g,""))}`} passHref>
                         <TextSideBar key={key}>{name}</TextSideBar>
                     </Link>
                 </li>

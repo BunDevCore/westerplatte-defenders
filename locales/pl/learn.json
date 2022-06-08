@@ -12,7 +12,7 @@
         "przed wojną",
         "przebieg bitwy o Westerplatte",
         "skutki bitwy",
-	"o obrońcach"
+	    "o obrońcach"
       ],
       "sections": [
         [
@@ -53,9 +53,9 @@
           "Polskie oddziały na Westerplatte miały bronić się 12 godzin, a utrzymały się aż 7 dni, budując wokół siebie mit nieustępliwości i bohaterstwa polskiego żołnierza. Stały się symbolem Wojska Polskiego, które zawsze walczy do końca.",
           "Mit Polaków na Westerplatte szybko został rozpowszechniony. Niebagatelne znaczenie na tym polu miały audycje Polskiego Radia na bieżąco informującego o wydarzeniach w placówce. Drugim elementem budowania legendy była wiersz napisany przez Konstantego Ildefonsa Gałczyńskiego jeszcze w trakcie trwania kampanii wrześniowej. Warto przytoczyć jego słowa, choć w rzeczywistości obrona Składnicy wyglądała nieco inaczej. Mit o żołnierzach z Westerplatte, którzy „czwórkami do nieba szli”, poszedł w świat."
         ],
-	[
-	  "placeholder - O obrońcah Westerplatte"
-	]
+	    [
+	      "placeholder - O obrońcach Westerplatte"
+	    ]
       ]
     },
     "buildings": {
