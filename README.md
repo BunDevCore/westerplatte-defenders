@@ -2,7 +2,7 @@
 This is a website project for "Śladami Obrońców Westerplatte" competition organized by Zespół Szkół Łączności w Gdańsku im. "Obrońców Poczty Polskiej"
 
 ## Requirements
-- node >= v17.5.0 - [download here](https://nodejs.org/en/)
+- node >= v16.15.1 - [download here](https://nodejs.org/en/)
 
 ## Basic Setup
 
