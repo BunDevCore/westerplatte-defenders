@@ -20,18 +20,19 @@ const Learn = () => {
         let key2 = 0;
         for (const name of content?.parts) {
             mainContent.push(
-                <TextMain key={`${key2}.${key}ab`} id={encodeURIComponent(name.replace(/\s/g,""))}>{name.toUpperCase()}</TextMain>
+                <TextMain key={`${key} theme`}
+                          id={encodeURIComponent(name.replace(/\s/g, ""))}>{name.toUpperCase()}</TextMain>
             );
             sideBar.push(
-                <li>
-                    <Link href={`/learn/${learn_page}#${encodeURIComponent(name.replace(/\s/g,""))}`} passHref>
-                        <TextSideBar key={key}>{name}</TextSideBar>
+                <li key={`${key} section`}>
+                    <Link href={`/learn/${learn_page}#${encodeURIComponent(name.replace(/\s/g, ""))}`} passHref>
+                        <TextSideBar>{name}</TextSideBar>
                     </Link>
                 </li>
             );
             for (const data of content?.sections[key2]) {
                 mainContent.push(
-                    <TextP key={`${key}.${key2}`}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data}</TextP>
+                    <TextP key={`${key}.${key2} text`}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data}</TextP>
                 )
                 key++;
             }
