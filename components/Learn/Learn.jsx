@@ -8,11 +8,13 @@ const Learn = () => {
     const {t} = useTranslation("learn");
     const router = useRouter();
     const {learn_page} = router.query;
+    const themes = ["war", "buildings", "westerplatte"]
 
     const mainContent = [];
     const sideBar = [];
 
-    if (learn_page !== "favicon.ico") {
+    // for some reason some browsers ask for favicon and trigger this code
+    if (learn_page !== null && themes.includes(learn_page)) {
         let content = t(`content.${learn_page}`, {count: 0}, {returnObjects: true});
         let key = 0;
         let key2 = 0;
