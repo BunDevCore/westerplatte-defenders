@@ -18,11 +18,11 @@ const Learn = () => {
         let key2 = 0;
         for (const name of content?.parts) {
             mainContent.push(
-                <TextMain key={`${key2}.${key}ab`} id={name.replace(/\s/g,"")}>{name.toUpperCase()}</TextMain>
+                <TextMain key={`${key2}.${key}ab`} id={encodeURIComponent(name.replace(/\s/g,""))}>{name.toUpperCase()}</TextMain>
             );
             sideBar.push(
                 <li>
-                    <Link href={`/learn/${learn_page}#${name.replace(/\s/g,"")}`} passHref>
+                    <Link href={`/learn/${learn_page}#${encodeURIComponent(name.replace(/\s/g,""))}`} passHref>
                         <TextSideBar key={key}>{name}</TextSideBar>
                     </Link>
                 </li>
@@ -41,7 +41,7 @@ const Learn = () => {
         <>
             <Main>
                 <LeftBox>
-                    <p>Tematy</p>
+                    <p>{t("topics")}</p>
                     <ul>
                         <li><Link href={"/learn/war"}>{t("war")}</Link></li>
                         <li><Link href={"/learn/buildings"}>{t("important-buildings")}</Link></li>
@@ -51,10 +51,10 @@ const Learn = () => {
                 <MainBox>
                     <PageName>{t(`content.${learn_page}.name`)}</PageName>
                     {mainContent}
-                    <Link href={`/learn/${learn_page}`} passHref><ButtonToTop>Powrót do góry</ButtonToTop></Link>
+                    <Link href={`/learn/${learn_page}`} passHref><ButtonToTop>{t("to-top")}</ButtonToTop></Link>
                 </MainBox>
                 <RightBox>
-                    <p>Sekcje</p>
+                    <p>{t("sections")}</p>
                     <ul>
                         {sideBar}
                     </ul>

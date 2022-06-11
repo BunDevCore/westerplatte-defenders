@@ -108,12 +108,6 @@
     "src": "/images/gallery/koszary_model_dla_niewidomych.jpg"
   },
   {
-    "nameID": "barracks-ruins-8",
-    "year": "2022",
-    "author": "Wiktor Polanowski",
-    "src": "/images/gallery/koszary_ruiny_8.jpg"
-  },
-  {
     "nameID": "barracks-sign",
     "year": "2022",
     "author": "Piotr Lempkowski",
@@ -222,25 +216,25 @@
     "src": "/images/gallery/tajemnicze_przejscie.jpg"
   },
   {
-    "nameID": "wartownia-3-sign",
+    "nameID": "guardhouse-3-sign",
     "year": "2022",
     "author": "Wiktor Polanowski",
     "src": "/images/gallery/napis_wartownia_nr_3.jpg"
   },
   {
-    "nameID": "wartownia-3-sign-fundaments",
+    "nameID": "guardhouse-3-sign-fundaments",
     "year": "2022",
     "author": "Piotr Lempkowski",
     "src": "/images/gallery/wartownia_nr_3_z_napisem.jpg"
   },
   {
-    "nameID": "wartownia-3",
+    "nameID": "guardhouse-3",
     "year": "2022",
     "author": "Piotr Lempkowski",
     "src": "/images/gallery/wartownia_nr_3.jpg"
   },
   {
-    "nameID": "wartownia-4",
+    "nameID": "guardhouse-4",
     "year": "2022",
     "author": "Piotr Lempkowski",
     "src": "/images/gallery/wartownia_nr_4.jpg"
