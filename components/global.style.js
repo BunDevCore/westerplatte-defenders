@@ -9,3 +9,7 @@ export const Footer = styled.footer`
   position:absolute;
   bottom:0;
 `;
+
+export const C = styled.div`
+  text-align: center;
+`;
