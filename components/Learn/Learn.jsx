@@ -44,8 +44,8 @@ const Learn = () => {
                     <p>{t("topics")}</p>
                     <ul>
                         <li><Link href={"/learn/war"}>{t("war")}</Link></li>
-                        <li><Link href={"/learn/buildings"}>{t("important-buildings")}</Link></li>
-                        <li><Link href={"/learn/westerplatte"}>{t("westerplatte-terrains")}</Link></li>
+                        <li><Link href={"/learn/buildings"}>{t("buildings")}</Link></li>
+                        <li><Link href={"/learn/westerplatte"}>{t("westerplatte")}</Link></li>
                     </ul>
                 </LeftBox>
                 <MainBox>

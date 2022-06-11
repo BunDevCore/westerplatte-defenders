@@ -3,8 +3,8 @@
   "sections": "Sections",
   "to-top": "Return to top",
   "war": "War",
-  "important-buildings": "Important buildings",
-  "westerplatte-terrains": "Westerplatte areas",
+  "buildings": "Important buildings",
+  "westerplatte": "Westerplatte areas",
   "content": {
     "war": {
       "name": "War",
@@ -12,7 +12,7 @@
         "before the war",
         "the course of the Battle of Westerplatte",
         "battle effects",
-	"about the defenders"
+        "about the defenders"
       ],
       "sections": [
         [
@@ -53,16 +53,16 @@
           "The Polish troops in Westerplatte were supposed to defend themselves for 12 hours, and they lasted for as many as 7 days, building around themselves the myth of the tenacity and heroism of the Polish soldier. They have become a symbol of the Polish Army, which always fights to the end.",
           "The myth of Poles in Westerplatte was quickly spread. The broadcasts of the Polish Radio, which kept you informed about events in the facility, were of great importance in this respect. The second element of building the legend was a poem written by Konstanty Ildefons Gałczyński during the September campaign. It is worth quoting his words, although in reality the defense of the Depot was slightly different. The myth about the soldiers from Westerplatte who \"went to heaven in fours\" has gone out into the world."
         ],
-	[
-	  "placeholder - About the Westerplatte defenders"
-	]
+        [
+          "placeholder - About the Westerplatte defenders"
+        ]
       ]
     },
     "buildings": {
       "name": "Important buildings",
       "parts": [
         "barracks",
-	"guardhouses",
+        "guardhouses",
         "power plant"
       ],
       "sections": [
@@ -75,11 +75,11 @@
           "It performed many functions. In the basement there are rooms for a radio station, a combat cabin, a power plant and an ammunition store, a kitchen, a canteen, a food store and a garage. On the ground floor there is a telephone exchange, soldiers' quarters, washrooms and the headquarters of the company chief. On the first floor there was the office of the depot commander, the sick bay, rooms for officers and non-commissioned officers of active service.",
           "The building was damaged during the bombing , but its defense capabilities were not impaired. Currently, the visible damage is the result of the deliberate blowing up of the facilities by Soviet sappers."
         ],
-	[
-	  "The frame was developed by the concept of Józef Silakowski. The core of the defense of constant defense (sometimes worth costly # 6).",
-	  "Five guardhouses have reached the defense system of the Military Transit Depot. Arranged in a pentagon. Thanks to him, each expected direction of the attack, the enemy was covered with the fire of machine guns from the guardhouse, the second such direction, which was supported by fire due to quick technical support",
-	  "Only guardhouse number 1 has survived to this day. It functions now as a museum."
-	],
+        [
+          "The frame was developed by the concept of Józef Silakowski. The core of the defense of constant defense (sometimes worth costly # 6).",
+          "Five guardhouses have reached the defense system of the Military Transit Depot. Arranged in a pentagon. Thanks to him, each expected direction of the attack, the enemy was covered with the fire of machine guns from the guardhouse, the second such direction, which was supported by fire due to quick technical support",
+          "Only guardhouse number 1 has survived to this day. It functions now as a museum."
+        ],
         [
           "The power plant building with the transformer station and the pump system inside was planned to be erected as early as 1924. The necessity to start up one's own electro-generator station was dictated by problems in the event of interruptions in electricity supplies from Gdańsk, which were common at that time.",
           "The Polish military unit, which was to be the user of the entire area, including warehouses, barracks and other facilities, could not afford to be dependent on electricity supplies. The facility housing combustion generators was to meet this task and secure work through electricity supplies, especially during the unloading and loading of war materials. The existing cable connection of the former health resort on Westerplatte with the power network of the city of Gdańsk would not provide enough energy. New cables had to be laid along the bottom of the Vistula port canal. As a result, the city network was used for everyday use, and the on-site power generators could be easily started in the reserve.",
@@ -93,7 +93,7 @@
       "name": "Westerplatte areas",
       "parts": [
         "in the past",
-	"today and tommorow"
+        "today and tommorow"
       ],
       "sections": [
         [
@@ -101,12 +101,12 @@
           "From 1926 to 1939, the peninsula was an exclave of Poland within the territory of the Free City of Gdańsk. At that time, the Military Transit Storehouse operated there. It was her defense that became the symbolic beginning of World War II and the Polish resistance against the aggression of the Third Reich.",
           "The name \"Westerplatte\" comes from the German language. \"West\" is western, and \"platte\" is a plate, in this case understood as an island. The name of this peninsula literally means \"western island\"."
         ],
-	[
-	  "Currently, there is a museum of Westerplatte and the War of 1939 on its premises, built in the years 1964-1966, a 25-meter Monument to the Defenders of the Coast. The monument, placed on a 20-meter mound, resembles a jagged bayonet stuck into the ground. During the reconstruction of the area, a significant part of the barracks ruins were demolished. In 1967, when widening the port canal, Guardhouse No. 1 was completely moved on rails.",
-	 "From the end of the war, units of the Polish Army have been stationed in Westerplatte.",
-	 "In 2019, a law was passed aimed at building a new Museum of Westerplatte and the War of 1939 by 2026, which at the cost of PLN 200 million is to be implemented on an area of 27.5 thousand square meters. The project provides for the reconstruction of seven buildings of the military transit depot and the creation of a permanent exhibition with an area of 3.5 thousand square meters.",	
-	"In 2020, a competition was announced for the concept of the Military Cemetery of the Polish Army Soldiers in Westerplatte."
-	]
+        [
+          "Currently, there is a museum of Westerplatte and the War of 1939 on its premises, built in the years 1964-1966, a 25-meter Monument to the Defenders of the Coast. The monument, placed on a 20-meter mound, resembles a jagged bayonet stuck into the ground. During the reconstruction of the area, a significant part of the barracks ruins were demolished. In 1967, when widening the port canal, Guardhouse No. 1 was completely moved on rails.",
+          "From the end of the war, units of the Polish Army have been stationed in Westerplatte.",
+          "In 2019, a law was passed aimed at building a new Museum of Westerplatte and the War of 1939 by 2026, which at the cost of PLN 200 million is to be implemented on an area of 27.5 thousand square meters. The project provides for the reconstruction of seven buildings of the military transit depot and the creation of a permanent exhibition with an area of 3.5 thousand square meters.",
+          "In 2020, a competition was announced for the concept of the Military Cemetery of the Polish Army Soldiers in Westerplatte."
+        ]
       ]
     }
   }

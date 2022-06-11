@@ -3,8 +3,8 @@
   "sections": "Sekcje",
   "to-top": "Powrót do góry",
   "war": "Wojna",
-  "important-buildings": "Ważne budynki",
-  "westerplatte-terrains": "Tereny Westerplatte",
+  "buildings": "Ważne budynki",
+  "westerplatte": "Tereny Westerplatte",
   "content": {
     "war": {
       "name": "Wojna",
@@ -12,7 +12,7 @@
         "przed wojną",
         "przebieg bitwy o Westerplatte",
         "skutki bitwy",
-	    "o obrońcach"
+        "o obrońcach"
       ],
       "sections": [
         [
@@ -53,16 +53,16 @@
           "Polskie oddziały na Westerplatte miały bronić się 12 godzin, a utrzymały się aż 7 dni, budując wokół siebie mit nieustępliwości i bohaterstwa polskiego żołnierza. Stały się symbolem Wojska Polskiego, które zawsze walczy do końca.",
           "Mit Polaków na Westerplatte szybko został rozpowszechniony. Niebagatelne znaczenie na tym polu miały audycje Polskiego Radia na bieżąco informującego o wydarzeniach w placówce. Drugim elementem budowania legendy była wiersz napisany przez Konstantego Ildefonsa Gałczyńskiego jeszcze w trakcie trwania kampanii wrześniowej. Warto przytoczyć jego słowa, choć w rzeczywistości obrona Składnicy wyglądała nieco inaczej. Mit o żołnierzach z Westerplatte, którzy „czwórkami do nieba szli”, poszedł w świat."
         ],
-	    [
-	      "placeholder - O obrońcach Westerplatte"
-	    ]
+        [
+          "placeholder - O obrońcach Westerplatte"
+        ]
       ]
     },
     "buildings": {
       "name": "Ważne budynki",
       "parts": [
         "koszary",
-	"wartownie",
+        "wartownie",
         "elektrownia"
       ],
       "sections": [
@@ -75,11 +75,11 @@
           "Pełnił on wiele funkcji. W kondygnacji piwnicznej urządzono pomieszczenia przeznaczone na radiostację, kabinę bojowa, elektrownię i magazyn amunicji, kuchnię, stołówkę, magazyn żywności i garaż. Na parterze zlokalizowano centralę telefoniczną, pomieszczenia żołnierskie, umywalnie i centralę szefa kompanii. Na piętrze znajdowała się kancelaria komendanta Składnicy, izba chorych, pokoje oficerów i podoficerów służby czynnej.",
           "Budynek został uszkodzony w czasie bombardowania, ale nie osłabiły jego zdolności do obrony. Obecnie widoczne zniszczenia są skutkiem celowego wysadzenia obiekty przez sowieckich saperów."
         ],
-	[
-	  "Koncepcja obrony została opracowana przez pułkownika Józefa Siłakowskiego. Rdzeniem obrony stały się koszary obronne (czasami nazywane Wartownią nr 6).",
-	  "Pięć wartowni było częścią systemu obrony Wojskowej Składnicy Tranzytowej. Ustawione były w kształcie pięciokąta. Dzięki takiemu rozmieszczeniu każdy spodziewany kierunek natarcia nieprzyjaciela pokryty był ogniem broni maszynowej z co najmniej dwóch wartowni, najbardziej zaś niebezpieczny kierunek wschodni był dodatkowo wspierany ogniem z izby bojowej koszar.",
-	  "Jedynie wartownia numer 1 przetrwała do dzisiaj. Funkcjonuje obecnie jako muzeum."
-	],
+        [
+          "Koncepcja obrony została opracowana przez pułkownika Józefa Siłakowskiego. Rdzeniem obrony stały się koszary obronne (czasami nazywane Wartownią nr 6).",
+          "Pięć wartowni było częścią systemu obrony Wojskowej Składnicy Tranzytowej. Ustawione były w kształcie pięciokąta. Dzięki takiemu rozmieszczeniu każdy spodziewany kierunek natarcia nieprzyjaciela pokryty był ogniem broni maszynowej z co najmniej dwóch wartowni, najbardziej zaś niebezpieczny kierunek wschodni był dodatkowo wspierany ogniem z izby bojowej koszar.",
+          "Jedynie wartownia numer 1 przetrwała do dzisiaj. Funkcjonuje obecnie jako muzeum."
+        ],
         [
           "Budynek elektrowni wraz ze znajdującymi się wewnątrz stacją transformatorową i systemem pomp był przewidywany do wzniesienia już w 1924 r. Konieczność uruchomienia własnej stacji elektro-generatorów była podyktowana problemami na wypadek przerw w dostawach energii elektrycznej z Gdańska, które w tamtym czasie były codziennością.",
           "Polska jednostka wojskowa, która miała być użytkownikiem całego terenu, wraz z magazynami, obiektami koszarowymi i innymi, nie mogła sobie pozwolić na zależność od dostaw prądu. Obiekt mieszczący generatory spalinowe miał sprostać temu zadaniu i zabezpieczać pracę poprzez dostawy prądu, zwłaszcza przy wyładunku i załadunku materiałów wojennych. Dotychczasowe połączenie kablowe dawnego kurortu na Westerplatte z siecią energetyczną miasta Gdańska nie zapewniłoby wystarczającej ilości energii. Należało położyć nowe kable po dnie kanału portowego Wisły. Dzięki temu do codziennego użytku wykorzystywano sieć miejską, a w rezerwie można było bez przeszkód uruchomić znajdujące się na miejscu generatory prądu.",
@@ -93,7 +93,7 @@
       "name": "Tereny Westerplatte",
       "parts": [
         "w przeszłości",
-	"dziś i jutro"
+        "dziś i jutro"
       ],
       "sections": [
         [
@@ -101,12 +101,12 @@
           "Od 1926 roku do 1939 półwysep był eksklawą Polski wewnątrz terytorium Wolnego Miasta Gdańska. W tym okresie funkcjonowała tam Wojskowa Składnica Tranzytowa. To jej obrona stała się symbolicznym początkiem II Wojny Światowej i polskiego oporu przeciw agresji III Rzeszy.",
           "Nazwa „Westerplatte” pochodzi z języka niemieckiego. „West” to zachodnia, a „platte” to płyta, w tym przypadku rozumiana jako wyspa. Nazwa tego półwyspu oznacza dosłownie „zachodnią wyspę”."
         ],
-	[
-	  "Obecnie znajduje się tam muzeum Westerplatte i Wojny 1939. Na jego terenie stoi, zbudowany w latach 1964 - 1966, 25-metrowy Pomnik Obrońców Wybrzeża. Ustawiony na 20-metrowym kopcu monument przypomina wyszczerbiony bagnet wbity w ziemię. W czasie przebudowy terenu wyburzono znaczącą część ruin koszar. W 1967 przy poszerzaniu kanału portowego przesunięto na szynach w całości Wartownię nr 1.",
-	 "Od zakończenia II Wojny Światowej na terenie Westerplatte stacjonują jednostki Wojska Polskiego.",
-	 "W 2019 uchwalono ustawę mającą na celu budowę do 2026 nowego Muzeum Westerplatte i Wojny 1939, które kosztem 200 mln zł ma zostać zrealizowane na powierzchni 27,5 tys. m kw. Projekt przewiduje odbudowę siedmiu budowli wojskowej składnicy tranzytowej oraz utworzenie wystawy stałej o powierzchni 3,5 tys. m kw.",	
-	"W 2020 roku ogłoszono konkurs na koncepcję Cmentarza Wojskowego Żołnierzy Wojska Polskiego na Westerplatte."
-	]
+        [
+          "Obecnie znajduje się tam muzeum Westerplatte i Wojny 1939. Na jego terenie stoi, zbudowany w latach 1964 - 1966, 25-metrowy Pomnik Obrońców Wybrzeża. Ustawiony na 20-metrowym kopcu monument przypomina wyszczerbiony bagnet wbity w ziemię. W czasie przebudowy terenu wyburzono znaczącą część ruin koszar. W 1967 przy poszerzaniu kanału portowego przesunięto na szynach w całości Wartownię nr 1.",
+          "Od zakończenia II Wojny Światowej na terenie Westerplatte stacjonują jednostki Wojska Polskiego.",
+          "W 2019 uchwalono ustawę mającą na celu budowę do 2026 nowego Muzeum Westerplatte i Wojny 1939, które kosztem 200 mln zł ma zostać zrealizowane na powierzchni 27,5 tys. m kw. Projekt przewiduje odbudowę siedmiu budowli wojskowej składnicy tranzytowej oraz utworzenie wystawy stałej o powierzchni 3,5 tys. m kw.",
+          "W 2020 roku ogłoszono konkurs na koncepcję Cmentarza Wojskowego Żołnierzy Wojska Polskiego na Westerplatte."
+        ]
       ]
     }
   }
