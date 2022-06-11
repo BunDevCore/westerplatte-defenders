@@ -18,7 +18,7 @@ export const MainImageBox = styled.div`
 export const QuoteBox = styled.div`
   padding: 2rem;
   width: 100%;
-  background-color: #730000;
+  background-color: #780000;
   color: white;
   font-size: clamp(1.75rem, 5vw, 3rem);
   font-weight: bold;
@@ -40,8 +40,8 @@ export const QuoteName = styled.p`
 `;
 
 export const ButtonLink = styled.button`
-  border: 2px solid #730000;
-  color: #730000;
+  border: 2px solid #780000;
+  color: #780000;
   background-color: lightgray;
   border-radius: 1rem;
   cursor: pointer;
@@ -55,7 +55,7 @@ export const ButtonLink = styled.button`
   
   :is(:focus-visible, :hover) {
     color: #fff;
-    background-color: #730000;
+    background-color: #780000;
   }
   
   @media (max-width: 550px) {

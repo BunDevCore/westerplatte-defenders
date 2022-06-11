@@ -41,7 +41,7 @@ export const Container = styled.div`
   cursor: pointer;
   margin: 2rem;
   padding-top: 2rem;
-  border: 4px solid #980000;
+  border: 4px solid #780000;
   border-radius: 4rem;
 
   :nth-child(2n) {

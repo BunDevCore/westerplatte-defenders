@@ -55,7 +55,7 @@ export const TextP = styled.p`
 `;
 
 export const TextMain = styled.p`
-  color: darkred;
+  color: #780000;
   font-weight: bold;
   font-size: 1.25rem;
   margin-top: 1rem;
