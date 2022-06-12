@@ -5,13 +5,14 @@ import {
     MainBox,
     PageName,
     RightBox,
-    SubjectsButtons, TextLeft,
+    SubjectsButtons,
+    TextLeft,
     TextMain,
     TextP,
     TextSideBar,
 } from "./learn.style";
 import useTranslation from "next-translate/useTranslation";
-import {C, Footer} from "../global.style";
+import {C} from "../global.style";
 import {useRouter} from "next/router";
 import Link from "next/link";
 
@@ -89,7 +90,6 @@ const Learn = () => {
                 </RightBox>
                 }
             </Main>
-            <Footer>{t("common:project")}</Footer>
         </>
     );
 }

@@ -7,7 +7,7 @@ export const Main = styled.div`
   align-items: flex-start;
   width: 100%;
   margin: 0 auto;
-  padding: calc(var(--navbar-height) + 1rem) 1rem calc(3 * var(--footer-height));
+  padding: calc(var(--navbar-height) + 1rem) 1rem 1rem;
   grid-template: "list content sections";
 
   @media (max-width: 1000px) {
