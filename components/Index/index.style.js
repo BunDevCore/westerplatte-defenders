@@ -6,10 +6,11 @@ export const Main = styled.main`
 
 export const MainImageBox = styled.div`
   position: relative;
+  margin-top: var(--navbar-height);
   height: 20rem;
 
   @media (max-width: 750px) {
-    height: 18rem;
+    height: 15rem;
   }
 
   img {
