@@ -78,11 +78,11 @@ export const NavigationIconBox = styled.div`
   }
 
   span:nth-child(1) {
-    ${props => props.theme.type === "light" ? "display: none !important;" : ""}
+    ${props => props.theme.type === "light" ? "" : "display: none !important;"}
   }
 
   span:nth-child(2) {
-    ${props => props.theme.type === "light" ? "" : "display: none !important;"}
+    ${props => props.theme.type === "light" ? "display: none !important;" : ""}
   }
 `;
 
