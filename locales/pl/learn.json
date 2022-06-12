@@ -64,11 +64,15 @@
     "buildings": {
       "name": "Ważne budynki",
       "parts": [
+        "",
         "koszary",
         "wartownie",
         "elektrownia"
       ],
       "sections": [
+        [
+          "Placówka składała się z 5 betonowych, wzmocnionych wartowni i przystosowanych do obrony, wzmocnionych, najnowocześniejszych wówczas w Polsce koszar. W sierpniu, w obliczu mnożących się prowokacji niemieckich i wobec groźby wybuchu wojny, na terenie Westerplatte wybudowano drewniano-ziemne umocnienia polowe stanowiące zewnętrzny pas obrony. Wykonano też zaporę przeciwczołgową, rzędy zasieków oraz wycięto niektóre drzewa i krzewy dla zapewnienia lepszej widoczności i pola ostrzału. By ukryć prace przed wzrokiem niemieckich obserwatorów, prowadzono je w nocy."
+        ],
         [
           "Budynek tzw. starych koszar oryginalnie był hotelem wzniesionym w 1890 roku. Miał dwie kondygnacje z niewielką piwnicą.",
           "Pierwszy projekt, który miał na celu przekształcenie pomieszczeń hotelu na koszary, powstał w 1924 roku.",
