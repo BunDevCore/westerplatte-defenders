@@ -14,7 +14,7 @@ export const Main = styled.div`
     grid-template-columns: auto;
     grid-template: "list" "sections" "content";
   }
-  
+
   @media (max-width: 500px) {
     padding-right: .5rem;
     padding-left: .5rem;
@@ -55,6 +55,11 @@ export const TextP = styled.p`
   margin-bottom: .5rem;
 `;
 
+export const TextI = styled(TextP)`
+  margin-left: 10vw;
+  margin-right: 10vw;
+`;
+
 export const TextMain = styled.p`
   color: darkred;
   font-weight: bold;
@@ -70,7 +75,7 @@ export const TextLeft = styled(TextMain)`
 
 export const TextSideBar = styled.a`
   border: 2px solid transparent;
-  
+
   :is(:hover, :focus-visible) {
     border: 2px solid black;
   }
@@ -104,7 +109,7 @@ export const ButtonToTop = styled.a`
     background-color: #780000;
     color: #ffffff;
   }
-  
+
   :focus-visible {
     outline: 2px solid royalblue;
     outline-offset: -2px;
