@@ -56,8 +56,8 @@ export const TextP = styled.p`
 `;
 
 export const TextI = styled(TextP)`
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 `;
 
 export const TextMain = styled.p`
