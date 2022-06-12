@@ -7,12 +7,17 @@ export const Main = styled.div`
   align-items: flex-start;
   width: 100%;
   margin: 0 auto;
-  padding: calc(var(--navbar-height) + 1rem) 1rem calc(3 * var(--footer-height));
+  padding: calc(var(--navbar-height) + 1rem) 1rem 1rem;
   grid-template: "list content sections";
-  
+
   @media (max-width: 1000px) {
     grid-template-columns: auto;
     grid-template: "list" "sections" "content";
+  }
+
+  @media (max-width: 500px) {
+    padding-right: .5rem;
+    padding-left: .5rem;
   }
 `;
 
@@ -23,10 +28,6 @@ export const LeftBox = styled.div`
   height: auto;
   border-radius: 2rem;
   grid-area: list;
-  
-  ul {
-    padding-left: 1.5rem;
-  }
 `;
 
 export const RightBox = styled.div`
@@ -43,7 +44,7 @@ export const RightBox = styled.div`
 `;
 
 export const MainBox = styled.div`
-  padding: 2rem;
+  padding: 1rem;
   border: 2px solid #780000;
   background-color: #fff;
   border-radius: 2rem;
@@ -51,7 +52,12 @@ export const MainBox = styled.div`
 `;
 
 export const TextP = styled.p`
-    margin-bottom: .5rem;
+  margin-bottom: .5rem;
+`;
+
+export const TextI = styled(TextP)`
+  margin-left: 10vw;
+  margin-right: 10vw;
 `;
 
 export const TextMain = styled.p`
@@ -62,7 +68,22 @@ export const TextMain = styled.p`
   margin-bottom: .5rem;
 `;
 
+export const TextLeft = styled(TextMain)`
+  margin-top: 0;
+  margin-bottom: 0;
+`;
+
 export const TextSideBar = styled.a`
+  border: 2px solid transparent;
+
+  :is(:hover, :focus-visible) {
+    border: 2px solid black;
+  }
+
+  :focus-visible {
+    outline: 2px solid royalblue;
+    outline-offset: -2px;
+  }
 `;
 
 export const PageName = styled.p`
@@ -87,5 +108,32 @@ export const ButtonToTop = styled.a`
   :is(:hover, :focus-visible) {
     background-color: #780000;
     color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid royalblue;
+    outline-offset: -2px;
+  }
+`;
+
+export const SubjectsButtons = styled.a`
+  display: block;
+  background-color: #eee;
+  color: #780000;
+  border-radius: 1rem;
+  border: 2px solid #780000;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  transition-duration: .3s;
+  text-align: center;
+
+  :is(:hover, :focus-visible) {
+    background-color: #780000;
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid royalblue;
+    outline-offset: -2px;
   }
 `;

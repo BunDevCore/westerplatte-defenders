@@ -3,8 +3,8 @@
   "sections": "Sekcje",
   "to-top": "Powrót do góry",
   "war": "Wojna",
-  "important-buildings": "Ważne budynki",
-  "westerplatte-terrains": "Tereny Westerplatte",
+  "buildings": "Ważne budynki",
+  "westerplatte": "Tereny Westerplatte",
   "content": {
     "war": {
       "name": "Wojna",
@@ -12,38 +12,34 @@
         "przed wojną",
         "przebieg bitwy o Westerplatte",
         "skutki bitwy",
-	    "o obrońcach"
+        "o obrońcach"
       ],
       "sections": [
         [
-          "W 1920 roku na małym półwyspie Westerplatte powstała składnica wojskowa.",
-          "W 1924 roku Liga Narodów przekazała półwyspu Polsce. Władze Gdańska oddały Westerplatte Polakom w bezpłatną i bezterminową dzierżawę.",
-          "W tym samym roku Rada Ligi Narodów pozwoliła Polakom utrzymywać oddział 88 żołnierzy na Westerplatte. Pierwszy pododdział wartowniczy liczył 22 osoby, w tym 2 oficerów. Zostali tam umiejscowieni 18 stycznia 1926 roku.",
-          "Potajemnie w późniejszym czasie liczba ta powiększyła się do 176 żołnierzy i 6 oficerów. Od 1926 roku, ze względu na antypolskie incydenty, na Westerplatte stacjonował niewielki garnizon Wojska Polskiego.",
-          "18 sierpnia pancernik „Schleswig-Holstein” wypłynął z Kilonii, opuszczając terytorium III Rzeszy 23 sierpnia, wpływając do Gdańska 25 sierpnia z „wizytą kurtuazyjną”, zacumował w kanale portowym 150 m od Westerplatte, jednak w rzeczywistości pancernik miał rozkaz tam być w momencie wybuchu wojny w dniu 26 sierpnia.",
-          "Z powodu przesunięcia daty ataku na Polskę z 26 sierpnia na 1 września, pancernik był zmuszony pozostać tam przez kolejne sześć dni, zanim hasło „Fiske” zostało wysłane i zajęcie Gdańska mogło się rozpocząć.",
+          "W 1920 roku na małym półwyspie Westerplatte w Wolnym Mieście Gdańsku powstała składnica wojskowa.",
+          "Jesienią 1925 roku Liga Narodów przekazała Polakom, do własnego użytku, teren Westerplatte. Początkowo stacjonowało tam 88 żołnierzy. Zagrożenie ze strony niemieckiej spowodowało jednak, iż krótko przed wybuchem wojny załogę Składnicy wzmocniono do 182 ludzi.",
+          "25 sierpnia 1939 roku pancernik „Schleswig-Holstein” wypłynął do Gdańska 25 z „wizytą kurtuazyjną”. Zacumował w kanale portowym 150 m od Westerplatte, jednak w rzeczywistości pancernik miał rozkaz tam być w momencie wybuchu wojny, która pierwotnie miała się rozpocząć 26 sierpnia.",
           "W dniu 26 sierpnia kmdr Gustav Kleikamp przesunął „Schleswiga-Holsteina” w górę kanału pomiędzy Gdańskiem a Westerplatte. Major Henryk Sucharski postawił swój garnizon w stan najwyższej gotowości.",
-          "W nocy z 31 sierpnia na 1 września żołnierze polscy broniący Westerplatte czuwali – na stanowiskach znajdowała się ⅓ załogi. Reszta spała, gotowa do akcji w przeciągu kilku minut od ogłoszenia alarmu. Tymczasem ok. 400 m od polskiej placówki, przy twierdzy Wisłoujście, pod osłoną nocy zeszła na ląd z pokładu „Schleswiga-Holsteina” kompania szturmowa Kriegsmarine. Potężne działa pancernika były wymierzone w Westerplatte. Dowódca okrętu kmdr Kleikamp znał datę ataku – 1 września, godz. 4:45. Wyokrętowani żołnierze zajęli pozycje wyjściowe do ataku przy murze okalającym składnicę od południowego wschodu. Niemieccy saperzy w kilku miejscach podłożyli ładunki wybuchowe, aby tuż przed rozpoczęciem się ataku wykonać wyłomy w ogrodzeniu.",
+          "Z powodu przesunięcia daty ataku na Polskę z 26 sierpnia na 1 września, pancernik był zmuszony pozostać tam przez kolejne sześć dni, zanim hasło „Fiske” zostało wysłane i zajęcie Gdańska mogło się rozpocząć.",
+          "W nocy z 31 sierpnia na 1 września żołnierze polscy broniący Westerplatte czuwali – na stanowiskach znajdowała się ⅓ załogi. Reszta spała, gotowa do akcji w przeciągu kilku minut od ogłoszenia alarmu. Tymczasem ok. 400 m od polskiej placówki, przy twierdzy Wisłoujście, pod osłoną nocy zeszła na ląd z pokładu „Schleswiga-Holsteina” kompania szturmowa Kriegsmarine. Wyokrętowani żołnierze zajęli pozycje wyjściowe do ataku przy murze okalającym składnicę od południowego wschodu. Niemieccy saperzy w kilku miejscach podłożyli ładunki wybuchowe, aby tuż przed rozpoczęciem się ataku wykonać wyłomy w ogrodzeniu.",
           "Około godz. 4:00 „Schleswig-Holstein” podniósł cumy i przemieścił się do Zakrętu Pięciu Gwizdków, skąd miał lepsze pole ostrzału. O godz. 4:43 w dzienniku pokładowym zapisano: „Okręt idzie do ataku na Westerplatte”."
         ],
         [
-          "1 września (piątek), o godz. 4:45 nad ranem niemiecki pancernik „Schleswig-Holstein” otworzył ogień z dziobowej wieży artyleryjskiej kal. 280 mm, skierowany na polską placówkę. Gdy ogromne, ważące 330 kg, pociski eksplodowały, w powietrze wyleciała brama kolejowa oraz fragmenty muru. Chwilę potem polski posterunek został zaatakowany przez kompanię SS-„Heimwehr Danzig” oraz oddział szturmowy piechoty morskiej (3. Kompania Morska „Stoßtrupp”), zaokrętowany wcześniej na niemieckiej jednostce.",
-          "Podczas pierwszego ataku na Westerplatte, Niemcy skoncentrowali swoje natarcie na placówkę „Prom”, jednak gdy Polacy wytoczyli działo kal. 75 mm na stanowisko koło elektrowni i zniszczyli dzięki niemu kilka gniazd niemieckich karabinów maszynowych oraz odparli atak na placówkę „Prom” i zniszczyli placówkę gdańskiej policji przy murze, Niemcy dali za wygraną i wycofali się po 90 minutach walk.",
-          "O godz. 4:50 mjr Henryk Sucharski, komendant Wojskowej Składnicy Tranzytowej w Westerplatte w Wolnym Mieście Gdańsku raportował Dowództwu Floty: „Pancernik „Schleswig-Holstein” rozpoczął o godz. 4:45 ostrzeliwanie Westerplatte z wszystkich dział. Bombardowanie trwa.”",
-          "Po fiasku pierwszego natarcia Niemcy przygotowywali się do drugiego. Nawała ogniowa „Schleswiga-Holsteina” była jednak tym razem dłuższa. Skierowana ona była w kierunku placówki „Prom”, która zadała największe straty Niemcom podczas pierwszego natarcia.",
-          "Podczas drugiego ataku przetrzebioną kompanię szturmową Kriegsmarine wsparł pluton z formacji SS-„Heimwehr Danzig” uderzający od strony plaży. Podczas gdy Niemcy zbliżali się do „Promu”, por. Leon Pająk rozkazał otworzyć ogień moździerzom rozlokowanym koło koszar. Ich celny ogień rozproszył i odrzucił napastników.",
-          "W tym samym czasie „Schleswig-Holstein” znowu otworzył ogień, jeden z odłamków jego pocisków ciężko zranił por. Pająka, który zdał dowództwo chor. Janowi Gryczmanowi. Inne pociski „Schleswiga-Holsteina” ciężko uszkodziły polską siedemdziesiątkę piątkę, przewracając ją i rozbijając przyrządy celownicze. Od tego momentu niemieckie karabiny maszynowe zza kanału portowego mogły bez problemów ostrzeliwać Westerplatte.",
-          "Ponownie ruszyła niemiecka piechota. Chor. Gryczmanowi nie udało się jednak jej powstrzymać i rozkazał swoim ludziom wycofać się do wartowni nr 1. Niemcy także zbliżyli się do tej reduty, ale wycofali się pod celnym ogniem polskich kaemów. Oprócz „jedynki” strzelały do nich także wartownie nr 2 i 5. W tym samym czasie załoga placówki „Fort” odpierała ataki esesmanów. Około godz. 12:30 drugi szturm ostatecznie załamał się.",
-          "Po porażkach natarć przeprowadzonych 1 września zaskoczeni twardym oporem Polaków Niemcy na razie zaniechali ataków na Westerplatte, co jednak nie oznaczało, że zostawili obrońców w spokoju. Do końca dnia nękał ich cały czas ogień „Schleswiga-Holsteina”, baterii artylerii i moździerzy oraz działek i karabinów maszynowych, a patrole niemieckie starały się odnaleźć słabe punkty polskiej obrony, co zmuszało załogi wartowni i placówek do bezustannego bycia czujnym i przygotowanym na kolejne ataki.",
-          "Straty niemieckie tego dnia to 20 zabitych oraz 140 rannych żołnierzy. Po stronie polskiej było czterech zabitych i 10 rannych, w tym trzech ciężko.",
-          "Hitlerowi i miejscowemu gauleiterowi Forsterowi zależało na jak najszybszym zdobyciu Westerplatte, aby nie psuć uroczystości z okazji włączenia Gdańska do Rzeszy. Z tego powodu niemieckie dowództwo zamierzało złamać morale Polaków.",
-          "Od 2 września Niemcy ograniczyli się do prowadzenia ataków rozpoznawczych, mających na celu wybadanie obrony polskiej. Jeszcze tego samego dnia, o godzinie 18 nadleciały bombowce. Po przybyciu nad teren Westerplatte rozpoczęły bombardowanie. Trafiona została wartownia nr 5, pod którą śmierć poniosło co najmniej sześciu obrońców. Ciężko uszkodzone zostały także koszary, gdzie bomby zniszczyły kuchnię i radiostację, zniszczone zostały wszystkie moździerze i przerwana łączność telefoniczna. Nalot trwał łącznie 40 minut.",
+          "Często mówi się, że bitwa o Westerplatte rozpoczęła II Wojnę Światową. Prawdą jednak jest, że zaczęła się kilka minut wcześniej atakiem w kilku punktach granicznych.",
+          "Pierwsze ostrzeliwanie rozpoczęło się 1 września, o godzinie 4:45 przez niemiecki pancernik „Schleswig-Holstein”. Zwiastowało ono piekło, jakie mieli przeżyć na Westerplatte polscy obrońcy. 18 dział pancernika umilkło dopiero wtedy, gdy przeniósł się on w rejon Helu, z taktycznego punktu widzenia znacznie ważniejszy dla Niemców. W czasie ataku zniszczone zostały brama kolejowa oraz fragmenty muru.",
+          "Pierwszym punktem, wokół którego toczono zaciekłe walki, była placówka „Prom”, którą dowodził Leon Pająk. Polacy pozwolili zbliżyć się Niemcom na możliwie najmniejszą odległość, po czym otworzyli ogień ze swoich karabinów maszynowych. Nieprzygotowani na tak skuteczną obronę Niemcy, zmuszeni zostali do wycofania się, zostawiając za sobą wielu zabitych i rannych. Również innym placówkom udało się przetrzymać pierwszy atak. Po załamaniu ofensywy zaskoczeni Niemcy postanowili „zmiękczyć” obronę. „Schleswig-Holstein” podpłynął na odległość zaledwie 500 metrów i zaczął razić Składnicę ogniem.",
+          "1 września zameldowano o pierwszych stratach po polskiej stronie. Zginęli st. sierż. Wojciech Najsarek, kpr. Kowalczyk, st. leg. Ziemba oraz strzelec Bronisław Uss, a rannych zostało 10 osób. Po stronie niemieckiej, tego dnia, zmarło 20 żołnierzy i 140 zostało rannych. W tym dniu Niemcy aż trzykrotnie podejmowali się przeprowadzenia ataku, lecz wszystkie próby zakończyły się niepowodzeniem.",
+          "Według wstępnych założeń dowództwa polska placówka miała wytrzymać 12 godzin, aż do nadejścia wsparcia. Taki był plan obrony, który i tak uznawano za optymistyczny, wziąwszy pod uwagę nikłość załogi Westerplatte i spodziewaną przewagę Niemców.",
+          "Liczono jednak na to, iż po wyhamowaniu pierwszego impetu natarcia uda się przeprowadzić ofensywę pomocniczą, która oswobodzi zamkniętych w okrążeniu żołnierzy. Kontrofensywa nigdy nie nadeszła. Realia wojny, dodajmy: zdecydowanie na korzyść będących w przewadze liczebnej i sprzętowej Niemców, zmusiły Polaków do trwania na pozycjach znacznie dłużej niż zakładane 12 godzin.",
+          "Fatalna sytuacja wokół Westerplatte doprowadziła do rozłamu w gronie dowódców Składnicy. Od 2 września na Westerplatte dowodził faktycznie kpt. Franciszek Dąbrowski, który będąc zastępcą Sucharskiego, zmienił go na stanowisku. Sucharski przeszedł ciężkie załamanie nerwowe, był gotowy się poddać. Z czasem zaczął siać niebezpieczny defetyzm wśród kolegów, co skłoniło Dąbrowskiego do podjęcia dramatycznej decyzji i odizolowania Sucharskiego od reszty załogi.",
+          "Drugiego dnia wojny Niemcy ponowili ataki lądowe. Mimo naporu wroga, podciągającego coraz liczniejsze oddziały, żołnierze polscy wytrzymali natarcie. Dramat rozpoczął się około godz. 17.00, gdy nad Westerplatte nadleciały niemieckie bombowce. Obrońcy usłyszeli przeraźliwy gwizd kilkudziesięciu samolotów Luftwaffe, które zrzuciły swój śmiercionośny ładunek, obracając w gruzy wartownię nr 5. Trafione zostały również koszary niszcząc kuchnię i radiostację, wszystkie moździerze oraz została przerwana łączność telefoniczna. Nalot trwał 40 minut.",
+          "Straty tego dnia wyniosły 9 zabitych i wielu rannych. Wieczorem niemieckie oddziały jeszcze raz spróbowały wedrzeć się do placówki. I tym razem górą była polska załoga. Mjr Sucharski rozkazał zniszczyć dokumenty przechowywane na Westerplatte.",
           "W kolejnych dniach walk o Westerplatte coraz bardziej wyczerpani Polacy trwali na stanowiskach, odpierając niemieckie natarcia oraz znosząc ostrzał artyleryjski. Morale załogi na krótko poprawiła wiadomość o tym, iż Wielka Brytania i Francja wypowiedziały wojnę III Rzeszy. Jednak pomoc, zarówno ze strony państw Europy Zachodniej, jak i Armii „Pomorze”, nie nadchodziła i słabła nadzieja, że w ogóle nadejdzie.",
           "Tymczasem Niemcy przygotowywali się do generalnego szturmu. 4 września do ostrzeliwania Westerplatte przystąpiły dwa torpedowce. Niemcy ściągnęli także kompanię pionierów wyposażoną m.in. w miotacze ognia, a także ciężkie moździerze kal. 211 mm.",
-          "6 września Niemcy dwukrotnie podjęli próbę podpalenia lasu porastającego Westerplatte za pomocą cystern, wypełnionych ropą, wtoczonych na teren składnicy po linii kolejowej. Pierwsza próba zakończyła się porażką i została powstrzymana ogniem broni maszynowej i działka przeciwpancernego 37 mm, które zniszczyły cysternę, a za drugim razem pożar nie rozprzestrzenił się. W tym samych dniach (2–6 września) Westerplatte było wielokrotnie ostrzeliwane z ciężkich dział i bombardowane przez niemieckie eskadry.",
+          "5 września Sucharski zwołał naradę dowódców, na której postanowiono trwać na stanowiskach. Według niektórych relacji szlochający Sucharski prosił o poddanie Westerplatte. Dąbrowski prawdopodobnie zagroził, że jeśli major nie przestanie namawiać żołnierzy do kapitulacji, rozkaże go aresztować. Sucharski nadal pozostawał faktycznym dowódcą obrony, a co za tym idzie zwierzchnikiem Dąbrowskiego, który winien mu był posłuszeństwo, niezależnie od warunków bojowych. Istnieją relacje, które przekazują, iż Sucharski faktycznie na krótko znalazł się „pod kluczem”, co miało być akcją co bardziej bojowo nastawionych obrońców Składnicy. Wydarzenia te kładą się cieniem na historii obrony Westerplatte, ale pokazują też, w jakich warunkach działali polscy obrońcy.",
+          "6 września Niemcy dwukrotnie podjęli próbę podpalenia lasu porastającego Westerplatte za pomocą cystern, wypełnionych ropą, wtoczonych na teren składnicy po linii kolejowej. Pierwsza próba zakończyła się porażką i została powstrzymana ogniem broni maszynowej i działka przeciwpancernego 37 mm, które zniszczyły cysternę, a za drugim razem pożar nie rozprzestrzenił się.",
           "Rankiem 7 września niemiecka artyleria rozpoczęła potężną kanonadę. Tego samego dnia na teren walki przybyły niemieckie uzupełnienia – szkolny batalion saperów i oddział policji. Po godzinnym ostrzale do ataku ruszyli saperzy, którzy za pomocą miotaczy ognia podpalili las, a za nimi piechota. Pociski moździerzowe poważnie uszkodziły wartownię nr 2, ale polskie karabiny maszynowe jeszcze raz powstrzymały atakujących.",
-          "Był to jednak ostatni wysiłek obronny załogi Westerplatte. Około godz. 10:15 mjr Henryk Sucharski, który już w poprzednich dniach domagał się kapitulacji, wydał rozkaz poddania się, argumentując to stratami (zginęło co najmniej 20 żołnierzy), beznadziejnym położeniem, wyczerpaniem żołnierzy, fatalnym stanem rannych i przewagą liczebną oraz wobec wypełnienia rozkazu obrony placówki przez jeden dzień. Część obrońców chciała walczyć dalej, ale rozkaz został potwierdzony. Załoga zebrała się przy koszarach, a mjr Sucharski z dwoma żołnierzami udał się do Niemców. Dowódca wojsk niemieckich gen. Friedrich Eberhardt w uznaniu męstwa Polaków pozwolił majorowi przebrać się w mundur galowy oraz zachować szablę.",
-          "Obrona Westerplatte miała także, o czym rzadko się wspomina w historiografii, również wymiar żołnierskiego dramatu. Mjr Sucharski bowiem, po odparciu pierwszych ataków i propagandowym zademonstrowaniu polskich praw do Gdańska, z powodu braku jakichkolwiek nadziei na odsiecz, chciał zakończyć nierówny bój. Mjr Sucharski całkowicie popadł w załamanie nerwowe, kiedy Luftwaffe przeprowadziła nalot na Westerplatte w dniu 2 września w celu złamania morale Polaków. Niewiele brakowało, aby Niemcy osiągnęli wtedy swój cel. Ten trwający 40 minut nalot poważnie nadszarpnął psychikę obrońców. Niektórzy żołnierze porzucili wtedy stanowiska i uciekli, chroniąc się w koszarach. Roztrzęsiony mjr Sucharski nakazał wywiesić białą flagę na znak kapitulacji. Kryzys zażegnał jego energiczny zastępca kpt. Franciszek Dąbrowski – zwolennik kontynuowania obrony do wyczerpania wszelkich możliwości oporu. Rozkazał zdjąć flagę i odizolować mjra Sucharskiego do czasu, aż dojdzie do siebie. Dąbrowski przejął dowództwo nad obroną, choć aby uniknąć niepotrzebnego fermentu w szeregach, utrzymywano to w tajemnicy. Prawdopodobnie kilku żołnierzy odmówiło powrotu na pozycje obronne i zostało rozstrzelanych za niesubordynację (Niemcy odnaleźli po kapitulacji groby niezidentyfikowanych obrońców). Przeciwnik nie wykorzystał jednak momentu załamania i nie przeprowadził natarcia tuż po nalocie, które mogłoby się zakończyć upadkiem polskiej placówki."
+          "Był to jednak ostatni wysiłek obronny załogi Westerplatte. Około godz. 10:15 mjr Henryk Sucharski, który już w poprzednich dniach domagał się kapitulacji, wydał rozkaz poddania się, argumentując to stratami, beznadziejnym położeniem, wyczerpaniem żołnierzy, fatalnym stanem rannych i przewagą liczebną oraz wobec wypełnienia rozkazu obrony placówki przez jeden dzień. Część obrońców chciała walczyć dalej, ale rozkaz został potwierdzony. Załoga zebrała się przy koszarach, a mjr Sucharski z dwoma żołnierzami udał się do Niemców. Dowódca wojsk niemieckich gen. Friedrich Eberhardt w uznaniu męstwa Polaków pozwolił majorowi przebrać się w mundur galowy oraz zachować szablę."
         ],
         [
           "Mimo iż żołnierze cały czas byli zorganizowanym oddziałem i skutecznie stawiali opór wielokrotnie silniejszemu przeciwnikowi, ich zmagania musiały zostać zakończone. Na skutek wyczerpania amunicji oraz fatalnej sytuacji sanitarnej mjr Sucharski decyduje się poddać placówkę.",
@@ -53,16 +49,20 @@
           "Polskie oddziały na Westerplatte miały bronić się 12 godzin, a utrzymały się aż 7 dni, budując wokół siebie mit nieustępliwości i bohaterstwa polskiego żołnierza. Stały się symbolem Wojska Polskiego, które zawsze walczy do końca.",
           "Mit Polaków na Westerplatte szybko został rozpowszechniony. Niebagatelne znaczenie na tym polu miały audycje Polskiego Radia na bieżąco informującego o wydarzeniach w placówce. Drugim elementem budowania legendy była wiersz napisany przez Konstantego Ildefonsa Gałczyńskiego jeszcze w trakcie trwania kampanii wrześniowej. Warto przytoczyć jego słowa, choć w rzeczywistości obrona Składnicy wyglądała nieco inaczej. Mit o żołnierzach z Westerplatte, którzy „czwórkami do nieba szli”, poszedł w świat."
         ],
-	    [
-	      "placeholder - O obrońcach Westerplatte"
-	    ]
+        [
+          "Załoga Westerplatte przed 1939 rokiem składała się z dwóch oficerów, 20 podoficerów i 66 żołnierzy (zatrudniono także ok. 20 pracowników cywilnych, m.in. obsługujących elektrownię, urządzenia kolejowe, portowe i magazyny).",
+          "Wiosną i latem 1939 roku zwiększono stan załogi. We wrześniu 1939 roku składnicy strzegło 182 żołnierzy, w tym 5 oficerów i lekarz (inne źródła podają 205–210 żołnierzy, w tym ponad 70 podoficerów). Z drugiej strony Bogusław Kubisz określa siły polskie na Westerplatte w dniu 31 sierpnia 1939 roku na 205–225 ludzi, w tym sześciu oficerów i 30 pracowników kontraktowych (w większości byłych wojskowych, którzy zostali zmobilizowani i wzięli potem udział w obronie).",
+          "Załoga placówki uzbrojona była w broń ciężką – 4 moździerze 81 mm, 2 działka przeciwpancerne 37 mm i działo piechoty 75 mm. W wyposażeniu obrońców znajdowało się także 18 ckm, 17 rkm i 8 lkm. Żołnierze dysponowali ok. 160 karabinami, ok. 40 pistoletami i około tysiącem granatów.",
+          "Zapasy żywności mogły wystarczyć na miesiąc. Według planów Westerplatte miało bronić się przez dwanaście godzin, a w rzeczywistości broniło się aż 7 dni."
+        ]
       ]
     },
     "buildings": {
       "name": "Ważne budynki",
+      "introduction": "Placówka składała się z 5 betonowych, wzmocnionych wartowni i przystosowanych do obrony, wzmocnionych, najnowocześniejszych wówczas w Polsce koszar. W sierpniu, w obliczu mnożących się prowokacji niemieckich i wobec groźby wybuchu wojny, na terenie Westerplatte wybudowano drewniano-ziemne umocnienia polowe stanowiące zewnętrzny pas obrony. Wykonano też zaporę przeciwczołgową, rzędy zasieków oraz wycięto niektóre drzewa i krzewy dla zapewnienia lepszej widoczności i pola ostrzału. By ukryć prace przed wzrokiem niemieckich obserwatorów, prowadzono je w nocy.",
       "parts": [
         "koszary",
-	"wartownie",
+        "wartownie",
         "elektrownia"
       ],
       "sections": [
@@ -75,11 +75,11 @@
           "Pełnił on wiele funkcji. W kondygnacji piwnicznej urządzono pomieszczenia przeznaczone na radiostację, kabinę bojowa, elektrownię i magazyn amunicji, kuchnię, stołówkę, magazyn żywności i garaż. Na parterze zlokalizowano centralę telefoniczną, pomieszczenia żołnierskie, umywalnie i centralę szefa kompanii. Na piętrze znajdowała się kancelaria komendanta Składnicy, izba chorych, pokoje oficerów i podoficerów służby czynnej.",
           "Budynek został uszkodzony w czasie bombardowania, ale nie osłabiły jego zdolności do obrony. Obecnie widoczne zniszczenia są skutkiem celowego wysadzenia obiekty przez sowieckich saperów."
         ],
-	[
-	  "Koncepcja obrony została opracowana przez pułkownika Józefa Siłakowskiego. Rdzeniem obrony stały się koszary obronne (czasami nazywane Wartownią nr 6).",
-	  "Pięć wartowni było częścią systemu obrony Wojskowej Składnicy Tranzytowej. Ustawione były w kształcie pięciokąta. Dzięki takiemu rozmieszczeniu każdy spodziewany kierunek natarcia nieprzyjaciela pokryty był ogniem broni maszynowej z co najmniej dwóch wartowni, najbardziej zaś niebezpieczny kierunek wschodni był dodatkowo wspierany ogniem z izby bojowej koszar.",
-	  "Jedynie wartownia numer 1 przetrwała do dzisiaj. Funkcjonuje obecnie jako muzeum."
-	],
+        [
+          "Koncepcja obrony została opracowana przez pułkownika Józefa Siłakowskiego. Rdzeniem obrony stały się koszary obronne (czasami nazywane Wartownią nr 6).",
+          "Pięć wartowni było częścią systemu obrony Wojskowej Składnicy Tranzytowej. Ustawione były w kształcie pięciokąta. Dzięki takiemu rozmieszczeniu każdy spodziewany kierunek natarcia nieprzyjaciela pokryty był ogniem broni maszynowej z co najmniej dwóch wartowni, najbardziej zaś niebezpieczny kierunek wschodni był dodatkowo wspierany ogniem z izby bojowej koszar.",
+          "Jedynie wartownia numer 1 przetrwała do dzisiaj. Funkcjonuje obecnie jako muzeum."
+        ],
         [
           "Budynek elektrowni wraz ze znajdującymi się wewnątrz stacją transformatorową i systemem pomp był przewidywany do wzniesienia już w 1924 r. Konieczność uruchomienia własnej stacji elektro-generatorów była podyktowana problemami na wypadek przerw w dostawach energii elektrycznej z Gdańska, które w tamtym czasie były codziennością.",
           "Polska jednostka wojskowa, która miała być użytkownikiem całego terenu, wraz z magazynami, obiektami koszarowymi i innymi, nie mogła sobie pozwolić na zależność od dostaw prądu. Obiekt mieszczący generatory spalinowe miał sprostać temu zadaniu i zabezpieczać pracę poprzez dostawy prądu, zwłaszcza przy wyładunku i załadunku materiałów wojennych. Dotychczasowe połączenie kablowe dawnego kurortu na Westerplatte z siecią energetyczną miasta Gdańska nie zapewniłoby wystarczającej ilości energii. Należało położyć nowe kable po dnie kanału portowego Wisły. Dzięki temu do codziennego użytku wykorzystywano sieć miejską, a w rezerwie można było bez przeszkód uruchomić znajdujące się na miejscu generatory prądu.",
@@ -93,7 +93,7 @@
       "name": "Tereny Westerplatte",
       "parts": [
         "w przeszłości",
-	"dziś i jutro"
+        "dziś i jutro"
       ],
       "sections": [
         [
@@ -101,12 +101,12 @@
           "Od 1926 roku do 1939 półwysep był eksklawą Polski wewnątrz terytorium Wolnego Miasta Gdańska. W tym okresie funkcjonowała tam Wojskowa Składnica Tranzytowa. To jej obrona stała się symbolicznym początkiem II Wojny Światowej i polskiego oporu przeciw agresji III Rzeszy.",
           "Nazwa „Westerplatte” pochodzi z języka niemieckiego. „West” to zachodnia, a „platte” to płyta, w tym przypadku rozumiana jako wyspa. Nazwa tego półwyspu oznacza dosłownie „zachodnią wyspę”."
         ],
-	[
-	  "Obecnie znajduje się tam muzeum Westerplatte i Wojny 1939. Na jego terenie stoi, zbudowany w latach 1964 - 1966, 25-metrowy Pomnik Obrońców Wybrzeża. Ustawiony na 20-metrowym kopcu monument przypomina wyszczerbiony bagnet wbity w ziemię. W czasie przebudowy terenu wyburzono znaczącą część ruin koszar. W 1967 przy poszerzaniu kanału portowego przesunięto na szynach w całości Wartownię nr 1.",
-	 "Od zakończenia II Wojny Światowej na terenie Westerplatte stacjonują jednostki Wojska Polskiego.",
-	 "W 2019 uchwalono ustawę mającą na celu budowę do 2026 nowego Muzeum Westerplatte i Wojny 1939, które kosztem 200 mln zł ma zostać zrealizowane na powierzchni 27,5 tys. m kw. Projekt przewiduje odbudowę siedmiu budowli wojskowej składnicy tranzytowej oraz utworzenie wystawy stałej o powierzchni 3,5 tys. m kw.",	
-	"W 2020 roku ogłoszono konkurs na koncepcję Cmentarza Wojskowego Żołnierzy Wojska Polskiego na Westerplatte."
-	]
+        [
+          "Obecnie znajduje się tam muzeum Westerplatte i Wojny 1939. Na jego terenie stoi, zbudowany w latach 1964 - 1966, 25-metrowy Pomnik Obrońców Wybrzeża. Ustawiony na 20-metrowym kopcu monument przypomina wyszczerbiony bagnet wbity w ziemię. W czasie przebudowy terenu wyburzono znaczącą część ruin koszar. W 1967 przy poszerzaniu kanału portowego przesunięto na szynach w całości Wartownię nr 1.",
+          "Od zakończenia II Wojny Światowej na terenie Westerplatte stacjonują jednostki Wojska Polskiego.",
+          "W 2019 uchwalono ustawę mającą na celu budowę do 2026 nowego Muzeum Westerplatte i Wojny 1939, które kosztem 200 mln zł ma zostać zrealizowane na powierzchni 27,5 tys. m kw. Projekt przewiduje odbudowę siedmiu budowli wojskowej składnicy tranzytowej oraz utworzenie wystawy stałej o powierzchni 3,5 tys. m kw.",
+          "W 2020 roku ogłoszono konkurs na koncepcję Cmentarza Wojskowego Żołnierzy Wojska Polskiego na Westerplatte."
+        ]
       ]
     }
   }

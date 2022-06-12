@@ -3,47 +3,44 @@
   "sections": "Sections",
   "to-top": "Return to top",
   "war": "War",
-  "important-buildings": "Important buildings",
-  "westerplatte-terrains": "Westerplatte areas",
+  "buildings": "Important buildings",
+  "westerplatte": "Westerplatte areas",
   "content": {
     "war": {
       "name": "War",
+      "introduction": "Introduction",
       "parts": [
         "before the war",
         "the course of the Battle of Westerplatte",
         "battle effects",
-	"about the defenders"
+        "about the defenders"
       ],
       "sections": [
         [
-          "In 1920, a military depot was established on the small Westerplatte peninsula.",
-          "In 1924, the League of Nations gave the peninsula to Poland. The Gdańsk authorities gave the Poles a free and indefinite lease of Westerplatte.",
-          "In the same year, the League of Nations Council allowed the Poles to maintain a detachment of 88 soldiers on Westerplatte. The first guard detachment consisted of 22 people, including 2 officers. They were placed there on January 18, 1926.",
-          "Secretly later this number increased to 176 soldiers and 6 officers. From 1926, due to anti-Polish incidents, a small garrison of the Polish Army was stationed at Westerplatte.",
-          "On August 18, the battleship \"Schleswig-Holstein\" set sail from Kiel, leaving the territory of the Third Reich on August 23, entering Gdańsk on August 25 with a \"courtesy visit\", moored in the port channel 150 m from Westerplatte, but in fact the battleship was ordered to be there at the time of the outbreak war on August 26.",
+          "Military depot was established on the small Westerplatte peninsula in the Free City of Gdańsk.",
+          "In the fall of 1925, the League of Nations handed over the area of Westerplatte to the Poles for their own use. Initially, 88 soldiers were stationed there. However, the threat from the German side meant that shortly before the outbreak of the war, the depot's crew was strengthened to 182 people.",
+          "On August 25, 1939, the battleship \"Schleswig-Holstein\" left for Gdańsk on 25 with a \"courtesy visit\". She moored in the port channel 150 meters from Westerplatte, but in fact the battleship was ordered to be there at the outbreak of the war, which was originally supposed to start on August 26.",
+          "On August 26, Cdr Gustav Kleikamp moved the \"Schleswig-Holstein\" up the canal between Gdańsk and Westerplatte. Major Henryk Sucharski put his garrison on high alert.",
           "Due to the postponement of the attack on Poland from August 26 to September 1, the battleship was forced to stay there for another six days before the slogan \"Fiske\" was sent and the seizure of Gdańsk could begin.",
-          "On August 26, Comd. Gustav Kleikamp moved the Schleswig-Holstein up the canal between Gdańsk and Westerplatte. Major Henryk Sucharski put his garrison on high alert.",
-          "On the night of August 31 and September 1, Polish soldiers defending Westerplatte were on watch - of the crew were in their positions. The rest were asleep, ready for action within minutes of the alert. Meanwhile, about 400 meters from the Polish outpost, at the Wisłoujście fortress, the Kriegsmarine assault company disembarked from the deck of the \"Schleswig-Holstein\" under the cover of night. The battleship's powerful guns were aimed at Westerplatte. The commander of the ship, Comd. Kleikamp, knew the date of the attack - September 1, at 4:45. The disembarked soldiers took their starting positions to attack by the wall surrounding the depot from the south-east. German sappers planted explosives in several places to make breaches in the fence just before the attack began.",
+          "On the night of August 31 and September 1, Polish soldiers defending Westerplatte were on watch - of the crew were in their positions. The rest were asleep, ready for action within minutes of the alert. Meanwhile, about 400 meters from the Polish outpost, at the Wisłoujście fortress, the Kriegsmarine assault company disembarked from the deck of the \" Schleswig -Holstein\" under the cover of night . The disembarked soldiers took their starting positions to attack by the wall surrounding the depot from the south-east. German sappers planted explosives in several places to make breaches in the fence just before the attack began.",
           "Around 4:00 \"Schleswig-Holstein\" lifted the lines and moved to the Five Whistle Turn, from where it had a better field of fire. At. At 4:43 the logbook reads: \"The ship goes to attack Westerplatte.\""
         ],
         [
-          "September 1 (Friday), at 4:45 in the morning, the German battleship \"Schleswig-Holstein\" opened fire from the bow 280 mm artillery turret, aimed at the Polish outpost. When the huge 330 kg missiles exploded, a railway gate and fragments of the wall flew into the air. A moment later, the Polish post was attacked by the SS company \"Heimwehr Danzig\" and an assault unit of the marines (3rd Maritime Company \"Stoßtrupp\"), previously embarked on a German vessel.",
-          "During the first attack on Westerplatte, the Germans concentrated their attack on the \"Prom\" facility, but when the Poles rolled a 75 mm gun to the position near the power plant and destroyed several German machine gun nests thanks to it, repelled the attack on the \"Prom\" facility and destroyed the Gdańsk facility. police by the wall, the Germans gave up and retreated after 90 minutes of fighting.",
-          "At. 4:50 Maj. Henryk Sucharski, commander of the Military Transit Depot in Westerplatte in the Free City of Gdańsk, reported to the Fleet Command: \" The battleship\" Schleswig-Holstein \"began at 4:45 hitting Westerplatte from all guns. The bombing continues. \"",
-          "After the fiasco of the first attack, the Germans prepared for the second. The fire of \"Schleswig-Holstein\" was, however, longer this time. It was directed towards the \"Prom\" outpost, which inflicted the greatest losses on the Germans during the first attack.",
-          "During the second attack, the depleted assault company Kriegsmarine was supported by a platoon from the SS formation \"Heimwehr Danzig\" hitting from the beach. While the Germans were approaching the \"Prom\", Lt. Leon Pajak ordered to open fire on the mortars located near the barracks. Their accurate fire dispersed and drove the attackers away.",
-          "At the same time, \"Schleswig-Holstein\" opened fire again, one of the fragments of his missiles badly injured Lieutenant Pajak, who gave command to Corporal Jan Gryczman. Other missiles from \"Schleswig-Holstein\" severely damaged the Polish seventy-five, knocking it over and smashing the sights. From that moment on, German machine guns could fire at Westerplatte from behind the port canal.",
-          "The German infantry started again. Choir. However, Gryczman did not manage to stop it and ordered his men to withdraw to guardhouse No. 1. The Germans also approached this redoubt, but withdrew under the accurate fire of Polish machine guns. Apart from the \"one\", guardhouses 2 and 5 were also shooting at them. At the same time, the crew of the \"Fort\" facility repelled attacks by SS men. Around 12:30 the second assault finally broke down.",
-          "After the defeats of the attacks carried out on September 1, the Germans, surprised by the stiff resistance of the Poles, abandoned the attacks on Westerplatte for the time being, which did not mean, however, that they left the defenders alone. Until the end of the day, they were plagued by the fire of \"Schleswig-Holstein\", artillery and mortar batteries, as well as cannons and machine guns, and German patrols tried to find weak points in Polish defense, which forced the crews of guardhouses and outposts to be constantly alert and prepared for further attacks .",
-          "German losses that day were 20 killed and 140 wounded soldiers. On the Polish side, there were four killed and 10 wounded, including three seriously.",
-          "Hitler and the local Gauleiter Forster wanted to conquer Westerplatte as quickly as possible, so as not to spoil the ceremony on the occasion of Gdańsk's incorporation into the Reich. For this reason, the German command intended to break the morale of Poles.",
-          "From September 2, the Germans limited themselves to conducting reconnaissance attacks aimed at examining the Polish defense. On the same day, at 6 p.m., bombers arrived. After arriving at Westerplatte, they began bombing. Guardhouse No. 5 was hit, and at least six defenders died there. The barracks were also heavily damaged, where bombs destroyed the kitchen and radio station, all mortars were destroyed and telephone communication was interrupted. The raid lasted a total of 40 minutes.",
+          "It is often said that the Battle of Westerplatte started World War II. It is true, however, that it started a few minutes earlier with an attack at several border points.",
+          "The first shelling began on September 1 at 4:45 by the German battleship \"Schleswig-Holstein\". It heralded the hell that Polish defenders were to experience on Westerplatte. The 18 guns of the battleship went silent only when it moved to the Hel region, much more important for the Germans from a tactical point of view. During the attack, the railway gate and fragments of the wall were destroyed.",
+          "The first point around which fierce battles were fought was the \"Prom\" post, commanded by Leon Pająk. The Poles let the Germans come as close as possible and then opened fire with their machine guns. Unprepared for such an effective defense , the Germans were forced to withdraw, leaving many killed and wounded behind. Other outposts also managed to withstand the first attack. After the collapse of the offensive, the surprised Germans decided to \"soften\" the defense. The Schleswig-Holstein swam only 500 meters away and began striking the Storehouse with fire.",
+          "On September 1, the first losses on the Polish side were reported. Sgt. Wojciech Najsarek , Cpl. Kowalczyk, senior leg. Ziemba and gunner Bronisław Uss , and 10 people were injured. On the German side, on that day, 20 soldiers died and 140 were wounded. On that day, the Germans attempted the attack three times, but all attempts were unsuccessful.",
+          "According to the initial assumptions of the command, the Polish post was to last 12 hours until the support arrived. This was the defense plan, which was considered optimistic anyway, given the weakness of the Westerplatte crew and the expected advantage of the Germans.",
+          "However, it was hoped that after slowing down the first impetus of the attack, it would be possible to launch an auxiliary offensive, which would free the soldiers trapped in the encirclement. The counteroffensive never came. The realities of the war, let us add: definitely in favor of the numbers and equipment advantage of the Germans, forced the Poles to stay in positions much longer than the assumed 12 hours.",
+          "The disastrous situation around Westerplatte led to a split among the commanders of the Storehouse. From September 2 on Westerplatte was actually commanded by Capt. Franciszek Dąbrowski, who, being Sucharski's deputy, changed him in the position. Sucharski had a severe nervous breakdown and was ready to give up. With time, he began to sow dangerous defeatism among his colleagues, which prompted Dąbrowski to make a dramatic decision and isolate Sucharski from the rest of the crew.",
+          "On the second day of the war, the Germans renewed their land attacks. Despite the enemy's pressure, drawing more and more troops, Polish soldiers withstood the attack. The drama started around 17.00, when German bombers flew over Westerplatte. The defenders heard the terrifying whistle of several dozen Luftwaffe planes, which dropped their deadly load, turning guardhouse No. 5 into rubble. The barracks were also hit, destroying the kitchen and radio station, all mortars, and telephone communication was interrupted. The raid lasted 40 minutes.",
+          "Losses that day amounted to 9 killed and many wounded. In the evening, the German troops tried to break into the facility again. And this time the Polish crew was on top. Major Sucharski ordered the documents stored at Westerplatte to be destroyed.",
           "In the following days of the fighting for Westerplatte, the more and more exhausted Poles remained in their positions, repelling German attacks and enduring artillery fire. The morale of the crew was briefly improved by the news that Great Britain and France had declared war on the Third Reich. However, help, both from the countries of Western Europe and the Army \"Pomorze\", did not come, and the hope that it would come at all was weakened.",
           "Meanwhile, the Germans were preparing for a general assault. On September 4, two torpedo boats began shelling Westerplatte. The Germans also brought in a pioneer company equipped with, inter alia, in flamethrowers as well as heavy 211 mm mortars.",
-          "On September 6, the Germans attempted to set fire to the forest growing on Westerplatte twice with cisterns, filled with oil, rolled onto the premises of the depot along the railway line. The first attempt was a failure and was stopped by the fire of a machine gun and 37 mm anti-tank gun, which destroyed the tank, and the second time the fire did not spread. On the same days (September 2–6), Westerplatte was repeatedly fired upon by heavy guns and bombed by German squadrons.",
+          "On September 5, Sucharski called a conference of commanders, at which it was decided to remain in positions. According to some accounts, the sobbing Sucharski asked to surrender Westerplatte. Dąbrowski probably threatened that if the major did not stop persuading the soldiers to surrender, he would order his arrest. Sucharski was still the actual defense commander, and thus Dąbrowski's superior, who owed him obedience, regardless of the combat conditions. There are reports that say that Sucharski was in fact “locked up” for a short time, which was to be the action of the more militant defenders of the depot. These events cast a shadow on the history of the defense of Westerplatte, but also show the conditions under which the Polish defenders operated.",
+          "On September 6, the Germans attempted to set fire to the forest growing on Westerplatte twice with cisterns, filled with oil, rolled onto the premises of the depot along the railway line. The first attempt was a failure and was stopped by the fire of a machine gun and 37 mm anti-tank gun, which destroyed the tank, and the second time the fire did not spread.",
           "On the morning of September 7, the German artillery launched a powerful cannonade. On the same day, German troops arrived at the battlefield - a school sapper battalion and a police unit. After an hour of firing, the sappers started the attack, setting fire to the forest with flamethrowers, followed by the infantry. Mortar shells seriously damaged Guardhouse No. 2, but Polish machine guns stopped the attackers once again.",
-          "However, it was the last defense effort of the Westerplatte crew. Around 10:15 Maj. Henryk Sucharski, who had already demanded surrender in the previous days, gave the order to surrender, arguing it with losses (at least 20 soldiers were killed), hopeless situation, exhaustion of soldiers, terrible condition of the wounded and numerical superiority, and the fulfillment of the order to defend the facility during one day. Some of the defenders wanted to continue fighting, but the order was confirmed. The crew gathered at the barracks, and Maj. Sucharski with two soldiers went to the Germans. The commander of the German army, General Friedrich Eberhardt, in recognition of the bravery of Poles, allowed the major to change into his gala uniform and keep his saber.",
-          "The defense of Westerplatte also had, which is rarely mentioned in historiography, also the dimension of a soldier's drama. Major Sucharski, after repelling the first attacks and demonstrating the Polish rights to Gdańsk, wanted to end the unequal fight due to the lack of any hope for relief. Major Sucharski had a complete nervous breakdown when the Luftwaffe raided Westerplatte on September 2 in an effort to break the morale of Poles. The Germans almost achieved their goal then. This 40-minute raid seriously damaged the psyche of the defenders. Some soldiers then left their positions and fled, taking refuge in the barracks. The trembling Major Sucharski ordered the white flag to be raised as a sign of surrender. The crisis prevented his energetic deputy Capt. Franciszek Dąbrowski - supporter of continuing the defense until all possibilities of resistance are exhausted. He ordered the flag removed and Major Sucharski isolated until he recovered. Dąbrowski took command of the defense, although it was kept secret to avoid unnecessary ferment in the ranks. Probably several soldiers refused to return to their defensive positions and were shot for insubordination (the Germans found the graves of unidentified defenders after the surrender). The opponent, however, did not take advantage of the moment of the collapse and did not launch an attack right after the raid, which could end in the collapse of the Polish outpost."
+          "However, it was the last defense effort of the Westerplatte crew. Around 10:15 Major Henryk Sucharski, who had already demanded surrender in the previous days, gave the order to surrender, arguing it with losses, hopeless situation, exhaustion of soldiers, terrible condition of the wounded and numerical superiority, and due to the fulfillment of the order to defend the facility for one day. Some of the defenders wanted to continue fighting, but the order was confirmed. The crew gathered at the barracks, and Maj. Sucharski with two soldiers went to the Germans. The commander of the German army, General Friedrich Eberhardt, in recognition of the bravery of Poles, allowed the major to change into his gala uniform and keep his saber."
         ],
         [
           "Despite the fact that the soldiers were still an organized unit and successfully resisted the many times stronger opponent, their struggle had to be ended. Due to the exhaustion of ammunition and the terrible sanitary situation, Maj. Sucharski decides to surrender the facility.",
@@ -53,19 +50,26 @@
           "The Polish troops in Westerplatte were supposed to defend themselves for 12 hours, and they lasted for as many as 7 days, building around themselves the myth of the tenacity and heroism of the Polish soldier. They have become a symbol of the Polish Army, which always fights to the end.",
           "The myth of Poles in Westerplatte was quickly spread. The broadcasts of the Polish Radio, which kept you informed about events in the facility, were of great importance in this respect. The second element of building the legend was a poem written by Konstanty Ildefons Gałczyński during the September campaign. It is worth quoting his words, although in reality the defense of the Depot was slightly different. The myth about the soldiers from Westerplatte who \"went to heaven in fours\" has gone out into the world."
         ],
-	[
-	  "placeholder - About the Westerplatte defenders"
-	]
+        [
+          "Before 1939, the Westerplatte crew consisted of two officers, 20 non-commissioned officers and 66 soldiers (about 20 civilian employees were also employed, including those serving the power plant, railway and port facilities and warehouses).",
+          "In the spring and summer of 1939, the number of employees was increased. In September 1939, the depot was guarded by 182 soldiers, including 5 officers and a doctor (other sources say 205-210 soldiers, including over 70 non-commissioned officers). On the other hand, Bogusław Kubisz defined the Polish forces at Westerplatte on August 31, 1939 at 205-225 people, including six officers and 30 contract workers (mostly former military personnel who were mobilized and then took part in the defense).",
+          "The crew of the facility was armed with heavy weapons - 4 81 mm mortars, 2 37 mm anti-tank guns and a 75 mm infantry gun. The defenders were also equipped with 18 HMGs, 17 machine guns and 8 LMGs. The soldiers had around 160 rifles, around 40 pistols and around 1,000 grenades.",
+          "Food stocks could last a month. According to the plans, Westerplatte was supposed to defend itself for twelve hours, but in fact it defended itself for as long as 7 days."
+        ]
       ]
     },
     "buildings": {
       "name": "Important buildings",
       "parts": [
+        "",
         "barracks",
-	"guardhouses",
+        "guardhouses",
         "power plant"
       ],
       "sections": [
+        [
+          "The facility consisted of 5 concrete, reinforced guardhouses and adapted for defense, reinforced, then the most modern barracks in Poland. In August, in the face of increasing German provocations and the threat of a war, timber and earth field fortifications were built in the area of Westerplatte as an external defense line. An anti-tank dam, rows of wire entanglements were also made, and some trees and bushes were cut to ensure better visibility and the field of fire. In order to hide the works from the eyes of German observers, they were carried out at night."
+        ],
         [
           "The building of the so-called of the old barracks was originally a hotel built in 1890. It had two floors with a small basement.",
           "The first project to convert hotel rooms into barracks was made in 1924.",
@@ -75,11 +79,11 @@
           "It performed many functions. In the basement there are rooms for a radio station, a combat cabin, a power plant and an ammunition store, a kitchen, a canteen, a food store and a garage. On the ground floor there is a telephone exchange, soldiers' quarters, washrooms and the headquarters of the company chief. On the first floor there was the office of the depot commander, the sick bay, rooms for officers and non-commissioned officers of active service.",
           "The building was damaged during the bombing , but its defense capabilities were not impaired. Currently, the visible damage is the result of the deliberate blowing up of the facilities by Soviet sappers."
         ],
-	[
-	  "The frame was developed by the concept of Józef Silakowski. The core of the defense of constant defense (sometimes worth costly # 6).",
-	  "Five guardhouses have reached the defense system of the Military Transit Depot. Arranged in a pentagon. Thanks to him, each expected direction of the attack, the enemy was covered with the fire of machine guns from the guardhouse, the second such direction, which was supported by fire due to quick technical support",
-	  "Only guardhouse number 1 has survived to this day. It functions now as a museum."
-	],
+        [
+          "The frame was developed by the concept of Józef Silakowski. The core of the defense of constant defense (sometimes worth costly # 6).",
+          "Five guardhouses have reached the defense system of the Military Transit Depot. Arranged in a pentagon. Thanks to him, each expected direction of the attack, the enemy was covered with the fire of machine guns from the guardhouse, the second such direction, which was supported by fire due to quick technical support",
+          "Only guardhouse number 1 has survived to this day. It functions now as a museum."
+        ],
         [
           "The power plant building with the transformer station and the pump system inside was planned to be erected as early as 1924. The necessity to start up one's own electro-generator station was dictated by problems in the event of interruptions in electricity supplies from Gdańsk, which were common at that time.",
           "The Polish military unit, which was to be the user of the entire area, including warehouses, barracks and other facilities, could not afford to be dependent on electricity supplies. The facility housing combustion generators was to meet this task and secure work through electricity supplies, especially during the unloading and loading of war materials. The existing cable connection of the former health resort on Westerplatte with the power network of the city of Gdańsk would not provide enough energy. New cables had to be laid along the bottom of the Vistula port canal. As a result, the city network was used for everyday use, and the on-site power generators could be easily started in the reserve.",
@@ -93,7 +97,7 @@
       "name": "Westerplatte areas",
       "parts": [
         "in the past",
-	"today and tommorow"
+        "today and tommorow"
       ],
       "sections": [
         [
@@ -101,12 +105,12 @@
           "From 1926 to 1939, the peninsula was an exclave of Poland within the territory of the Free City of Gdańsk. At that time, the Military Transit Storehouse operated there. It was her defense that became the symbolic beginning of World War II and the Polish resistance against the aggression of the Third Reich.",
           "The name \"Westerplatte\" comes from the German language. \"West\" is western, and \"platte\" is a plate, in this case understood as an island. The name of this peninsula literally means \"western island\"."
         ],
-	[
-	  "Currently, there is a museum of Westerplatte and the War of 1939 on its premises, built in the years 1964-1966, a 25-meter Monument to the Defenders of the Coast. The monument, placed on a 20-meter mound, resembles a jagged bayonet stuck into the ground. During the reconstruction of the area, a significant part of the barracks ruins were demolished. In 1967, when widening the port canal, Guardhouse No. 1 was completely moved on rails.",
-	 "From the end of the war, units of the Polish Army have been stationed in Westerplatte.",
-	 "In 2019, a law was passed aimed at building a new Museum of Westerplatte and the War of 1939 by 2026, which at the cost of PLN 200 million is to be implemented on an area of 27.5 thousand square meters. The project provides for the reconstruction of seven buildings of the military transit depot and the creation of a permanent exhibition with an area of 3.5 thousand square meters.",	
-	"In 2020, a competition was announced for the concept of the Military Cemetery of the Polish Army Soldiers in Westerplatte."
-	]
+        [
+          "Currently, there is a museum of Westerplatte and the War of 1939 on its premises, built in the years 1964-1966, a 25-meter Monument to the Defenders of the Coast. The monument, placed on a 20-meter mound, resembles a jagged bayonet stuck into the ground. During the reconstruction of the area, a significant part of the barracks ruins were demolished. In 1967, when widening the port canal, Guardhouse No. 1 was completely moved on rails.",
+          "From the end of the war, units of the Polish Army have been stationed in Westerplatte.",
+          "In 2019, a law was passed aimed at building a new Museum of Westerplatte and the War of 1939 by 2026, which at the cost of PLN 200 million is to be implemented on an area of 27.5 thousand square meters. The project provides for the reconstruction of seven buildings of the military transit depot and the creation of a permanent exhibition with an area of 3.5 thousand square meters.",
+          "In 2020, a competition was announced for the concept of the Military Cemetery of the Polish Army Soldiers in Westerplatte."
+        ]
       ]
     }
   }
