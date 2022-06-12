@@ -5,7 +5,7 @@ export default {
     ...LIGHT,
     type: "dark",
 
-    main_color: "#4d0000",
+    main_color: "#780000",
 
     navbar_background: "#4b4b4b",
     navbar_theme_icon: "#fff",
@@ -19,5 +19,10 @@ export default {
     background_from: "#5e5e5e",
     background_to: "#4b4b4b",
 
-    index_button: "#777"
+    index_button: "#4a4a4a",
+    index_button_text: "#afafaf",
+
+    E404_background: "#666",
+    E404_button: "#555",
+    E404_button_text: "#afafaf"
 }

@@ -55,7 +55,7 @@ export const QuoteName = styled.p`
 
 export const ButtonLink = styled.button`
   border: 2px solid ${props => props.theme.main_color};
-  color: ${props => props.theme.main_color};
+  color: ${props => props.theme.index_button_text};
   background-color: ${props => props.theme.index_button};
   border-radius: 1rem;
   cursor: pointer;

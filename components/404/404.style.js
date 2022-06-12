@@ -7,9 +7,9 @@ export const Main = styled.main`
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 5rem;
-  background-color: #ddd;
-  border: 2px solid #780000;
-  color: #780000;
+  background-color: ${props => props.theme.E404_background};
+  border: 2px solid ${props => props.theme.main_color};
+  color: ${props => props.theme.main_color};
   border-radius: 2rem;
   
   @media (max-width: 1500px) {
@@ -32,9 +32,9 @@ export const Main = styled.main`
 `;
 
 export const ButtonRedirect = styled.button`
-  border: 2px solid #780000;
-  color: #780000;
-  background-color: #eee;
+  border: 2px solid ${props => props.theme.main_color};
+  color: ${props => props.theme.E404_button_text};
+  background-color: ${props => props.theme.E404_button};
   border-radius: 1rem;
   cursor: pointer;
   padding: 2rem 0;
@@ -49,7 +49,7 @@ export const ButtonRedirect = styled.button`
 
   :is(:focus-visible, :hover) {
     color: #fff;
-    background-color: #780000;
+    background-color: ${props => props.theme.main_color};
   }
 
   @media (max-width: 800px) {
@@ -62,13 +62,13 @@ export const ButtonRedirect = styled.button`
 `;
 
 export const ErrorText = styled.p`
-  color: #780000;
+  color: ${props => props.theme.main_color};
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
 `;
 
 export const ErrorSubText = styled.p`
-  color: #780000;
+  color: ${props => props.theme.main_color};
   text-align: center;
 `;
