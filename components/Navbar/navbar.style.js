@@ -8,6 +8,7 @@ export const NavigationBar = styled.nav`
   display: flex;
   justify-content: space-between;
   z-index: 1000;
+  transition: filter 300ms, background-color 500ms;
 `;
 
 export const NavigationIcon = styled.a`
@@ -45,8 +46,10 @@ export const NavigationItem = styled.a`
   line-height: var(--navbar-height);
   cursor: pointer;
   tab-index: 0;
+  background-color: ${props => props.theme.navbar_button};
   color: ${props => props.theme.navbar_text};
-  filter: ${props => props.theme.type === "light" ? "brightness(100%)" : "brightness(90%)"};
+  filter: brightness(100%);
+  transition: filter 300ms, background-color 500ms;
 
   :focus-visible {
     outline: royalblue solid 2px;
@@ -54,17 +57,17 @@ export const NavigationItem = styled.a`
   }
 
   :is(:hover, :focus-visible) {
-    filter: ${props => props.theme.type === "light" ? "brightness(90%)" : "brightness(100%)"};
+    filter: ${props => props.theme.type === "light" ? "brightness(80%)" : "brightness(120%)"};
   }
 `;
 
 export const NavigationIconBox = styled.div`
   --img-margin: 1.5rem;
-  
+
   @media (max-width: 500px) {
     --img-margin: .5rem;
   }
-  
+
   align-self: center;
   cursor: pointer;
   position: relative;
@@ -86,19 +89,21 @@ export const NavigationIconBox = styled.div`
   }
 `;
 
-export const NavigationTheme = styled.div`
+export const NavigationTheme = styled.button`
+  display: block;
+  border: none;
+  background-color: ${props => props.theme.navbar_button};
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   height: 100%;
   line-height: var(--navbar-height);
   cursor: pointer;
-  tab-index: 0;
   color: ${props => props.theme.navbar_theme_icon};
-  filter: ${props => props.theme.type === "light" ? "brightness(80%)" : "brightness(100%)"};
-  transition-duration: 400ms;
+  filter: brightness(100%);
+  transition: filter 300ms, background-color 500ms;
 
   :is(:hover, :focus-visible) {
-    filter: ${props => props.theme.type === "light" ? "brightness(100%)" : "brightness(80%)"};
+    filter: ${props => props.theme.type === "light" ? "brightness(80%)" : "brightness(120%)"};
   }
 
   :focus-visible {
@@ -112,44 +117,30 @@ export const NavigationTheme = styled.div`
   }
 `;
 
-export const NavigationLang = styled.button`  
+export const NavigationLang = styled.button`
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   height: 100%;
   line-height: var(--navbar-height);
   cursor: pointer;
   color: ${props => props.theme.navbar_text};
-  filter: ${props => props.theme.type === "light" ? "brightness(100%)" : "brightness(100%)"};
+  filter: brightness(100%);
   border: none;
-  background-color: transparent;
+  background-color: ${props => props.theme.navbar_button};
   user-select: none;
-  
+  transition: filter 300ms, background-color 500ms;
+
   @media (max-width: 500px) {
     padding-right: 1rem;
     padding-left: 1rem;
   }
-  
+
   :is(:hover, :focus-visible) {
-    filter: ${props => props.theme.type === "light" ? "brightness(0%)" : "brightness(80%)"};
+    filter: ${props => props.theme.type === "light" ? "brightness(80%)" : "brightness(120%)"};
   }
 
   :focus-visible {
     outline: royalblue solid 2px;
     outline-offset: -2px;
-  }
-  
-  ::before {
-    content: "";
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 750ms;
-    z-index: -1;
-    width: 150%;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    background: #fff;
-    opacity: 0.5;
   }
 `;

@@ -32,7 +32,7 @@ const Navbar = ({changeTheme: changeTheme}) => {
         <NavigationBar>
             <NavigationLeftSide>
                 <Link href="/" passHref>
-                    <NavigationIcon>
+                    <NavigationIcon tabIndex={-1}>
                         <Image src="/images/logo.png" alt="OW logo" layout="fill"/>
                     </NavigationIcon>
                 </Link>
@@ -43,7 +43,7 @@ const Navbar = ({changeTheme: changeTheme}) => {
                 </Link>
             </NavigationLeftSide>
             <NavigationRightSide>
-                <NavigationTheme onClick={() => {
+                <NavigationTheme tabIndex={0} onClick={() => {
                     getCookie("NEXT_THEME") === "light" ? changeTheme("dark") : changeTheme("light")
                 }}>
                     <NavigationIconBox>
