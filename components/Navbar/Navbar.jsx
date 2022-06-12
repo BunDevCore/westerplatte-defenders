@@ -6,20 +6,18 @@ import {
     NavigationItem, NavigationLang, NavigationLeftSide,
     NavigationRightSide, NavigationTheme,
 } from "./navbar.style";
-import test from "/public/images/sun.svg";
+import sun from "/public/images/sun.svg";
+import moon from "/public/images/sun.svg";
 import useTranslation from "next-translate/useTranslation";
-import {useEffect, useState} from "react";
 import {getCookie, setCookies} from "cookies-next";
 import setLanguage from "next-translate/setLanguage";
-import THEMES from "../../util/theme/theme";
 
 const OPTIONS = {
     secure: process.env.IN_DEV === "false",
     sameSite: "lax"
 };
 
-const Navbar = ({chT}) => {
-    const [isTheme, setTheme] = useState(THEMES.LIGHT);
+const Navbar = ({changeTheme: changeTheme}) => {
     const {t, lang} = useTranslation("navbar");
 
     // callback for changing locale
@@ -29,15 +27,6 @@ const Navbar = ({chT}) => {
         })()
         setCookies("NEXT_LOCALE", localeName, OPTIONS);
     }
-
-    const changeTheme = (themeName) => {
-        chT(themeName);
-        setTheme(themeName);
-    }
-
-    useEffect(() => {
-        setTheme(getCookie("NEXT_THEME") || "light")
-    }, []);
 
     return (<>
         <NavigationBar>
@@ -54,9 +43,12 @@ const Navbar = ({chT}) => {
                 </Link>
             </NavigationLeftSide>
             <NavigationRightSide>
-                <NavigationTheme>
+                <NavigationTheme onClick={() => {
+                    getCookie("NEXT_THEME") === "light" ? changeTheme("dark") : changeTheme("light")
+                }}>
                     <NavigationIconBox>
-                        {/*<Image src={test} alt={t("changeTheme")} layout="fill"/>*/}
+                        <Image src={sun} alt={t("changeTheme")} layout="fill"/>
+                        <Image src={moon} alt={t("changeTheme")} layout="fill"/>
                     </NavigationIconBox>
                 </NavigationTheme>
                 <NavigationLang onClick={() => {

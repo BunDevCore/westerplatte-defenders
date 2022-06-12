@@ -33,7 +33,7 @@ const App = ({Component, pageProps}) => {
     const {t} = useTranslation("common");
 
     // change to save theme
-    useEffect(() => setThemeName(getCookie("NEXT_THEME")), []);
+    useEffect(() => setThemeName(getCookie("NEXT_THEME") || "light"), []);
 
     // callback for changing theme from another component
     const changeTheme = (themeName) => {
@@ -45,7 +45,6 @@ const App = ({Component, pageProps}) => {
         <>
             <ThemeProvider theme={getTheme(themeName)}>
                 <Head>
-                    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
                     <title>{t("westerplatte-defenders")}</title>
                 </Head>
                 <Flexbox>
