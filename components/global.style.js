@@ -17,6 +17,10 @@ export const Footer = styled.footer`
   }
 `;
 
+export const C = styled.p`
+  text-align: center;
+`;
+
 export const Flexbox = styled.div`
   display: flex;
   flex-direction: column;
