@@ -14,6 +14,11 @@ export const Main = styled.div`
     grid-template-columns: auto;
     grid-template: "list" "sections" "content";
   }
+  
+  @media (max-width: 500px) {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
 `;
 
 export const LeftBox = styled.div`
@@ -39,7 +44,7 @@ export const RightBox = styled.div`
 `;
 
 export const MainBox = styled.div`
-  padding: 2rem;
+  padding: 1rem;
   border: 2px solid #780000;
   background-color: #fff;
   border-radius: 2rem;
