@@ -8,8 +8,8 @@ const C404 = () => {
     return (
         <>
             <Main>
-                <ErrorText>404 - NIE ZNALEZIONO</ErrorText>
-                <ErrorSubText>Nie mogliśmy znaleźć tego co szukałeś...</ErrorSubText>
+                <ErrorText>404 - {t("not-found")}</ErrorText>
+                <ErrorSubText>{t("couldnt-find")}</ErrorSubText>
                 <Link href={"/"}>
                     <ButtonRedirect tabIndex={0}>
                         {t("navbar:home")}
