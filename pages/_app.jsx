@@ -45,7 +45,6 @@ const App = ({Component, pageProps}) => {
         <>
             <ThemeProvider theme={getTheme(themeName)}>
                 <Head>
-                    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
                     <title>{t("westerplatte-defenders")}</title>
                 </Head>
                 <Flexbox>
