@@ -11,6 +11,22 @@ export const MainImageBox = styled.div`
   img {
     object-fit: cover;
   }
+
+  span:nth-child(1) {
+    display: revert !important;
+    
+    @media (max-width: 1000px) {
+      display: none !important;
+    }
+  }
+
+  span:nth-child(2) {
+    display: none !important;
+
+    @media (max-width: 1000px) {
+      display: revert !important;
+    }
+  }
 `;
 
 export const QuoteBox = styled.div`
@@ -64,9 +80,12 @@ export const ButtonLink = styled.button`
 
 export const ButtonsBox = styled.div`
   margin: 1rem;
-  gap: 1rem; 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  gap: 1rem;
+  display: grid;
   flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
