@@ -6,7 +6,11 @@ export const Main = styled.main`
 
 export const MainImageBox = styled.div`
   position: relative;
-  height: clamp(10rem, 60vw, 30rem);
+  height: 20rem;
+
+  @media (max-width: 750px) {
+    height: 18rem;
+  }
 
   img {
     object-fit: cover;
@@ -15,7 +19,7 @@ export const MainImageBox = styled.div`
   span:nth-child(1) {
     display: revert !important;
     
-    @media (max-width: 1000px) {
+    @media (max-width: 750px) {
       display: none !important;
     }
   }
@@ -23,7 +27,7 @@ export const MainImageBox = styled.div`
   span:nth-child(2) {
     display: none !important;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 750px) {
       display: revert !important;
     }
   }
