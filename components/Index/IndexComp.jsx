@@ -8,7 +8,7 @@ const IndexC = () => {
     const {t} = useTranslation("common");
     const wide = ["napis_westerplatte_dlugie.jpg", "napis_nigdy_wiecej_wojny_dlugie.jpg"]
     const tall = ["pomnik_1.jpg", "pomnik_2.jpg"]
-    const [rn,srn] = useState(0);
+    const [rn, srn] = useState(0);
 
     useEffect(() => srn(Math.floor(Math.random() * 2)), []);
 

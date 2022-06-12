@@ -25,7 +25,7 @@ const Gallery = () => {
 
 const ContainerBox = ({pictureData, t}) => {
     return (
-        <Link href={pictureData.src}>
+        <Link href={pictureData.src} as="a">
             <Container>
                 <ImageBox>
                     <Image src={pictureData.src} alt={t(pictureData.nameID)} layout="fill"
