@@ -17,13 +17,6 @@ body {
     }
 }
 
-body > div#__next {
-    background-image: linear-gradient(to top, darkgray, white);
-    color: black;
-    min-height: 100vh;
-    position: relative;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;

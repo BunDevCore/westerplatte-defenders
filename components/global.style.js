@@ -4,8 +4,9 @@ export const Footer = styled.footer`
   align-self: flex-end;
   width: 100%;
   height: var(--footer-height);
-  background-color: darkgray;
-  border-top: 2px solid gray;
+  background-color: ${props => props.theme.footer_background};
+  border-top: 2px solid ${props => props.theme.footer_top};
+  color: ${props => props.theme.footer_text};
   text-align: center;
   display: table;
   overflow: hidden;

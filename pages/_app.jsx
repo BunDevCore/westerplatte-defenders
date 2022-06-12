@@ -21,7 +21,7 @@ const OPTIONS = {
 // dynamic global styling
 const GlobalStyles = createGlobalStyle`
   html, body {
-    background: ${props => props.theme.background};
+    background-image: ${props => `linear-gradient(to bottom, ${props.theme.background_from}, ${props.theme.background_to})`};
   }
 `;
 
@@ -33,7 +33,7 @@ const App = ({Component, pageProps}) => {
     const {t} = useTranslation("common");
 
     // change to save theme
-    useEffect(() => setThemeName(getCookie("NEXT_THEME")), []);
+    useEffect(() => setThemeName(getCookie("NEXT_THEME") || "light"), []);
 
     // callback for changing theme from another component
     const changeTheme = (themeName) => {
