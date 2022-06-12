@@ -5,7 +5,7 @@ import {
     MainBox,
     PageName,
     RightBox,
-    SubjectsButtons,
+    SubjectsButtons, TextI,
     TextLeft,
     TextMain,
     TextP,
@@ -28,7 +28,8 @@ const Learn = () => {
     const themeButtons = [];
 
     for (const theme of themes) {
-        themeButtons.push(<Link key={theme} href={`/learn/${theme}`} passHref><SubjectsButtons>{t(theme)}</SubjectsButtons></Link>)
+        themeButtons.push(<Link key={theme} href={`/learn/${theme}`}
+                                passHref><SubjectsButtons>{t(theme)}</SubjectsButtons></Link>)
     }
 
     // for some reason some browsers ask for favicon and trigger this code
@@ -71,8 +72,13 @@ const Learn = () => {
                 <MainBox>
                     {!errors && <>
                         <PageName>{t(`content.${learn_page}.name`)}</PageName>
+                        {
+                            t(`content.${learn_page}.introduction`) !== `content.${learn_page}.introduction` &&
+                            <TextI>{t(`content.${learn_page}.introduction`)}</TextI>
+                        }
                         {mainContent}
-                        <Link href={`/learn/${learn_page}`} passHref><ButtonToTop tabIndex={1}>{t("to-top")}</ButtonToTop></Link>
+                        <Link href={`/learn/${learn_page}`} passHref><ButtonToTop
+                            tabIndex={1}>{t("to-top")}</ButtonToTop></Link>
                     </>}
 
                     {errors && <>
