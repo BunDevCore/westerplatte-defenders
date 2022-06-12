@@ -2,7 +2,6 @@ import Image from "next/image";
 import {Box, Container, ContainerText, ImageBox} from "./gallery.style";
 import gallery from "/public/gallery_desc.json";
 import useTranslation from "next-translate/useTranslation";
-import {Footer} from "../global.style";
 import Link from "next/link";
 
 const Gallery = () => {
@@ -20,7 +19,6 @@ const Gallery = () => {
             <Box>
                 {images}
             </Box>
-            <Footer>{t("common:project")}</Footer>
         </>
     );
 }

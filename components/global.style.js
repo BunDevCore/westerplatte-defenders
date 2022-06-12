@@ -1,11 +1,24 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
+  align-self: flex-end;
   width: 100%;
+  height: var(--footer-height);
   background-color: darkgray;
   border-top: 2px solid gray;
-  padding: calc(var(--footer-height) / 2);
   text-align: center;
-  position:absolute;
-  bottom:0;
+  display: table;
+  overflow: hidden;
+  
+  p {
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+  }
+`;
+
+export const Flexbox = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 `;

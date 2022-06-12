@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-  @media (max-width: 500px) {
-    padding-bottom: calc(3 * var(--footer-height));
-  }
+  flex-grow: 2;
 `;
 
 export const MainImageBox = styled.div`
@@ -25,7 +23,7 @@ export const QuoteBox = styled.div`
   font-family: "Times New Roman", serif;
   display: grid;
   gap: 1rem;
-  
+
   @media (max-width: 500px) {
     padding: 1rem;
   }
@@ -52,12 +50,12 @@ export const ButtonLink = styled.button`
   :focus-visible {
     outline: 2px solid royalblue;
   }
-  
+
   :is(:focus-visible, :hover) {
     color: #fff;
     background-color: #780000;
   }
-  
+
   @media (max-width: 550px) {
     font-size: 1rem;
     padding: 2rem 1rem;

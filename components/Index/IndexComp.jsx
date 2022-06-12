@@ -2,7 +2,6 @@ import Image from "next/image";
 import {QuoteBox, MainImageBox, QuoteName, ButtonsBox, ButtonLink, Main} from "./index.style";
 import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
-import {Footer} from "../global.style";
 
 const IndexC = () => {
     const {t} = useTranslation("common");
@@ -19,9 +18,9 @@ const IndexC = () => {
                 </QuoteBox>
                 <ButtonsBox>
                     <Link href={"/learn/war"}>
-                            <ButtonLink tabIndex={0}>
-                                {t("learn")}
-                            </ButtonLink>
+                        <ButtonLink tabIndex={0}>
+                            {t("learn")}
+                        </ButtonLink>
                     </Link>
                     <Link href={"/gallery"} passHref>
                         <ButtonLink tabIndex={0}>
@@ -40,7 +39,6 @@ const IndexC = () => {
                     </Link>
                 </ButtonsBox>
             </Main>
-            <Footer>{t("project")}</Footer>
         </>
     );
 }
