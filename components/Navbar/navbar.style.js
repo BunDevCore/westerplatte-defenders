@@ -71,9 +71,18 @@ export const NavigationIconBox = styled.div`
   height: calc(var(--navbar-height) - calc(2 * var(--img-margin)));
   margin: var(--img-margin) 0.25rem;
   aspect-ratio: 1/1;
+  user-select: none;
 
   img {
     object-fit: contain;
+  }
+
+  span:nth-child(1) {
+    ${props => props.theme.type === "light" ? "display: none !important;" : ""}
+  }
+
+  span:nth-child(2) {
+    ${props => props.theme.type === "light" ? "" : "display: none !important;"}
   }
 `;
 
@@ -113,6 +122,7 @@ export const NavigationLang = styled.button`
   filter: ${props => props.theme.type === "light" ? "brightness(100%)" : "brightness(100%)"};
   border: none;
   background-color: transparent;
+  user-select: none;
   
   @media (max-width: 500px) {
     padding-right: 1rem;
@@ -126,5 +136,20 @@ export const NavigationLang = styled.button`
   :focus-visible {
     outline: royalblue solid 2px;
     outline-offset: -2px;
+  }
+  
+  ::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 750ms;
+    z-index: -1;
+    width: 150%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.5;
   }
 `;

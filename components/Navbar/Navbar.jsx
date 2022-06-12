@@ -7,7 +7,7 @@ import {
     NavigationRightSide, NavigationTheme,
 } from "./navbar.style";
 import sun from "/public/images/sun.svg";
-import moon from "/public/images/sun.svg";
+import moon from "/public/images/moon.svg";
 import useTranslation from "next-translate/useTranslation";
 import {getCookie, setCookies} from "cookies-next";
 import setLanguage from "next-translate/setLanguage";
