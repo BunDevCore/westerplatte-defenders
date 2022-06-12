@@ -1,6 +1,6 @@
 [
   {
-    "question": "Kiedy rozpoczęła się II Wojna Światowa?",
+    "question": "Kiedy rozpoczął się atak na Westerplatte?",
     "good": "1 września 1939 4:45",
     "wrong": [
       "1 września 1939 4:55",
@@ -76,7 +76,7 @@
     "good": "Wyspą",
     "wrong": [
       "Półwyspem",
-      "Morzem/Zatoką",
+      "Morzem/Zatoką"
     ]
   },
   {
@@ -122,6 +122,42 @@
       "Krążowniki",
       "Niszczyciele",
       "Żadne z podanych"
+    ]
+  },
+  {
+    "question": "Jak naprawdę rozpoczęła się II Wojna Światowa?",
+    "good": "Atakiem w kilku punktach granicznych",
+    "wrong": [
+      "Atakiem na Westerplatte",
+      "Atakiem na Hel",
+      "Atakiem na południe z terenów Prus Wschodnich"
+    ]
+  },
+  {
+    "question": "Ile żołnierzy pierwotnie stacjonowało w Wojskowej Składnicy Towarowej",
+    "good": "88",
+    "wrong": [
+      "66",
+      "102",
+      "20"
+    ]
+  },
+  {
+    "question": "Jaka była liczebność załogi Westerplatte w momencie wybuchu wojny?",
+    "good": "~200",
+    "wrong": [
+      "~300",
+      "~100",
+      "~400"
+    ]
+  },
+  {
+    "question": "Jak nazywa się dzielnica Gdańska, w której obecnie znajduje się Westerplatte?",
+    "good": "Przeróbka",
+    "wrong": [
+      "Nowy Port",
+      "Port Północny",
+      "Stogi"
     ]
   }
 ]

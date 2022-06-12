@@ -1,6 +1,6 @@
 [
   {
-    "question": "When did World War II start?",
+    "question": "When did the attack on Westerplatte begin?",
     "good": "September 1, 1939 4:45",
     "wrong": [
       "September 1, 1939 4:55",
@@ -18,12 +18,12 @@
     ]
   },
   {
-    "question": "When was the attack on Westerplatte supposed to be made originally?"
-    "good": "August 26",
-    "wrong":[
+    "question": "When was the attack on Westerplatte supposed to be made originally?",
+    "good": "August 26th",
+    "wrong": [
       "September 1st",
-      "30th of August",
-      "August 24"
+      "August 30th",
+      "August 24th"
     ]
   },
   {
@@ -76,7 +76,7 @@
     "good": "An island",
     "wrong": [
       "Peninsula",
-      "By sea / bay",
+      "By sea / bay"
     ]
   },
   {
@@ -123,5 +123,41 @@
       "Destroyers",
       "None of the given"
     ]
-  }
+  },
+  {
+    "question": "How did World War II really start?",
+    "good": "Attack at several border points",
+    "wrong": [
+      "The attack on Westerplatte",
+      "Attack on Hel",
+      "An attack to the south from East Prussia"
     ]
+  },
+  {
+    "question": "How many soldiers were originally stationed in the Military Transit Depot?",
+    "good": "88",
+    "wrong": [
+      "66",
+      "102",
+      "20"
+    ]
+  },
+  {
+    "question": "What was the size of the Westerplatte crew at the outbreak of the war?",
+    "good": "~200",
+    "wrong": [
+      "~300",
+      "~100",
+      "~400"
+    ]
+  },
+  {
+    "question": "What is the name of the Gdańsk district in which Westerplatte is currently located?",
+    "good": "Przeróbka",
+    "wrong": [
+      "Nowy Port",
+      "Port Północny",
+      "Stogi"
+    ]
+  }
+]
