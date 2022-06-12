@@ -37,15 +37,15 @@ export const Container = styled.div`
   cursor: pointer;
   margin: 2rem;
   padding-top: 2rem;
-  border: 4px solid #780000;
+  border: 4px solid ${props => props.theme.main_color};
   border-radius: 4rem;
 
   :nth-child(2n) {
-    background-color: #ffe0e0;
+    background-color: ${props => props.theme.gallery_background1};
   }
 
   :nth-child(2n+1) {
-    background-color: #fff2f2;
+    background-color: ${props => props.theme.gallery_background2};
   }
 
   @media (max-width: 600px) {

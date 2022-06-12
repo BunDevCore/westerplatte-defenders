@@ -21,5 +21,8 @@ export default {
 
     E404_background: "#ccc",
     E404_button: "#d9d9d9",
-    E404_button_text: "#780000"
+    E404_button_text: "#780000",
+
+    gallery_background1: "#ffe0e0",
+    gallery_background2: "#fff2f2",
 }
