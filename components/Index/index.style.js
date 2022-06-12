@@ -32,7 +32,7 @@ export const MainImageBox = styled.div`
 export const QuoteBox = styled.div`
   padding: 2rem;
   width: 100%;
-  background-color: #780000;
+  background-color: ${props => props.theme.main_color};
   color: white;
   font-size: clamp(1.75rem, 5vw, 3rem);
   font-weight: bold;
@@ -54,9 +54,9 @@ export const QuoteName = styled.p`
 `;
 
 export const ButtonLink = styled.button`
-  border: 2px solid #780000;
-  color: #780000;
-  background-color: lightgray;
+  border: 2px solid ${props => props.theme.main_color};
+  color: ${props => props.theme.main_color};
+  background-color: ${props => props.theme.index_button};
   border-radius: 1rem;
   cursor: pointer;
   padding: 2rem clamp(2rem, 6vw, 10rem);
@@ -68,8 +68,8 @@ export const ButtonLink = styled.button`
   }
 
   :is(:focus-visible, :hover) {
-    color: #fff;
-    background-color: #780000;
+    color: #eee;
+    background-color: ${props => props.theme.main_color};
   }
 
   @media (max-width: 550px) {

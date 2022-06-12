@@ -2,6 +2,8 @@
 export default {
     type: "light",
 
+    main_color: "#780000",
+
     navbar_background: "#a9a9a9",
     navbar_theme_icon: "#fff",
     navbar_text: "#333",
@@ -12,5 +14,7 @@ export default {
     footer_text: "#000",
 
     background_from: "#fff",
-    background_to: "#a9a9a9"
+    background_to: "#a9a9a9",
+
+    index_button: "#d9d9d9"
 }

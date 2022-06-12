@@ -4,6 +4,9 @@ import LIGHT from "./light";
 export default {
     ...LIGHT,
     type: "dark",
+
+    main_color: "#4d0000",
+
     navbar_background: "#4b4b4b",
     navbar_theme_icon: "#fff",
     navbar_text: "#ddd",
@@ -14,6 +17,7 @@ export default {
     footer_text: "#ddd",
 
     background_from: "#5e5e5e",
-    background_to: "#4b4b4b"
+    background_to: "#4b4b4b",
 
+    index_button: "#777"
 }
