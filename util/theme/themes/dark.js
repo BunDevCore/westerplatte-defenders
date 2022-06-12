@@ -28,4 +28,11 @@ export default {
 
     gallery_background1: "#6b5d5d",
     gallery_background2: "#797171",
+
+    learn_button: "#555",
+    learn_button_text: "#afafaf",
+    learn_boxes: "#666",
+    learn_sidebox_text: "#ccc",
+    learn_main_box: "#444",
+    learn_main_box_text: "#ccc",
 }

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
+  flex-grow: 2;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 1rem;
@@ -22,8 +23,9 @@ export const Main = styled.div`
 `;
 
 export const LeftBox = styled.div`
-  border: 2px solid #780000;
-  background-color: #ddd;
+  transition-duration: 500ms;
+  border: 2px solid ${props => props.theme.main_color};
+  background-color: ${props => props.theme.learn_boxes};
   padding: 2rem;
   height: auto;
   border-radius: 2rem;
@@ -31,8 +33,9 @@ export const LeftBox = styled.div`
 `;
 
 export const RightBox = styled.div`
-  border: 2px solid #780000;
-  background-color: #ddd;
+  transition-duration: 500ms;
+  border: 2px solid ${props => props.theme.main_color};
+  background-color: ${props => props.theme.learn_boxes};
   padding: 2rem;
   height: auto;
   border-radius: 2rem;
@@ -40,13 +43,20 @@ export const RightBox = styled.div`
 
   ul {
     padding-left: 1.5rem;
+    color: ${props => props.theme.learn_sidebox_text};
+  }
+  
+  p {
+    color: ${props => props.theme.learn_sidebox_text};
   }
 `;
 
 export const MainBox = styled.div`
   padding: 1rem;
-  border: 2px solid #780000;
-  background-color: #fff;
+  transition-duration: 500ms;
+  background-color: ${props => props.theme.learn_main_box};
+  color: ${props => props.theme.learn_main_box_text};
+  border: 2px solid ${props => props.theme.main_color};
   border-radius: 2rem;
   grid-area: content;
 `;
@@ -61,7 +71,7 @@ export const TextI = styled(TextP)`
 `;
 
 export const TextMain = styled.p`
-  color: #780000;
+  color: ${props => props.theme.main_color};
   font-weight: bold;
   font-size: 1.25rem;
   margin-top: 1rem;
@@ -77,7 +87,7 @@ export const TextSideBar = styled.a`
   border: 2px solid transparent;
 
   :is(:hover, :focus-visible) {
-    border: 2px solid black;
+    border: 2px solid ${props => props.theme.main_color};
   }
 
   :focus-visible {
@@ -87,7 +97,7 @@ export const TextSideBar = styled.a`
 `;
 
 export const PageName = styled.p`
-  color: #780000;
+  color: ${props => props.theme.main_color};
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
@@ -95,10 +105,10 @@ export const PageName = styled.p`
 
 export const ButtonToTop = styled.a`
   display: block;
-  background-color: #ddd;
-  color: #780000;
+  background-color: ${props => props.theme.learn_button};
+  color: ${props => props.theme.learn_button_text};
   border-radius: 1rem;
-  border: 2px solid #780000;
+  border: 2px solid ${props => props.theme.main_color};
   margin: 1rem auto 0;
   padding: 1rem;
   transition-duration: .3s;
@@ -106,8 +116,8 @@ export const ButtonToTop = styled.a`
   text-align: center;
 
   :is(:hover, :focus-visible) {
-    background-color: #780000;
-    color: #ffffff;
+    background-color: ${props => props.theme.main_color};
+    color: #fff;
   }
 
   :focus-visible {
@@ -118,18 +128,18 @@ export const ButtonToTop = styled.a`
 
 export const SubjectsButtons = styled.a`
   display: block;
-  background-color: #eee;
-  color: #780000;
+  background-color: ${props => props.theme.learn_button};
+  color: ${props => props.theme.learn_button_text};
   border-radius: 1rem;
-  border: 2px solid #780000;
+  border: 2px solid ${props => props.theme.main_color};
   margin: 1rem auto 0;
   padding: 1rem;
   transition-duration: .3s;
   text-align: center;
 
   :is(:hover, :focus-visible) {
-    background-color: #780000;
-    color: #ffffff;
+    background-color: ${props => props.theme.main_color};
+    color: #fff;
   }
 
   :focus-visible {
