@@ -15,6 +15,7 @@ export const ImageBox = styled.div`
 `;
 
 export const Box = styled.div`
+  flex-grow: 2;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -22,7 +23,6 @@ export const Box = styled.div`
   width: 100%;
   margin: 0 auto;
   padding-top: var(--navbar-height);
-  padding-bottom: calc(2 * var(--footer-height));
 
   @media (max-width: 1500px) {
     grid-template-columns: 1fr 1fr;
@@ -31,17 +31,13 @@ export const Box = styled.div`
   @media (max-width: 1000px) {
     grid-template-columns: auto;
   }
-
-  @media (max-width: 500px) {
-    padding-bottom: calc(3 * var(--footer-height));
-  }
 `;
 
 export const Container = styled.div`
   cursor: pointer;
   margin: 2rem;
   padding-top: 2rem;
-  border: 4px solid #980000;
+  border: 4px solid #780000;
   border-radius: 4rem;
 
   :nth-child(2n) {

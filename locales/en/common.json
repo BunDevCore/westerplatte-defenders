@@ -1,8 +1,11 @@
 {
+  "westerplatte-defenders": "Wseterplatte defeneders",
   "learn": "About the Defenders of Westerplatte",
   "gallery": "Gallery",
   "quiz": "Test your knowledge",
   "aboutUs": "About Us",
   "quote": "\" My only message is the hope that the young people may never know the war \"",
-  "project": "Project \"Śladami Obrońców Westerplatte\" made by Piotr Lempkowski and Wiktor Polanowski"
+  "project": "Website made by Piotr Lempkowski and Wiktor Polanowski",
+  "not-found": "NOT FOUND",
+  "couldnt-find": "We couldn't find what you wanted..."
 }

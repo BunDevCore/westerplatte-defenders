@@ -1,8 +1,11 @@
 {
+  "westerplatte-defenders": "Obrońców Westerplatte",
   "learn": "O Obrońcach Westerplatte",
   "gallery": "Galeria",
   "quiz": "Sprawdź swoją wiedzę",
   "aboutUs": "O nas",
   "quote": "„ Moim jedynym przesłaniem jest, aby młodzi nigdy nie poznali wojny “",
-  "project": "Projekt \"Śladami Obrońców Westerplatte\" wykonany przez Piotra Lempkowskiego i Wiktora Polanowskiego"
+  "project": "Strona wykonana przez Piotra Lempkowskiego i Wiktora Polanowskiego",
+  "not-found": "NIE ZNALEZIONO",
+  "couldnt-find": "Nie mogliśmy znaleźć tego co szukałeś..."
 }

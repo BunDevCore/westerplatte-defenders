@@ -25,7 +25,7 @@ const Navbar = ({chT}) => {
     // callback for changing locale
     const changeLocale = (localeName) => {
         (async () => {
-            await setLanguage(localeName);
+            await setLanguage(localeName, false);
         })()
         setCookies("NEXT_LOCALE", localeName, OPTIONS);
     }
