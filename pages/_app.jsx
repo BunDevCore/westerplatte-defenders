@@ -21,7 +21,7 @@ const OPTIONS = {
 // dynamic global styling
 const GlobalStyles = createGlobalStyle`
   html, body {
-    background: ${props => props.theme.background};
+    background-image: ${props => `linear-gradient(to bottom, ${props.theme.background_from}, ${props.theme.background_to})`};
   }
 `;
 
