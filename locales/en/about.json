@@ -1,22 +1,5 @@
 {
-  "authors": [
-    "!!! move all to about.jsx after it is created",
-    {
-      "name": "Piotr „Lempek” Lempkowski",
-      "github": "https://github.com/LempekPL",
-      "twitter": "https://twitter.com/LEMPEKPL"
-    },
-    {
-      "name": "Wiktor „wiKapo” Polanowski",
-      "github": "https://github.com/wiKapo"
-    }
-  ],
   "about": [
     "może coś o szkole, dlaczego wzięliśmy udział w projekcie, jak długo nam on zajął(?)"
-  ],
-  "sources": [
-    "warhist.pl",
-    "muzeum1939.pl",
-    "pl.wikipedia.org/wiki/Obrona_Westerplatte"
   ]
 }

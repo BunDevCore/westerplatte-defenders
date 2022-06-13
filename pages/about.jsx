@@ -1,10 +1,9 @@
-// import AboutC from "/components/About"
+import AboutC from "/components/About"
 
 const About = () => {
     return (
         <>
-            {/*<AboutC/>*/}
-            <p>Wykonali Piotr Lempkowski i Wiktor Polanowski</p>
+            <AboutC/>
         </>
     )
 }
