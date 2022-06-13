@@ -22,6 +22,7 @@ const Quiz = () => {
 
     const start = () => {
         used = [];
+        points = 0;
         currQ = 0;
         changeQuestion();
     }
