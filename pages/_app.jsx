@@ -6,8 +6,8 @@ import {getCookie, setCookies} from "cookies-next";
 import "../styles/globals.css";
 // theme
 import {createGlobalStyle, ThemeProvider} from 'styled-components';
-import THEMES from "../util/theme/theme";
-import {getTheme} from "../util/theme/getTheme";
+import THEMES from "../theme/theme";
+import {getTheme} from "../theme/getTheme";
 // navbar
 import Navbar from "../components/Navbar";
 import {Footer, Flexbox} from "../components/global.style";

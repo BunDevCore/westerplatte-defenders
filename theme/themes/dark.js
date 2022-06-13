@@ -35,4 +35,10 @@ export default {
     learn_sidebox_text: "#ccc",
     learn_main_box: "#444",
     learn_main_box_text: "#ccc",
+
+    about_background: "#666",
+
+    quiz_background: "#666",
+    quiz_button: "#555",
+    quiz_button_text: "#afafaf",
 }

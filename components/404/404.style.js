@@ -56,10 +56,6 @@ export const ButtonRedirect = styled.button`
   @media (max-width: 800px) {
     width: 100%;
   }
-  
-  @media (max-width: 1000px) {
-    
-  }
 `;
 
 export const ErrorText = styled.p`

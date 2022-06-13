@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
   margin: calc(var(--navbar-height) + 1rem) 30rem 5rem;
   flex-grow: 2;
-  background-color: ${props => props.theme.E404_background};
+  background-color: ${props => props.theme.about_background};
   border: 2px solid ${props => props.theme.main_color};
   color: ${props => props.theme.main_color};
   border-radius: 2rem;
@@ -40,7 +40,7 @@ export const CarrdBox = styled.div`
 `;
 
 export const Carrd = styled.div`
-  background-color: ${props => props.theme.E404_background};
+  background-color: ${props => props.theme.about_background};
   border: 2px solid ${props => props.theme.main_color};
   color: ${props => props.theme.main_color};
   border-radius: 2rem;
@@ -90,6 +90,14 @@ export const CarrdImage = styled.div`
   span {
     border-radius: 100%;
     border: 2px solid ${props => props.theme.main_color} !important;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 6rem;
+  }
+
+  @media (max-width: 400px) {
+    padding: 0 2.5rem;
   }
 `;
 

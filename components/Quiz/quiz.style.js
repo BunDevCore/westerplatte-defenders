@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   margin: calc(var(--navbar-height) + 1rem) 30rem auto;
-  background-color: ${props => props.theme.E404_background};
+  background-color: ${props => props.theme.quiz_background};
   border: 2px solid ${props => props.theme.main_color};
   color: ${props => props.theme.main_color};
   border-radius: 2rem;
@@ -29,8 +29,8 @@ export const Main = styled.main`
 
 export const StartButton = styled.button`
   border: 2px solid ${props => props.theme.main_color};
-  color: ${props => props.theme.E404_button_text};
-  background-color: ${props => props.theme.E404_button};
+  color: ${props => props.theme.quiz_button_text};
+  background-color: ${props => props.theme.quiz_button};
   border-radius: 1rem;
   cursor: pointer;
   padding: 2rem 0;
@@ -55,8 +55,8 @@ export const EndButton = styled(StartButton)`
 
 export const AnswerButton = styled.button`
   border: 2px solid ${props => props.theme.main_color};
-  color: ${props => props.theme.E404_button_text};
-  background-color: ${props => props.theme.E404_button};
+  color: ${props => props.theme.quiz_button_text};
+  background-color: ${props => props.theme.quiz_button};
   border-radius: 1rem;
   cursor: pointer;
   margin: 1rem;
