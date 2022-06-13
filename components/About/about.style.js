@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-  margin: calc(var(--navbar-height) + 1rem) 30rem 5rem;
+  margin: calc(var(--navbar-height) + 1rem) 30rem 2rem;
   flex-grow: 2;
   background-color: ${props => props.theme.about_background};
   border: 2px solid ${props => props.theme.main_color};

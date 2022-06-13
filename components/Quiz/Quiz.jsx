@@ -54,7 +54,6 @@ const Quiz = () => {
             answers.push(
                 <AnswerButton onClick={() => checkQuestion(i)} key={i}>{questionList[random].good}</AnswerButton>
             );
-            console.log(answers);
             setQuestion(<>
                 <MainQuestion>{questionList[random].question} {currQ}/{questionList.length}</MainQuestion>
                 <AnswerBox>

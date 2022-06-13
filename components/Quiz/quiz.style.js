@@ -19,6 +19,7 @@ export const Main = styled.main`
     margin: calc(var(--navbar-height)) 2rem 0;
     border-radius: 0;
     border: 2px solid transparent;
+    flex-grow: 2;
   }
 
   @media (max-width: 500px) {
