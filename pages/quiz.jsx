@@ -1,10 +1,9 @@
-// import QuizC from "/components/Quiz"
+import QuizC from "/components/Quiz"
 
 const Quiz = () => {
     return (
         <>
-            {/*<QuizC/>*/}
-            <p>TODO</p>
+            <QuizC/>
         </>
     )
 }
