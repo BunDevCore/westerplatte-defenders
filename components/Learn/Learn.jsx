@@ -5,7 +5,7 @@ import {
     MainBox,
     PageName,
     RightBox,
-    SubjectsButtons, 
+    SubjectsButtons, TextErr,
     TextI,
     TextLeft,
     TextMain,
@@ -84,9 +84,9 @@ const Learn = () => {
 
                     {errors && <>
                         <PageName>Nie znaleziono strony</PageName>
-                        <C><TextMain>Kliknij temat, który byś chciał wybrac</TextMain></C>
+                        <TextErr>Kliknij temat, który byś chciał wybrac</TextErr>
                         {themeButtons}
-                        <Link href={`/learn/${learn_page}`} passHref><ButtonToTop>Powrót do strony głównej</ButtonToTop></Link>
+                        <Link href={`/`} passHref><ButtonToTop>Powrót do strony głównej</ButtonToTop></Link>
                     </>}
                 </MainBox>
                 {!errors && <RightBox>

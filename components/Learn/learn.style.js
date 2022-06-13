@@ -78,6 +78,10 @@ export const TextMain = styled.p`
   margin-bottom: .5rem;
 `;
 
+export const TextErr = styled(TextMain)`
+  text-align: center;
+`;
+
 export const TextLeft = styled(TextMain)`
   margin-top: 0;
   margin-bottom: 0;
