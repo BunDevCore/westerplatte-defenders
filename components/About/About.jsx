@@ -27,7 +27,8 @@ const About = () => {
         {
             imageSRC: "/images/wikapo.jpg",
             name: "Wiktor „wiKapo” Polanowski",
-            github: "https://github.com/wiKapo"
+            github: "https://github.com/wiKapo",
+            youtube: "https://www.youtube.com/channel/UCxxCbKfO_F4i6FEB7s9P2iQ"
         }
     ]
 
@@ -56,6 +57,13 @@ const About = () => {
                 <Link href={author.twitter} passHref>
                     <FocusStyledA>
                         Twitter
+                    </FocusStyledA>
+                </Link>
+            </UserLink>}
+            {author?.youtube && <UserLink>
+                <Link href={author.youtube} passHref>
+                    <FocusStyledA>
+                        YouTube
                     </FocusStyledA>
                 </Link>
             </UserLink>}
