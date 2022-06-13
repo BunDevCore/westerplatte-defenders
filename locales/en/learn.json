@@ -59,16 +59,13 @@
     },
     "buildings": {
       "name": "Important buildings",
+      "introduction": "The facility consisted of 5 concrete, reinforced guardhouses and adapted for defense, reinforced, then the most modern barracks in Poland. In August, in the face of increasing German provocations and the threat of a war, timber and earth field fortifications were built in the area of Westerplatte as an external defense line. An anti-tank dam, rows of wire entanglements were also made, and some trees and bushes were cut to ensure better visibility and the field of fire. In order to hide the works from the eyes of German observers, they were carried out at night.",
       "parts": [
-        "",
         "barracks",
         "guardhouses",
         "power plant"
       ],
       "sections": [
-        [
-          "The facility consisted of 5 concrete, reinforced guardhouses and adapted for defense, reinforced, then the most modern barracks in Poland. In August, in the face of increasing German provocations and the threat of a war, timber and earth field fortifications were built in the area of Westerplatte as an external defense line. An anti-tank dam, rows of wire entanglements were also made, and some trees and bushes were cut to ensure better visibility and the field of fire. In order to hide the works from the eyes of German observers, they were carried out at night."
-        ],
         [
           "The building of the so-called of the old barracks was originally a hotel built in 1890. It had two floors with a small basement.",
           "The first project to convert hotel rooms into barracks was made in 1924.",
