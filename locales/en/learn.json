@@ -64,7 +64,8 @@
         "barracks",
         "guardhouses",
         "power plant",
-        "ammunition warehouses"
+        "ammunition warehouses",
+        "outposts"
       ],
       "sections": [
         [
@@ -90,6 +91,15 @@
         ],
         [
           "In order to store hazardous materials delivered by sea, 22 ammunition stores were built, which were shielded with earth watts from the city side. During the years of use of the depot, two parallel railway sidings led to these warehouses."
+        ],
+        [
+          "\"Fort\" - Created in a concrete bunker from 1911. Its task was to repel an attack from the beach. After exhausting her defensive capabilities, she was supposed to withdraw to Guardhouse No. 5. The staff of the facility repelled attacks carried out along the sea and a railway siding, between warehouses.",
+          "\"Prom\" - The facility located in the south-east of Westerplatte. It adopted the first attacks of the Third Reich.",
+          "\"Wał\" - the easternmost outpost of the Military Goods Depot. It was located on the earth embankment surrounding the ammunition warehouse No. 1 and together with the \"Prom\" facility it secured the guardhouse line against unexpected attacks. An hour after the first attack, it was decided to leave the outpost and withdraw without losses to the \"Fort\" outpost",
+          "\"Tor kolejowy\" - Created at the ruins of guardhouse no. 5. Until the end of the defense, it fills the gap in the defense system.",
+          "\"Elektrownia\" - The facility defending the peninsula from the ammunition basin. It was built by Michał Gawlicki - a mobilized civilian worker. It was located halfway between the power plant building and Guardhouse no. 4",
+          "\"Łazienki\" - Consisting of two stands, the facility was the farthest to the north. The first position was a shooting ditch at the edge of the forest, and the second one was located on the embankment of the ammunition warehouse no. 19. They closed the direction from the ammunition basin and the beach",
+          "\"Przystań\" - The facility is located on the edge of the forest, on the west side of Westerplatte, it was used to defend German units against landing. It cooperated on fire with Guardhouse no. 2. The commander of the facility was 2nd Lt. Zdzisław Kręgielski"
         ]
       ]
     },
