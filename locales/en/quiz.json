@@ -1,4 +1,8 @@
 {
+  "startQuiz": "Start Quiz",
+  "tryAgain": "Play again",
+  "youAnswered": "You answered all questions",
+  "yourScore": "Your score:",
   "questions": [
     {
       "question": "When did the attack on Westerplatte begin?",

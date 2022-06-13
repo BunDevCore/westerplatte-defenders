@@ -31,11 +31,11 @@ const Quiz = () => {
         let random;
         if (used.length >= 18) {
             setQuestion(<>
-                <Congratulations>Odpowiedziałeś na wszystkie pytania</Congratulations>
-                <Score>Twój wynik {points}/{questionList.length}</Score>
+                <Congratulations>{t("youAnswered")}</Congratulations>
+                <Score>{t("yourScore")} {points}/{questionList.length}</Score>
                 <EndButton onClick={() => {
                     start()
-                }}>ZAGRAJ JESZCZE RAZ</EndButton>
+                }}>{t("tryAgain")}</EndButton>
             </>);
         } else {
             do {
@@ -74,7 +74,7 @@ const Quiz = () => {
         <Main>
             {question == null && <StartButton onClick={() => {
                 start()
-            }}>START QUIZ</StartButton>}
+            }}>{t("startQuiz")}</StartButton>}
             {question}
         </Main>
     </>);
