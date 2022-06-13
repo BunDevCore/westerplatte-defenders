@@ -160,6 +160,15 @@
         "Port Północny",
         "Stogi"
       ]
+    },
+    {
+      "question": "Ile magazynów amunicyjnych zostało wybudowanych na Westerplatte?",
+      "good": "22",
+      "wrong": [
+        "24",
+        "19",
+        "26"
+      ]
     }
   ]
 }
