@@ -20,6 +20,7 @@ export const Main = styled.main`
   @media (max-width: 800px) {
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 500px) {
