@@ -5,7 +5,8 @@ import {
     CarrdImage,
     FocusStyledA,
     Main,
-    Name, PLWarn,
+    Name,
+    PLWarn,
     Section,
     UserLink
 } from "./about.style";
@@ -77,15 +78,15 @@ const About = () => {
 
     return (<>
         <Main>
-            <Section>Autorzy</Section>
+            <Section>{t("authors")}</Section>
             <CarrdBox>
                 {cards}
             </CarrdBox>
-            <Section>O projekcie</Section>
+            <Section>{t("aboutProject")}</Section>
             <AboutProject>
                 {t("about")}
             </AboutProject>
-            <Section>Źródła</Section>
+            <Section>{t("sources")}</Section>
             {lang === "en" && <PLWarn>Sources are in Polish!!!</PLWarn>}
             <ul>
                 {sourcesRendered}
