@@ -11,6 +11,7 @@ import moon from "/public/images/moon.svg";
 import useTranslation from "next-translate/useTranslation";
 import {getCookie, setCookies} from "cookies-next";
 import setLanguage from "next-translate/setLanguage";
+import {useRouter} from "next/router";
 
 const OPTIONS = {
     secure: process.env.IN_DEV === "false",
@@ -19,13 +20,17 @@ const OPTIONS = {
 
 const Navbar = ({changeTheme: changeTheme}) => {
     const {t, lang} = useTranslation("navbar");
+    const router = useRouter();
 
     // callback for changing locale
     const changeLocale = (localeName) => {
+        setCookies("NEXT_LOCALE", localeName, OPTIONS);
         (async () => {
             await setLanguage(localeName, false);
+            if (router.pathname === "/quiz") {
+                router.reload();
+            }
         })()
-        setCookies("NEXT_LOCALE", localeName, OPTIONS);
     }
 
     return (<>
