@@ -151,3 +151,17 @@ export const SubjectsButtons = styled.a`
     outline-offset: -2px;
   }
 `;
+
+export const ImageBox = styled.div`
+  position: relative;
+  margin: 2rem;
+  height: 20rem;
+
+  @media (max-width: 1000px) {
+    height: 50vw;
+  }
+
+  img {
+    object-fit: contain;
+  }
+`;

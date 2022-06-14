@@ -11,11 +11,13 @@ import {
     TextMain,
     TextP,
     TextSideBar,
+    ImageBox
 } from "./learn.style";
 import useTranslation from "next-translate/useTranslation";
 import {C} from "../global.style";
 import {useRouter} from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 const Learn = () => {
     const {t} = useTranslation("learn");
@@ -51,9 +53,17 @@ const Learn = () => {
                 </li>
             );
             for (const data of content?.sections[key2]) {
-                mainContent.push(
-                    <TextP key={`${key1}.${key2} text`}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data}</TextP>
-                )
+                if (data.startsWith("/images/")) {
+                    mainContent.push(
+                        <ImageBox key={`${key1}.${key2} image`}>
+                            <Image src={data} alt={data} layout="fill"/>
+                        </ImageBox>
+                    )
+                } else {
+                    mainContent.push(
+                        <TextP key={`${key1}.${key2} text`}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data}</TextP>
+                    )
+                }
                 key1++;
             }
             key2++;
