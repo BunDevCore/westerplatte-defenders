@@ -85,6 +85,7 @@ export const TextErr = styled(TextMain)`
 export const TextLeft = styled(TextMain)`
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
 `;
 
 export const TextSideBar = styled.a`
