@@ -10,12 +10,13 @@ import {
     TextLeft,
     TextMain,
     TextP,
-    TextSideBar,
+    TextSideBar
 } from "./learn.style";
 import useTranslation from "next-translate/useTranslation";
 import {C} from "../global.style";
 import {useRouter} from "next/router";
 import Link from "next/link";
+import Image from "../../pages/images/gallery/[image]";
 
 const Learn = () => {
     const {t} = useTranslation("learn");
@@ -51,9 +52,17 @@ const Learn = () => {
                 </li>
             );
             for (const data of content?.sections[key2]) {
-                mainContent.push(
-                    <TextP key={`${key1}.${key2} text`}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data}</TextP>
-                )
+                if (!data.includes("/images/")) {
+                    mainContent.push(
+                        <TextP key={`${key1}.${key2} text`}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data}</TextP>
+                    )
+                } else {
+                    mainContent.push(
+                //         <ImageBox>
+                            <Image src={"/images/gallery/szlezwik_holsztyn.jpg"} alt={data} layout="fill"/>
+                //         </ImageBox>
+                    );
+                }
                 key1++;
             }
             key2++;

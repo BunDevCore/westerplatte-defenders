@@ -1,5 +1,19 @@
 import styled from "styled-components";
 
+export const ImageBox = styled.div`
+  position: relative;
+  margin: 2rem;
+  height: 20rem;
+
+  @media (max-width: 1000px) {
+    height: 50vw;
+  }
+
+  img {
+    object-fit: contain;
+  }
+`;
+
 export const Main = styled.div`
   flex-grow: 2;
   display: grid;
