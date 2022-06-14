@@ -67,13 +67,15 @@ export const AnswerButton = styled.button`
   transition-duration: .3s;
   align-self: center;
 
-  :focus-visible {
-    outline: 2px solid royalblue;
-  }
+  @media (max-width: 600px) {
+    :focus-visible {
+      outline: 2px solid royalblue;
+    }
 
-  :is(:focus-visible, :hover) {
-    color: #fff;
-    background-color: ${props => props.theme.main_color};
+    :is(:focus-visible, :hover) {
+      color: #fff;
+      background-color: ${props => props.theme.main_color};
+    }
   }
 `;
 
