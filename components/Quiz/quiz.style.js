@@ -67,7 +67,7 @@ export const AnswerButton = styled.button`
   transition-duration: .3s;
   align-self: center;
 
-  @media (max-width: 600px) {
+  @media (min-width: 600px) {
     :focus-visible {
       outline: 2px solid royalblue;
     }
