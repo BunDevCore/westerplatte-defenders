@@ -30,7 +30,7 @@ const Quiz = () => {
     const changeQuestion = () => {
         setCurrQ(currQ++);
         let random;
-        if (used.length >= 18) {
+        if (used.length >= questionList.length) {
             setQuestion(<>
                 <Congratulations>{t("youAnswered")}</Congratulations>
                 <Score>{t("yourScore")} {points}/{questionList.length} <br/>{Math.round(points/questionList.length * 100)}{"%"}</Score>
