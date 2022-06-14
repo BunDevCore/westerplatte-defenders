@@ -14,7 +14,6 @@ import {
     ImageBox
 } from "./learn.style";
 import useTranslation from "next-translate/useTranslation";
-import {C} from "../global.style";
 import {useRouter} from "next/router";
 import Link from "next/link";
 import Image from "next/image";
@@ -76,17 +75,14 @@ const Learn = () => {
         <>
             <Main>
                 {!errors && <LeftBox>
-                    <C><TextLeft>{t("topics").toUpperCase()}</TextLeft></C>
+                    <TextLeft>{t("topics").toUpperCase()}</TextLeft>
                     {themeButtons}
                 </LeftBox>
                 }
                 <MainBox>
                     {!errors && <>
                         <PageName>{t(`content.${learn_page}.name`)}</PageName>
-                        {
-                            t(`content.${learn_page}.introduction`) !== `content.${learn_page}.introduction` &&
-                            <TextI>{t(`content.${learn_page}.introduction`)}</TextI>
-                        }
+                        {t(`content.${learn_page}.introduction`) !== "" && <TextI>{t(`content.${learn_page}.introduction`)}</TextI>}
                         {mainContent}
                         <Link href={`/learn/${learn_page}`} passHref><ButtonToTop
                             tabIndex={1}>{t("to-top")}</ButtonToTop></Link>

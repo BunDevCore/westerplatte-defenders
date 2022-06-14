@@ -8,6 +8,7 @@
   "content": {
     "war": {
       "name": "War",
+      "introduction": "",
       "parts": [
         "before the war",
         "the course of the Battle of Westerplatte",
@@ -115,6 +116,7 @@
     },
     "westerplatte": {
       "name": "Westerplatte areas",
+      "introduction": "",
       "parts": [
         "in the past",
         "today and tommorow"

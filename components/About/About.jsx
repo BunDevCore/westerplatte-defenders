@@ -33,9 +33,9 @@ const About = () => {
     ]
 
     const sources = [
-        "warhist.pl",
-        "muzeum1939.pl",
-        "pl.wikipedia.org/wiki/Obrona_Westerplatte"
+        "https://warhist.pl",
+        "https://muzeum1939.pl",
+        "https://pl.wikipedia.org/wiki/Obrona_Westerplatte"
     ]
 
     let cards = [];
@@ -74,12 +74,10 @@ const About = () => {
 
     for (const source of sources) {
         sourcesRendered.push(
-            <li>
-                <Link href={source} passHref>
-                    <FocusStyledA>
-                        {source}
-                    </FocusStyledA>
-                </Link>
+            <li key={source}>
+                <FocusStyledA href={source}>
+                    {source}
+                </FocusStyledA>
             </li>
         )
     }
