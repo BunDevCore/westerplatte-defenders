@@ -29,9 +29,12 @@ const Learn = () => {
     const sideBar = [];
     const themeButtons = [];
 
+    // topics
     for (const theme of themes) {
-        themeButtons.push(<Link key={theme} href={`/learn/${theme}`}
-                                passHref><SubjectsButtons>{t(theme)}</SubjectsButtons></Link>)
+        themeButtons.push(
+            <Link key={theme} href={`/learn/${theme}`} passHref>
+                <SubjectsButtons>{t(theme)}</SubjectsButtons>
+            </Link>)
     }
 
     // for some reason some browsers ask for favicon and trigger this code
@@ -40,6 +43,7 @@ const Learn = () => {
         let key1 = 0;
         let key2 = 0;
         for (const name of content?.parts) {
+            // texts section separator with name
             mainContent.push(
                 <TextMain key={`${key1} theme`}
                           id={encodeURIComponent(name.replace(/\s/g, ""))}>{name.toUpperCase()}</TextMain>
@@ -51,6 +55,7 @@ const Learn = () => {
                     </Link>
                 </li>
             );
+            // line of text or image
             for (const data of content?.sections[key2]) {
                 if (data.startsWith("/images/")) {
                     mainContent.push(
@@ -82,17 +87,18 @@ const Learn = () => {
                 <MainBox>
                     {!errors && <>
                         <PageName>{t(`content.${learn_page}.name`)}</PageName>
-                        {t(`content.${learn_page}.introduction`) !== "" && <TextI>{t(`content.${learn_page}.introduction`)}</TextI>}
+                        {t(`content.${learn_page}.introduction`) !== "" &&
+                        <TextI>{t(`content.${learn_page}.introduction`)}</TextI>}
                         {mainContent}
                         <Link href={`/learn/${learn_page}`} passHref><ButtonToTop
-                            tabIndex={1}>{t("to-top")}</ButtonToTop></Link>
+                            tabIndex={1}>{t("toTop")}</ButtonToTop></Link>
                     </>}
 
                     {errors && <>
-                        <PageName>Nie znaleziono strony</PageName>
-                        <TextErr>Kliknij temat, który byś chciał wybrac</TextErr>
+                        <PageName>{t("pageNotFound")}</PageName>
+                        <TextErr>{t("clickOnTopic")}</TextErr>
                         {themeButtons}
-                        <Link href={`/`} passHref><ButtonToTop>Powrót do strony głównej</ButtonToTop></Link>
+                        <Link href={`/`} passHref><ButtonToTop>{t("toHomePage")}</ButtonToTop></Link>
                     </>}
                 </MainBox>
                 {!errors && <RightBox>

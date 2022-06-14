@@ -1,10 +1,13 @@
 {
   "topics": "Topics",
   "sections": "Sections",
-  "to-top": "Return to top",
+  "toTop": "Return to top",
   "war": "War",
   "buildings": "Important buildings",
   "westerplatte": "Westerplatte areas",
+  "pageNotFound": "Page not found",
+  "clickOnTopic": "Click on topic you would like to choose",
+  "toHomePage": "Back to home",
   "content": {
     "war": {
       "name": "War",

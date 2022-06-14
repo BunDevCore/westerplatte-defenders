@@ -1,10 +1,13 @@
 {
   "topics": "Tematy",
   "sections": "Sekcje",
-  "to-top": "Powrót do góry",
+  "toTop": "Powrót do góry",
   "war": "Wojna",
   "buildings": "Ważne budynki",
   "westerplatte": "Tereny Westerplatte",
+  "pageNotFound": "Nie znaleziono strony",
+  "clickOnTopic": "Kliknij temat, który byś chciał wybrac",
+  "toHomePage": "Powrót do strony głównej",
   "content": {
     "war": {
       "name": "Wojna",
@@ -102,7 +105,6 @@
           "/images/gallery/magazyn_amunicyjny_2.jpg"
         ],
         [
-
           "„Fort” – Utworzona w betonowym schronie z 1911 roku. Miała za zadanie odpierać natarcie ze strony plaży. Po wyczerpaniu możliwości obronnych miała za zadanie wycofać się do Wartowni nr. 5. Obsada placówki odpierała ataki prowadzone wzdłuż morza i bocznicą kolejową, między magazynami.",
           "/images/gallery/placowka_fort.jpg",
           "„Prom” – Położona na południowym wschodzie Westerplatte placówka. Przyjęła pierwsze natarcia III Rzeszy. ",
