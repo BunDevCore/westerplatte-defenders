@@ -82,10 +82,7 @@ const Learn = () => {
                 <MainBox>
                     {!errors && <>
                         <PageName>{t(`content.${learn_page}.name`)}</PageName>
-                        {
-                            t(`content.${learn_page}.introduction`) !== `content.${learn_page}.introduction` &&
-                            <TextI>{t(`content.${learn_page}.introduction`)}</TextI>
-                        }
+                        {t(`content.${learn_page}.introduction`) !== "" && <TextI>{t(`content.${learn_page}.introduction`)}</TextI>}
                         {mainContent}
                         <Link href={`/learn/${learn_page}`} passHref><ButtonToTop
                             tabIndex={1}>{t("to-top")}</ButtonToTop></Link>
