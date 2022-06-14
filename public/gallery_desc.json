@@ -280,5 +280,17 @@
     "year": "2022",
     "author": "Piotr Lempkowski",
     "src": "/images/gallery/jp2_cytat.jpg"
+  },
+  {
+    "nameID": "ammunition-store-1",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/magazyn_amunicyjny_1.jpg"
+  },
+  {
+    "nameID": "ammunition-store-2",
+    "year": "2022",
+    "author": "Wiktor Polanowski",
+    "src": "/images/gallery/magazyn_amunicyjny_2.jpg"
   }
 ]
