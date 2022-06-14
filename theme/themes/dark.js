@@ -36,7 +36,8 @@ export default {
     learn_main_box: "#444",
     learn_main_box_text: "#ccc",
 
-    about_background: "#666",
+    about_background: "#6a6a6a",
+    about_carrd_background: "#666",
 
     quiz_background: "#666",
     quiz_button: "#555",

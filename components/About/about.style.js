@@ -40,7 +40,7 @@ export const CarrdBox = styled.div`
 `;
 
 export const Carrd = styled.div`
-  background-color: ${props => props.theme.about_background};
+  background-color: ${props => props.theme.about_carrd_background};
   border: 2px solid ${props => props.theme.main_color};
   color: ${props => props.theme.main_color};
   border-radius: 2rem;
