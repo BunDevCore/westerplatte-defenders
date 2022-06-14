@@ -27,7 +27,7 @@ export const Box = styled.div`
   @media (max-width: 1500px) {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   @media (max-width: 1000px) {
     grid-template-columns: auto;
   }

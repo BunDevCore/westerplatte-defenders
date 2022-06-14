@@ -19,7 +19,7 @@ export const MainImageBox = styled.div`
 
   span:nth-child(1) {
     display: revert !important;
-    
+
     @media (max-width: 750px) {
       display: none !important;
     }
@@ -89,7 +89,7 @@ export const ButtonsBox = styled.div`
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  
+
   @media (max-width: 800px) {
     grid-template-columns: 1fr 1fr;
   }

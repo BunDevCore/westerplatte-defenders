@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import {
-    NavigationBar,
+    NavigationBar, NavigationLeftSide,
     NavigationIcon, NavigationIconBox,
-    NavigationItem, NavigationLang, NavigationLeftSide,
+    NavigationItem, NavigationLang,
     NavigationRightSide, NavigationTheme,
 } from "./navbar.style";
 import sun from "/public/images/sun.svg";
@@ -27,6 +27,8 @@ const Navbar = ({changeTheme: changeTheme}) => {
         setCookies("NEXT_LOCALE", localeName, OPTIONS);
         (async () => {
             await setLanguage(localeName, false);
+            // quiz needs to be reloaded
+            // the translation doesn't update
             if (router.pathname === "/quiz") {
                 router.reload();
             }

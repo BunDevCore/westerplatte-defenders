@@ -1,9 +1,9 @@
-import { useRouter } from "next/router";
+import {useRouter} from "next/router";
 import Image from "next/image";
 
 const ImageP = () => {
     const router = useRouter();
-    const { image } = router.query;
+    const {image} = router.query;
 
     return (
         <>

@@ -33,7 +33,7 @@ export const CarrdBox = styled.div`
   flex-direction: row;
   padding: 1rem;
   gap: 1rem;
-  
+
   @media (max-width: 600px) {
     flex-direction: column;
   }
@@ -74,11 +74,11 @@ export const UserLink = styled.p`
 
 export const FocusStyledA = styled.a`
   color: #003bb4;
-  
+
   :is(:hover, :focus-visible) {
     text-decoration: underline;
   }
-  
+
   :focus-visible {
     outline: 2px solid royalblue;
   }

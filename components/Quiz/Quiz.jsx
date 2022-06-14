@@ -33,7 +33,8 @@ const Quiz = () => {
         if (used.length >= questionList.length) {
             setQuestion(<>
                 <Congratulations>{t("youAnswered")}</Congratulations>
-                <Score>{t("yourScore")} {points}/{questionList.length} <br/>{Math.round(points/questionList.length * 100)}{"%"}</Score>
+                <Score>{t("yourScore")} {points}/{questionList.length}
+                    <br/>{Math.round(points / questionList.length * 100)}{"%"}</Score>
                 <EndButton onClick={() => {
                     start()
                 }}>{t("tryAgain")}</EndButton>

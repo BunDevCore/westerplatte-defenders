@@ -88,10 +88,12 @@ const About = () => {
             <CarrdBox>
                 {cards}
             </CarrdBox>
+
             <Section>{t("aboutProject")}</Section>
             <AboutProject>
                 {t("about")}
             </AboutProject>
+
             <Section>{t("sources")}</Section>
             {lang === "en" && <PLWarn>Sources are in Polish!!!</PLWarn>}
             <ul>

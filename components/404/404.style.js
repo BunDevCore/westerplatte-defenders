@@ -11,7 +11,7 @@ export const Main = styled.main`
   border: 2px solid ${props => props.theme.main_color};
   color: ${props => props.theme.main_color};
   border-radius: 2rem;
-  
+
   @media (max-width: 1500px) {
     margin-left: 10rem;
     margin-right: 10rem;

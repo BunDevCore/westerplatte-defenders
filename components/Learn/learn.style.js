@@ -45,7 +45,7 @@ export const RightBox = styled.div`
     padding-left: 1.5rem;
     color: ${props => props.theme.learn_sidebox_text};
   }
-  
+
   p {
     color: ${props => props.theme.learn_sidebox_text};
   }
