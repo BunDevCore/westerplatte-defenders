@@ -12,7 +12,7 @@ import useTranslation from "next-translate/useTranslation";
 import {useState} from "react";
 
 const Quiz = () => {
-    const {t} = useTranslation("quiz")
+    const {t} = useTranslation("quiz");
     let [question, setQuestion] = useState(null);
     let used = [];
     let [currQ, setCurrQ] = useState(0);
@@ -33,7 +33,7 @@ const Quiz = () => {
         if (used.length >= 18) {
             setQuestion(<>
                 <Congratulations>{t("youAnswered")}</Congratulations>
-                <Score>{t("yourScore")} {points}/{questionList.length}</Score>
+                <Score>{t("yourScore")} {points}/{questionList.length} <br/>{Math.round(points/questionList.length * 100)}{"%"}</Score>
                 <EndButton onClick={() => {
                     start()
                 }}>{t("tryAgain")}</EndButton>
