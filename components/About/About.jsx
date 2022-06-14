@@ -38,6 +38,10 @@ const About = () => {
         "pl.wikipedia.org/wiki/Obrona_Westerplatte"
     ]
 
+    const projects = [
+	"warhist.pl"
+    ]	
+
     let cards = [];
 
     for (const author of authors) {
@@ -84,6 +88,20 @@ const About = () => {
         )
     }
 
+    let otherProjects = [];
+
+    for (const project of projects) {
+	otherProjects.push(
+	    <li>
+		<Link href={"404"} passHref>
+		    <FocusStyledA>
+			{t("projectName")}
+		    </FocusStyledA>
+		</Link>
+	    </li>
+	)
+    }
+
     return (<>
         <Main>
             <Section>{t("authors")}</Section>
@@ -99,6 +117,10 @@ const About = () => {
             <ul>
                 {sourcesRendered}
             </ul>
+	    <Section>{t("otherProjects")}</Section>
+	    <ul>
+		{otherProjects}
+	    </ul>
         </Main>
     </>);
 }
