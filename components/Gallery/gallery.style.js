@@ -31,13 +31,17 @@ export const Box = styled.div`
   @media (max-width: 1000px) {
     grid-template-columns: auto;
   }
+
+  @media (max-width: 600px) {
+    gap: 0;
+  }
 `;
 
 export const Container = styled.div`
   cursor: pointer;
   margin: 2rem;
   padding-top: 2rem;
-  border: 4px solid ${props => props.theme.main_color};
+  border: 2px solid ${props => props.theme.main_color};
   border-radius: 4rem;
 
   :nth-child(2n) {
@@ -49,7 +53,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 600px) {
-    margin: 0;
+    margin: .5rem;
   }
 `;
 
