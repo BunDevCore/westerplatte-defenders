@@ -2,8 +2,11 @@ import {useRouter} from "next/router";
 import Image from "next/image";
 import {ButtonBack, ImageLimiter, Main} from "./image.style";
 import Link from "next/link";
+import useTranslation from "next-translate/useTranslation";
 
 const ImageP = () => {
+    const {t} = useTranslation("common")
+
     const router = useRouter();
     const {image} = router.query;
 
@@ -12,7 +15,7 @@ const ImageP = () => {
             <Main>
                 <Link href={"/gallery"} passHref>
                     <ButtonBack>
-                        Go back
+                        {t("goback")}
                     </ButtonBack>
                 </Link>
                 <ImageLimiter>
