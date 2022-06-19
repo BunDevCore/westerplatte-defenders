@@ -74,6 +74,7 @@ export const AnswerButton = styled.button`
   
   @media (max-width: 800px) {
     width: 80%;
+    height: 4.5rem;
     -webkit-tap-highlight-color: transparent;
     user-select: none;
   }
