@@ -28,7 +28,8 @@ const Quiz = () => {
         changeQuestion();
     }
 
-    const changeQuestion = () => {
+    const changeQuestion = (e) => {
+        if (e) e.target.blur();
         setCurrQ(currQ++);
         let random;
         if (used.length >= questionList.length) {
@@ -49,12 +50,12 @@ const Quiz = () => {
             let i = 0;
             for (const wrong of questionList[random].wrong) {
                 let j = i;
-                answers.push(<AnswerButton onClick={() => checkQuestion(j)} key={i}>{wrong}</AnswerButton>);
+                answers.push(<AnswerButton onClick={(ev) => checkQuestion(j, ev)} key={i}>{wrong}</AnswerButton>);
                 i++;
             }
             good = i;
             answers.push(
-                <AnswerButton onClick={() => checkQuestion(i)} key={i}>{questionList[random].good}</AnswerButton>
+                <AnswerButton onClick={(ev) => checkQuestion(i, ev)} key={i}>{questionList[random].good}</AnswerButton>
             );
             setQuestion(<>
                 <MainQuestion>{questionList[random].question} {currQ}/{questionList.length}</MainQuestion>
@@ -65,11 +66,11 @@ const Quiz = () => {
         }
     }
 
-    const checkQuestion = (answer) => {
+    const checkQuestion = (answer, ev) => {
         if (answer === good) {
             setPoints(points++);
         }
-        changeQuestion();
+        changeQuestion(ev);
     }
 
     return (<>
