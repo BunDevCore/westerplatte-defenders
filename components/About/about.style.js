@@ -17,14 +17,14 @@ export const Main = styled.main`
   }
 
   @media (max-width: 800px) {
-    margin: calc(var(--navbar-height)) 2rem 0;
-    border-radius: 0;
-    border: 2px solid transparent;
+    padding-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   @media (max-width: 500px) {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: .5rem;
+    margin-right: .5rem;
   }
 `;
 
@@ -34,7 +34,7 @@ export const CarrdBox = styled.div`
   padding: 1rem;
   gap: 1rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     flex-direction: column;
   }
 `;
@@ -48,7 +48,7 @@ export const Carrd = styled.div`
   padding: 1rem;
   margin: 0 auto;
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     width: 100%;
   }
 `;
@@ -74,6 +74,7 @@ export const UserLink = styled.p`
 
 export const FocusStyledA = styled.a`
   color: #003bb4;
+  word-wrap: anywhere;
 
   :is(:hover, :focus-visible) {
     text-decoration: underline;
@@ -86,18 +87,11 @@ export const FocusStyledA = styled.a`
 
 export const CarrdImage = styled.div`
   padding: 0 2.5rem;
+  text-align: center;
 
   span {
     border-radius: 100%;
     border: 2px solid ${props => props.theme.main_color} !important;
-  }
-
-  @media (max-width: 600px) {
-    padding: 0 6rem;
-  }
-
-  @media (max-width: 400px) {
-    padding: 0 2.5rem;
   }
 `;
 
