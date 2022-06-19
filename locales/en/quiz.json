@@ -98,8 +98,8 @@
       "good": "From the south. From the so-called Five Whistles Bend on the Martwa Wisła",
       "wrong": [
         "From the East. From the bay",
-        "From the West. From the mouth of the Martwa Wisła.",
-        "From the North. From the Gdańsk Bay."
+        "From the West. From the mouth of the Martwa Wisła",
+        "From the North. From the Gdańsk Bay"
       ]
     },
     {
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "question": "Who was the commander of the garrison at Westerplatte",
+      "question": "Who was the commander of the garrison at Westerplatte?",
       "good": "major Henryk Sucharski",
       "wrong": [
         "Captain Franciszek Dąbrowski",

@@ -98,8 +98,8 @@
       "good": "Od południa. Z tzw. Zakrętu Pięciu Gwizdków na Martwej Wiśle",
       "wrong": [
         "Od Wschodu. Z zatoki",
-        "Od Zachodu. Z ujścia Martwej Wisły.",
-        "Od Północy. Z zatoki gdańskiej."
+        "Od Zachodu. Z ujścia Martwej Wisły",
+        "Od Północy. Z zatoki gdańskiej"
       ]
     },
     {
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "question": "Kto był dowódcą garnizonu na Westerplatte",
+      "question": "Kto był dowódcą garnizonu na Westerplatte?",
       "good": "mjr Henryk Sucharski",
       "wrong": [
         "kpt Franciszek Dąbrowski",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "question": "Ile żołnierzy pierwotnie stacjonowało w Wojskowej Składnicy Towarowej",
+      "question": "Ile żołnierzy pierwotnie stacjonowało w Wojskowej Składnicy Towarowej?",
       "good": "88",
       "wrong": [
         "66",
