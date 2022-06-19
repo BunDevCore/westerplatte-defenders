@@ -60,7 +60,7 @@ const Learn = () => {
                 if (data.startsWith("/images/")) {
                     mainContent.push(
                         <ImageBox key={`${key1}.${key2} image`}>
-                            <Image src={data} alt={data} layout="fill"/>
+                            <Image src={data} alt={data} layout="fill" blurDataURL={data} placeholder="blur"/>
                         </ImageBox>
                     )
                 } else {
