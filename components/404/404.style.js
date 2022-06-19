@@ -24,11 +24,9 @@ export const Main = styled.main`
   }
 
   @media (max-width: 500px) {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 2rem;
-    background-color: transparent;
-    border: 2px solid transparent;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding: 1rem 2rem;
   }
 `;
 
