@@ -15,14 +15,16 @@ export const ButtonBack = styled.a`
   cursor: pointer;
   margin: 1rem;
   padding: 1rem;
-  width: 50%;
+  width: 30%;
   font-size: clamp(1rem, 1vw, 20rem);
   transition-duration: .3s;
   align-self: center;
+  text-align: center;
 
   @media (min-width: 600px) {
     :focus-visible {
       outline: 2px solid royalblue;
+      outline-offset: -1px;
     }
 
     :is(:focus-visible, :hover) {
@@ -34,7 +36,7 @@ export const ButtonBack = styled.a`
 
 export const ImageLimiter = styled.div`
   position: relative;
-  height: 75vh;
+  height: 70vh;
   width: 100%;
   
   img {
