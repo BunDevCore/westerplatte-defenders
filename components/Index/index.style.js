@@ -13,6 +13,10 @@ export const MainImageBox = styled.div`
     height: 15rem;
   }
 
+  @media (max-width: 400px) {
+    height: 10rem;
+  }
+
   img {
     object-fit: cover;
   }
