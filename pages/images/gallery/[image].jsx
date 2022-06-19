@@ -1,14 +1,10 @@
-import {useRouter} from "next/router";
-import Image from "next/image";
+import ImageC from "/components/Image"
 
-const ImageP = () => {
-    const router = useRouter();
-    const {image} = router.query;
-
+const ImageComp = () => {
     return (
         <>
-            <Image src={`/images/gallery/${image}`} alt={image} layout={"fill"} objectFit={"contain"}/>
+            <ImageC/>
         </>
     )
 }
-export default ImageP;
+export default ImageComp;
