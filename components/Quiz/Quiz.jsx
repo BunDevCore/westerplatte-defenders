@@ -6,7 +6,8 @@ import {
     Main,
     MainQuestion,
     Score,
-    StartButton
+    StartButton,
+    Starter
 } from "./quiz.style";
 import useTranslation from "next-translate/useTranslation";
 import {useState} from "react";
@@ -73,9 +74,12 @@ const Quiz = () => {
 
     return (<>
         <Main>
-            {question == null && <StartButton onClick={() => {
-                start()
-            }}>{t("startQuiz")}</StartButton>}
+            {question == null && <>
+                <Starter>{t("startQuiz")}</Starter>
+                <StartButton onClick={() => {
+                    start()
+                }}>START</StartButton>
+            </>}
             {question}
         </Main>
     </>);

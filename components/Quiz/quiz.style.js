@@ -16,15 +16,9 @@ export const Main = styled.main`
   }
 
   @media (max-width: 800px) {
-    margin: calc(var(--navbar-height)) 2rem 0;
-    border-radius: 0;
-    border: 2px solid transparent;
-    flex-grow: 2;
-  }
-
-  @media (max-width: 500px) {
-    margin-left: 0;
-    margin-right: 0;
+    padding-top: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
   }
 `;
 
@@ -77,12 +71,26 @@ export const AnswerButton = styled.button`
       background-color: ${props => props.theme.main_color};
     }
   }
+  
+  @media (max-width: 800px) {
+    width: 80%;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+  }
 `;
 
 export const MainQuestion = styled.p`
   margin: 1rem;
   font-weight: bold;
   font-size: 2rem;
+  
+  @media (max-width: 800px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const Congratulations = styled(MainQuestion)`
@@ -96,6 +104,13 @@ export const AnswerBox = styled.div`
 `;
 
 export const Score = styled.p`
+  font-size: 2rem;
+  text-align: center;
+`;
+
+export const Starter = styled.p`
+  margin: 0 2rem 2rem;
+  font-weight: bold;
   font-size: 2rem;
   text-align: center;
 `;
