@@ -32,7 +32,7 @@ const ContainerBox = ({pictureData, t}) => {
                            blurDataURL={pictureData.src}
                            placeholder="blur"/>
                 </ImageBox>
-                <ContainerText>&quot;{t(pictureData.nameID)}; ({pictureData.year} {t("year")})
+                <ContainerText>{t(pictureData.nameID)} ({pictureData.year} {t("year")})
                     fot. {pictureData.author}</ContainerText>
             </Container>
         </Link>
