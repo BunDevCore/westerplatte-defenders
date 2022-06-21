@@ -51,7 +51,7 @@ const Navbar = ({changeTheme: changeTheme}) => {
             </NavigationLeftSide>
             <NavigationRightSide>
                 <NavigationTheme tabIndex={0} onClick={() => {
-                    getCookie("NEXT_THEME") === "light" ? changeTheme("dark") : changeTheme("light")
+                    getCookie("NEXT_THEME") === "dark" ? changeTheme("light") : changeTheme("dark")
                 }}>
                     <NavigationIconBox>
                         <Image src={sun} alt={t("changeTheme")} layout="fill"/>
