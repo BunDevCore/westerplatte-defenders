@@ -12,6 +12,8 @@ import {getTheme} from "../theme/getTheme";
 import Navbar from "../components/Navbar";
 import {Footer, Flexbox} from "../components/global.style";
 import useTranslation from "next-translate/useTranslation";
+// notification
+import Notification from "../components/Notification/Notification";
 
 const OPTIONS = {
     secure: process.env.IN_DEV === "false",
@@ -53,6 +55,7 @@ const App = ({Component, pageProps}) => {
                     <Component {...pageProps} />
                     <Footer><p>{t("common:project")}</p></Footer>
                 </Flexbox>
+                <Notification/>
             </ThemeProvider>
         </>
     )
