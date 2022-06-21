@@ -3,7 +3,7 @@ import {
     Carrd,
     CarrdBox,
     CarrdImage,
-    FocusStyledA,
+    FocusStyledA, LinkColor,
     Main,
     Name,
     PLWarn,
@@ -43,7 +43,8 @@ const About = () => {
     for (const author of authors) {
         cards.push(<Carrd key={author.name}>
             <CarrdImage>
-                <Image src={author.imageSRC} alt={author.name} width={"192"} height={"192"} blurDataURL={author.imageSRC} placeholder="blur"/>
+                <Image src={author.imageSRC} alt={author.name} width={"192"} height={"192"}
+                       blurDataURL={author.imageSRC} placeholder="blur"/>
             </CarrdImage>
             <Name>{author.name}</Name>
             {author?.github && <UserLink>
@@ -91,7 +92,7 @@ const About = () => {
 
             <Section>{t("aboutProject")}</Section>
             <AboutProject>
-                {t("about")}
+                {t("about")} <LinkColor href="https://github.com/BigBruhCoders/westerplatte-defenders">https://github.com/BigBruhCoders/westerplatte-defenders</LinkColor>
             </AboutProject>
 
             <Section>{t("sources")}</Section>

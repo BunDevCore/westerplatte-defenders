@@ -95,11 +95,15 @@ export const CarrdImage = styled.div`
   }
 `;
 
-export const AboutProject = styled.p`
+export const AboutProject = styled.div`
   padding: 1rem;
 `;
 
 export const PLWarn = styled.p`
   padding-left: 1rem;
   color: #ff8000;
+`;
+
+export const LinkColor = styled.a`
+  color: #003bb4;
 `;
