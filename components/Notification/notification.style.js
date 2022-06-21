@@ -18,9 +18,6 @@ export const NotifBox = styled.div`
   }
 `;
 
-export const NotifP = styled.p`
-`;
-
 export const NotifButton = styled.button`
   border: 2px solid ${props => props.theme.main_color};
   color: ${props => props.theme.E404_button_text};

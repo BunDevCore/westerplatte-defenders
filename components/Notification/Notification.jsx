@@ -1,4 +1,4 @@
-import {NotifBox, NotifButton, NotifP} from "./notification.style";
+import {NotifBox, NotifButton} from "./notification.style";
 import {getCookie, setCookies} from "cookies-next";
 import {useEffect, useState} from "react";
 
@@ -22,7 +22,7 @@ const Notification = () => {
     return (
         <>
             <NotifBox gotInfo={get}>
-                <NotifP>Strona używa ciasteczek do zapisywania języka oraz motywu strony</NotifP>
+                <p>Strona używa ciasteczek do zapisywania języka oraz motywu strony</p>
                 <NotifButton onClick={clicked}>OK</NotifButton>
             </NotifBox>
         </>
