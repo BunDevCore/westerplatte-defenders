@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "cookies-next": "^2.0.4",
-    "next": "12.1.6",
+    "next": "12.2.6",
     "next-translate": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
